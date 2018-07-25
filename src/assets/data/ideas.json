@@ -1,0 +1,72 @@
+{
+  "startup": [
+    {
+      "title": "Дизайн-студия",
+      "md": "designStudio"
+    },
+    {
+      "title": "Продажа картин",
+      "md": "paintingSelling"
+    },
+    {
+      "title": "Глобальная база знаний",
+      "md": "knowledgeBase"
+    },
+    {
+      "title": "Теорфиз за 5 минут",
+      "md": "physMath"
+    },
+    {
+      "title": "Профориентация",
+      "md": "careerGuidance"
+    },
+    {
+      "title": "Приложение бесплатностей",
+      "md": "freeThings"
+    },
+    {
+      "title": "Душ с автонастройкой температуры",
+      "md": "autoShower"
+    }
+  ],
+  "art": [
+    {
+      "title": "Таймлэпс полёта самолёта",
+      "md": "planeTimelaps"
+    },
+    {
+      "title": "Я никогда больше не буду этого делать",
+      "md": "iWillNotDoItAnymore"
+    },
+    {
+      "title": "Хоррор 5D",
+      "md": "horror"
+    },
+    {
+      "title": "Карта мира из осенних листьев",
+      "md": "leafMap"
+    },
+    {
+      "title": "Таймлайн про развитие детей",
+      "md": "childrenTimeline"
+    },
+    {
+      "title": "Паркурщик-призрак",
+      "md": "ghostTraceur"
+    },
+    {
+      "title": "Дизайнерские штучки",
+      "md": "designStuff"
+    }
+  ],
+  "personal": [
+    {
+      "title": "Каверы на любимые песни",
+      "md": "musicCovers"
+    },
+    {
+      "title": "Книга по личной эффективности",
+      "md": "bookTimeManagement"
+    }
+  ]
+}

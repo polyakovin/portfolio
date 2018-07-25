@@ -1,0 +1,10 @@
+<footer id="contacts">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col col-xs-12">
+        <a *ngFor="let link of links"
+          href="{{ link.href }}" class="links fa fa-fw fa-{{ link.icon }}" target="_blank"></a>
+      </div>
+    </div>
+  </div>
+</footer>

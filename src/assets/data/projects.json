@@ -1,0 +1,745 @@
+[
+  {
+    "year": 2017,
+    "name": "Совершенствование специальных навыков",
+    "works": [
+      {
+        "name": "Индикатриса рассеяния",
+        "description": "Вычисление индикатрисы рассеяния объекта произвольной формы в условиях удалённого космического пространства.",
+        "tags": ["three.js", "plotly.js", "Angular 2", "Bootstrap"],
+        "favourite": true,
+        "img": "magnitude.jpg",
+        "links": [
+          {
+            "url": "assets/archive/magnitude/",
+            "name": "Демонстрация работы сервиса",
+            "icon": "cog"
+          }
+        ]
+      },
+      {
+        "name": "Emotion Miner",
+        "description": "Сервис для сбора датасетов эмоций людей по видео.",
+        "tags": ["Angular 2", "Bootstrap"],
+        "favourite": true,
+        "img": "emotionminer.jpg",
+        "links": [
+          {
+            "url": "https://emotionminer.com",
+            "name": "Сайт проекта",
+            "icon": "globe"
+          },
+          {
+            "url": "http://neurodatalab.com",
+            "name": "Сайт клиента, сделавшего заказ",
+            "icon": "globe"
+          },
+          {
+            "url": "https://youtu.be/dTLLGIVRFj8",
+            "name": "Обзор на платформу от филиппинского видеоблоггера",
+            "icon": "youtube"
+          }
+        ]
+      },
+      {
+        "name": "Рефракция",
+        "description": "Разработан алгоритм вычисления траектории хода солнечных лучей в атмосфере Земли при различных прицельных высотах.",
+        "tags": ["Python"],
+        "favourite": false,
+        "img": "refraction.jpg",
+        "links": []
+      },
+      {
+        "name": "OYWO",
+        "description": "Разработана оптимальная и мотивационная система контроля своего времени и занятости.",
+        "tags": ["Angular 2", "Bootstrap", "D3.js", "Play! Framework"],
+        "favourite": true,
+        "img": "oywo.jpg",
+        "links": [
+          {
+            "url": "http://oywo.ru",
+            "name": "Сайт проекта",
+            "icon": "globe"
+          },
+          {
+            "url": "https://vk.com/useoywo",
+            "name": "Группа поддержки проекта ВКонтакте",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Мой блог",
+        "description": "Так давно хотел завести себе платформу, в которой смогу записывать свои впечатления и открытия и чтобы ничего не терять. И завёл.",
+        "tags": ["Angular 2", "Bootstrap", "D3.js", "Play! Framework"],
+        "favourite": true,
+        "img": "blog.jpg",
+        "links": [
+          {
+            "url": "https://noggatur.github.io",
+            "name": "Сайт проекта",
+            "icon": "globe"
+          },
+          {
+            "url": "https://github.com/noggatur/noggatur.github.io",
+            "name": "Репозиторий проекта",
+            "icon": "github-alt"
+          }
+        ]
+      },
+      {
+        "name": "Конспект по истории и философии науки",
+        "description": "Предмет читался на парах так интересно, что решил сделать по нему отдельный проект!",
+        "tags": ["Markdown", "Типографика"],
+        "favourite": false,
+        "img": "philosophy.jpg",
+        "imgLarge": "philosophy.png",
+        "links": [
+          {
+            "url": "https://github.com/noggatur/philosophy",
+            "name": "Репозиторий для конспекта",
+            "icon": "github-alt"
+          }
+        ]
+      },
+      {
+        "name": "Конструктор документов для заказа",
+        "description": "Упрощено делопроизводство в компании по изготовлению стальных дверей «Бастион».",
+        "tags": ["Angular 2", "Bootstrap"],
+        "favourite": false,
+        "img": "bastion.jpg",
+        "links": [
+          {
+            "url": "assets/archive/bastion/index.html",
+            "name": "Сам проект",
+            "icon": "cog"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2016,
+    "name": "Упор на Frontend-разработке",
+    "works": [
+      {
+        "name": "3D в браузере",
+        "description": "Ознакомился с технологией WebGL и библиотекой three.js, решив простенькую задачку перетаскивания объектов по плоскости.",
+        "tags": ["Three.js"],
+        "favourite": false,
+        "img": "drag&drop.jpg",
+        "links": [
+          {
+            "url": "assets/archive/drag&drop/index.html",
+            "name": "Интерактивная 3D-сцена",
+            "icon": "cog"
+          },
+          {
+            "url": "https://github.com/noggatur/webgl",
+            "name": "Репозиторий, содержащий проект",
+            "icon": "github-alt"
+          }
+        ]
+      },
+      {
+        "name": "Структурирование своих знаний",
+        "description": "Возникла идея создать информационный ресурс, которому я буду доверять и при этом быстро получать то, что нужно. Без воды.",
+        "tags": ["Markdown", "Типографика"],
+        "favourite": true,
+        "img": "abstracts.jpg",
+        "links": [
+          {
+            "url": "https://github.com/noggatur/abstracts",
+            "name": "Репозиторий для конспектов",
+            "icon": "github-alt"
+          },
+          {
+            "url": "https://vk.com/ip.knowledgebase",
+            "name": "Группа поддержки проекта ВКонтакте",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Интерактивные уроки для детей",
+        "description": "Принял участие в образовательном проекте UCHi.RU, создав несколько уроков, полезных функций и документацию по API компании.",
+        "tags": ["Angular 2", "Bootstrap", "D3.js", "Play! Framework"],
+        "favourite": true,
+        "img": "uchi.jpg",
+        "video": "https://vk.com/video_ext.php?oid=-94792100&id=456239017&hash=3371d6e8fcab148c",
+        "links": [
+          {
+            "url": "https://uchi.ru",
+            "name": "Образовательный проект UCHi.RU",
+            "icon": "globe"
+          },
+          {
+            "url": "https://vk.com/ip.painter?w=wall-94792100_15",
+            "name": "Пост о реализации функции Drug'n'Drop",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Оформление учебника по ДЗЗ",
+        "description": "Конспект лекций перерос в книгу. И благодаря векторной графике удалось сократить размер файла в 50 раз, увеличив качество при этом.",
+        "tags": ["Типографика", "LaTeX", "TikZ"],
+        "favourite": true,
+        "img": "dzz.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_396339028",
+            "name": "Пост о проекте",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Моё портфолио",
+        "description": "Реализована идея создания «продающего» web-CV в формате посадочной страницы. Ключевые навыки представлены инфографикой.",
+        "tags": ["Bootstrap", "SCSS", "Angular 2", "D3.js"],
+        "favourite": true,
+        "img": "portfolio.jpg",
+        "links": [
+          {
+            "url": "http://polyakovin.ru",
+            "name": "Ссылка на текущий сайт",
+            "icon": "globe"
+          },
+          {
+            "url": "https://github.com/noggatur/portfolio",
+            "name": "Рабочий репозиторий проекта",
+            "icon": "github-alt"
+          },
+          {
+            "url": "https://vk.com/ip.painter?w=wall-94792100_14",
+            "name": "Пост о проекте и других CV",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Веб-сайт компании «Ваш Выбор!»",
+        "description": "Сайт сменил формат презентации фирмы в соответствии с новым фирменным стилем и способствует увеличению продаж.",
+        "tags": ["Bootstrap", "SCSS", "PHP"],
+        "favourite": true,
+        "img": "vashvyboNewSite.jpg",
+        "links": [
+          {
+            "url": "http://вашвыбор67.рф/landing",
+            "name": "Сайт проекта",
+            "icon": "globe"
+          }
+        ]
+      },
+      {
+        "name": "Алгоритм наведения антенны на сигнал",
+        "description": "Разработан алгоритм поиска радиосигнала в космосе, а также математическая модель системы.",
+        "descriptionAdditional": "Разработка представлена на 58 конференции МФТИ в рамках научно-исследовательской работы.",
+        "tags": ["C", "LaTeX", "TikZ"],
+        "favourite": true,
+        "img": "afu.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/ip.painter?w=wall-94792100_11",
+            "name": "Анимация работы алгоритма",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Иллюстрации для научных изданий",
+        "description": "Построено более 500 математически точных векторных изображения к курсам физики и математики.",
+        "tags": ["TikZ", "Типографика", "Композиция"],
+        "favourite": true,
+        "img": "tikz.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/album-94792100_232713752",
+            "name": "Иллюстрации, выполненные в TikZ",
+            "icon": "vk"
+          },
+          {
+            "url": "https://vk.com/ip.painter?w=wall-94792100_13",
+            "name": "Пост о проекте",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Объявление о выездной чайной церемонии",
+        "description": "Оформлено объявление для расклейки на улицах города.",
+        "tags": ["Adobe Photoshop", "Типографика", "Композиция"],
+        "favourite": false,
+        "img": "tea.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_399364103",
+            "name": "Пост о проекте",
+            "icon": "vk"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2015,
+    "name": "Углубление в типографику и дизайн",
+    "works": [
+      {
+        "name": "Видеовстреча с одноклассниками",
+        "description": "Захотелось увидеть всех их вместе. Решение реализовать идею с помощью видеокамеры оказалось идеальным!",
+        "tags": ["HTML", "CSS", "JavaScript"],
+        "favourite": true,
+        "img": "classmates.jpg",
+        "video": "https://www.youtube.com/embed/FLF2kz0ozaY",
+        "links": [
+          {
+            "url": "https://vk.com/igor.polyakov?w=wall11722643_1637%2Fall",
+            "name": "Пост о проекте",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Картина «Фиби»",
+        "description": "Пообщавшись с художником, попытался применить некоторые техники настоящей живописи в этой картине.",
+        "tags": [],
+        "favourite": true,
+        "img": "paintingFibi.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_384787690",
+            "name": "Пост про рисунок",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Веб-сайт экзамена по ТФКП",
+        "description": "Задача состояла в автоматизации процесса отбора достойных из желающих попасть на досрочную сдачу экзамена.",
+        "tags": ["HTML", "CSS", "JavaScript", "jQuery", "PHP", "MySQL"],
+        "favourite": false,
+        "img": "tfcv.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_418179029",
+            "name": "Пост о проекте",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Клип-арт для сайта компании «ALTER»",
+        "description": "Нужно было изобразить достоинства высотомера.",
+        "tags": ["Adobe Photoshop"],
+        "favourite": false,
+        "img": "alter.jpg",
+        "links": [
+          {
+            "url": "http://www.altersky.net",
+            "name": "Сайт компании «ALTER»",
+            "icon": "globe"
+          },
+          {
+            "url": "https://vk.com/photo-94792100_392690731",
+            "name": "Пост о проекте",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Фирстиль компании «Ваш Выбор!»",
+        "description": "Стиль компании стал серьёзнее и привлекательнее.",
+        "tags": ["Типографика", "Композиция", "Adobe Photoshop"],
+        "favourite": false,
+        "img": "vashvyboNew.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_392690147",
+            "name": "Пост о проекте",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Картина «Натюрморт с капустой»",
+        "description": "В этом рисунке старался применить как можно больше акварельных техник. Потом я отправил его на северный полюс.",
+        "tags": [],
+        "favourite": false,
+        "img": "paintingCabbage.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_377357072",
+            "name": "Пост про рисунок",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Эскиз двери",
+        "description": "Цель: показать клиенту внешний вид его будущей двери.",
+        "tags": ["Adobe Photoshop"],
+        "favourite": false,
+        "img": "door.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_383419740",
+            "name": "Пост о проекте",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Картина «Бутылки»",
+        "description": "Впервые попробовал масло. Нет-нет, не на вкус — в смысле, масляные краски. Даже бутылки добыл для первого знакомства!",
+        "tags": [],
+        "favourite": false,
+        "img": "paintingBottles.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_372562527",
+            "name": "Пост про рисунок",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Оформление конспектов лекций",
+        "description": "Производство конспектов к 400 видеолекциям образовательного интернет-ресурса на Физтехе.",
+        "tags": ["LaTeX", "Типографика", "Adobe Photoshop"],
+        "favourite": true,
+        "img": "lectoriy.jpg",
+        "links": [
+          {
+            "url": "http://lectoriy.mipt.ru",
+            "name": "Портал видеолекций Физтеха",
+            "icon": "globe"
+          },
+          {
+            "url": "http://lectoriy.mipt.ru/lecture/Maths-DiscreteAnalysis-L01-Raygorodskiy-150522.01/synopsis",
+            "name": "Курс «Дискретный анализ»",
+            "icon": "file-text-o"
+          },
+          {
+            "url": "http://lectoriy.mipt.ru/lecture/CompTech-InforSecur-L01-Vladim-140906.02/synopsis",
+            "name": "Курс «Защита информации»",
+            "icon": "file-text-o"
+          },
+          {
+            "url": "http://lectoriy.mipt.ru/lecture/TherPhys-QuanMec-L01-Gershtein-130903.03/synopsis",
+            "name": "Курс «Квантовая механика»",
+            "icon": "file-text-o"
+          },
+          {
+            "url": "http://lectoriy.mipt.ru/lecture/TherPhys-StatPhys-L01-Maksimov-140906.01/synopsis",
+            "name": "Курс «Статистическая физика»",
+            "icon": "file-text-o"
+          },
+          {
+            "url": "http://lectoriy.mipt.ru/lecture/TherPhys-FieldTh-L01-Gershtein-130213.01/synopsis",
+            "name": "Курс «Теория поля»",
+            "icon": "file-text-o"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2014,
+    "name": "Развитие нескольких проектов",
+    "works": [
+      {
+        "name": "Набор конспекта курса лекций",
+        "description": "Хотел разобраться в предмете, но литературы не было. Решил её сделать самостоятельно. С тех пор я умею красиво оформлять формулы.",
+        "tags": ["LaTeX", "Типографика", "Adobe Photoshop"],
+        "favourite": false,
+        "img": "latex.jpg"
+      },
+      {
+        "name": "Размещение рекламы на досках объявлений",
+        "description": "Умственной работы было слишком много, так что я начал бегать по кампусу и следить за порядком на досках объявлений.",
+        "tags": ["Композиция"],
+        "favourite": false,
+        "img": "ads.jpg"
+      },
+      {
+        "name": "Картина «Махаон»",
+        "description": "Захотелось нарисовать пушистую бабочку. Сухой пастелью удалось передать нужную фактуру.",
+        "tags": [],
+        "favourite": false,
+        "img": "paintingSwallowtail.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_367414391",
+            "name": "Пост про рисунок",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Картина «Черепашка»",
+        "description": "Ещё один рисунок по книжке про суперреалистичную графику простым карандашом.",
+        "tags": [],
+        "favourite": false,
+        "img": "paintingTurtle.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_367414471",
+            "name": "Пост про рисунок",
+            "icon": "vk"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2013,
+    "name": "Повышение личной продуктивности",
+    "works": [
+      {
+        "name": "Веб-сайт проекта «SMIDA»",
+        "description": "Сервис для научного проекта Университетского Центра Свальбарда. Реализованы: система пользователей, файлообменник, библиотека, мультиязычность.",
+        "tags": ["HTML", "CSS", "JavaScript", "jQuery", "PHP", "MySQL"],
+        "favourite": true,
+        "img": "smida.jpg",
+        "links": [
+          {
+            "url": "http://smida.mipt.ru",
+            "name": "Электронная комната участников проекта",
+            "icon": "globe"
+          },
+          {
+            "url": "https://vk.com/album-94792100_232721172",
+            "name": "Пост о проекте",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Картина «Дух Франции»",
+        "description": "Девушка с обложки одного из альбомов французского композитора Поля Мориа вдохновила написать эту картину.",
+        "tags": [],
+        "favourite": false,
+        "img": "paintingFrenchSpirit.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_367414305",
+            "name": "Пост про рисунок",
+            "icon": "picture-o"
+          }
+        ]
+      },
+      {
+        "name": "Картина «Настя»",
+        "description": "Решили с подругой-художницей нарисовать друг друга. Вот, как это получилось у меня.",
+        "tags": [],
+        "favourite": false,
+        "img": "paintingNastya.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_367414423",
+            "name": "Пост про рисунок",
+            "icon": "picture-o"
+          }
+        ]
+      },
+      {
+        "name": "Картина «Закат на Эльтигене»",
+        "description": "Очень давно мечал изобразить это место. Наконец дошли руки. Миссия выполнена!",
+        "tags": [],
+        "favourite": true,
+        "img": "paintingEltigen.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_367414312",
+            "name": "Пост про рисунок",
+            "icon": "picture-o"
+          }
+        ]
+      },
+      {
+        "name": "Картина «Double B-Day»",
+        "description": "Мои концертные друзья подарили мне на день рождения крутой набор пастели. С радостью нарисовал их всех за игрой в Имаджинариум.",
+        "tags": [],
+        "favourite": false,
+        "img": "paintingDoubleBDay.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_367414263",
+            "name": "Пост про рисунок",
+            "icon": "picture-o"
+          }
+        ]
+      },
+      {
+        "name": "Картина «Лисхен»",
+        "description": "Впервые заказали у меня портрет. Нашла девушка через ВКонтакте и попросила нарисовать её. Отнёсся к работе довольно серьёзно.",
+        "tags": [],
+        "favourite": true,
+        "img": "paintingLishen.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_367414335",
+            "name": "Пост про портрет",
+            "icon": "picture-o"
+          }
+        ]
+      },
+      {
+        "name": "Картина «Церковь Вознесения Господня»",
+        "description": "Первая работа на пленере. Не слишком удобно, но полезнее для здоровья, чем дома за компьютером!",
+        "tags": [],
+        "favourite": false,
+        "img": "paintingKolomenskoe.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_367414458",
+            "name": "Пост про рисунок",
+            "icon": "picture-o"
+          }
+        ]
+      },
+      {
+        "name": "Картина «Кот»",
+        "description": "Нашёл любопытную книженцию, в которой учат рисовать суперреалистичные картины простым карандашом. Попробовал. Прикольная техника.",
+        "tags": [],
+        "favourite": true,
+        "img": "paintingCat.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_367414321",
+            "name": "Пост про рисунок",
+            "icon": "picture-o"
+          }
+        ]
+      },
+      {
+        "name": "Открытка к Международному Женскому Дню",
+        "description": "Возникла вот такая идея поздравительной открытки для наших одногруппниц от имени одногруппников.",
+        "tags": [],
+        "favourite": true,
+        "img": "painting8March.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_367414405",
+            "name": "Пост про рисунок",
+            "icon": "picture-o"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2012,
+    "name": "Ближе к творчеству",
+    "works": [
+      {
+        "name": "Картина «Ольга»",
+        "description": "Стало интересно, получится ли нарисовать портрет той же пастелью...",
+        "tags": [],
+        "favourite": false,
+        "img": "paintingOlga.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_367414399",
+            "name": "Пост про рисунок",
+            "icon": "picture-o"
+          }
+        ]
+      },
+      {
+        "name": "Картина «Пиво и крабы»",
+        "description": "От нечего делать нарисовал купленных у моря крабов на фоне украинского пива.",
+        "tags": [],
+        "favourite": false,
+        "img": "paintingBeerAndCrabs.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_367414411",
+            "name": "Пост про рисунок",
+            "icon": "picture-o"
+          }
+        ]
+      },
+      {
+        "name": "Картина «Натюрморт»",
+        "description": "Вторая попытка нарисовать натюрморт пастелью.",
+        "tags": [],
+        "favourite": false,
+        "img": "paintingStillLife.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_367414393",
+            "name": "Пост про рисунок",
+            "icon": "picture-o"
+          }
+        ]
+      },
+      {
+        "name": "Картина «Фрукты»",
+        "description": "Впервые познакомился с пастелью и сразу же её полюбил.",
+        "tags": [],
+        "favourite": false,
+        "img": "paintingFruits.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_367414440",
+            "name": "Пост про рисунок",
+            "icon": "picture-o"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2011,
+    "name": "Первый коммерческий проект",
+    "works": [
+      {
+        "name": "Веб-сайт компании «Классика тренинга»",
+        "description": "Сайт-визитка с блоком администратора, который позволял добавлять новости и даты мероприятий фирмы.",
+        "tags": ["HTML", "CSS", "JavaScript", "jQuery", "PHP", "MySQL"],
+        "favourite": false,
+        "img": "trainingСlassics.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_418180760",
+            "name": "Пост о проекте",
+            "icon": "vk"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2010,
+    "name": "Проба пера",
+    "works": [
+      {
+        "name": "Веб-сайт компании «Ваш Выбор!»",
+        "description": "В качестве основных страниц сайта выступили: конструктор металлической двери, каталог дверей, форма заказа, контакты, администраторский блок.",
+        "tags": ["HTML", "CSS", "JavaScript", "jQuery", "PHP", "MySQL"],
+        "favourite": true,
+        "img": "vashvybor.jpg",
+        "links": [
+          {
+            "url": "http://вашвыбор67.рф/constructor.php",
+            "name": "Конструктор стальных дверей",
+            "icon": "globe"
+          },
+          {
+            "url": "http://вашвыбор67.рф/gallery.php",
+            "name": "Галерея дверей со склада",
+            "icon": "globe"
+          },
+          {
+            "url": "https://vk.com/photo-94792100_418166890",
+            "name": "Пост о проекте",
+            "icon": "vk"
+          }
+        ]
+      }
+    ]
+  }
+]

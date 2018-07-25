@@ -1,0 +1,72 @@
+@import "variables";
+@import "mixins";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+// @import "../../node_modules/font-awesome/scss/font-awesome";
+
+body {
+  font-family: $font-primary;
+  background: $color-bg;
+  color: $color-primary;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-secondary;
+  color: $color-secondary;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h2 {
+  padding-top: 60px;
+  padding-bottom: 6px;
+}
+
+a {
+  color: $color-primary;
+
+  &:hover, &:focus, &:active, &:visited {
+    color: black;
+    text-decoration: none;
+  }
+  &:hover {
+    color: darken(#ffe000, 7);
+  }
+}
+
+pre {
+  display: inline-block;
+  background-color: #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+blockquote {
+  border-left: 7px solid #ccc;
+  padding-left: 10px;
+  color: #ccc;
+}
+
+#idea {
+  a {
+    text-decoration: underline;
+  }
+}
+
+// Запросы для адаптивной вёрстки
+@media (max-width: 575px) {} // xxs
+@media (min-width: 576px) and (max-width: 767px) {} // xs
+@media (min-width: 768px) and (max-width: 991px) {} // sm
+@media (min-width: 992px) and (max-width: 1199px) {} // md
+@media (min-width: 1200px) {} // lg
+
+
+// Для D3
+.link {
+  stroke: #ccc;
+}
+
+.node {
+  cursor: move;
+}

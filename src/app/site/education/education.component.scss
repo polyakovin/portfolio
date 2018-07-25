@@ -1,0 +1,27 @@
+@import "./../../../styles/variables";
+
+.educatuon {
+  h3 {
+    margin-top: 7px;
+    margin-bottom: 3px;
+    text-align: left;
+  }
+
+  p > strong {
+    // font-weight: 900;
+    color: $color-secondary;
+    display: block;
+    text-align: right;
+    margin-top: 1px;
+  }
+}
+
+#education {
+  strong {
+    a {
+      color: $color-secondary;
+      font-family: $font-primary;
+      font-style: italic;
+    }
+  }
+}

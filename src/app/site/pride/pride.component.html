@@ -1,0 +1,8 @@
+<a class="media" *ngFor="let project of mainProjects; let i = index" href="{{ project.link }}" target="_blank"
+  (mouseenter)="common.prideHovered(i)">
+  <span class="fa fa-{{ project.icon }} fa-3x fa-fw
+    d-flex align-self-center"></span>
+  <div class="media-body mt-0 mb-0 {{ project.oneLine }}">
+    {{ project.explanation }}
+  </div>
+</a>

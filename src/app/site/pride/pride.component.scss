@@ -1,0 +1,26 @@
+.media {
+  .oneLine {
+    padding-top: 20px;
+  }
+
+  @media (max-width: 575px) {
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+  }
+  @media (min-width: 576px) and (max-width: 767px) {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    margin-top: 4.2rem;
+    font-size: 1.5rem;
+  }
+  @media (min-width: 1200px) {
+    margin-top: 3.7rem;
+    font-size: 1.8rem;
+  }
+}

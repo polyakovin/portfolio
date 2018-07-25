@@ -1,0 +1,30 @@
+[
+  {
+    "href": "mailto:igor_polyakov@phystech.edu",
+    "icon": "envelope"
+  },
+  {
+    "href": "https://t.me/polyakovin",
+    "icon": "telegram"
+  },
+  {
+    "href": "https://noggatur.github.io",
+    "icon": "rss"
+  },
+  {
+    "href": "https://vk.com/igor.polyakov",
+    "icon": "vk"
+  },
+  {
+    "href": "https://github.com/noggatur",
+    "icon": "github"
+  },
+  {
+    "href": "https://www.youtube.com/channel/UC3E_hX1GE90FQX4bsUmsfjg",
+    "icon": "youtube"
+  },
+  {
+    "href": "https://www.instagram.com/polyakov.igor",
+    "icon": "instagram"
+  }
+]

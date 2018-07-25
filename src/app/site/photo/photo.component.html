@@ -1,0 +1,18 @@
+<div style="text-align:center">
+  <fa-icon [icon]="faCoffee"></fa-icon>
+</div>
+
+<div class="polaroid-container">
+  <figure class="polaroid figure mx-auto d-block">
+    <div class="me"></div>
+
+    <figcaption class="figure-caption">
+      <h1>Игорь Поляков</h1>
+      {{ roles[role] }}
+    </figcaption>
+
+    <div class="hole"></div>
+  </figure>
+
+  <div class="pin" (dblclick)="goToIdeas()"></div>
+</div>

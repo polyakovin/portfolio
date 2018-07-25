@@ -1,0 +1,105 @@
+@import "./../../../styles/variables";
+@import "./../../../styles/mixins";
+
+.navbar {
+  font-size: 1.2rem;
+
+  @media (max-width: 767px) {
+    min-height: 57px;
+  }
+
+  @media (max-width: 576px) {
+    display: none;
+  }
+
+  .navbar-brand {
+    font-size: 1.2rem;
+    // margin: 0;
+    // color: $color-bg;
+  }
+}
+
+.navbar-inverse {
+
+  background-color: $color-secondary;
+  @include border-radius(0);
+  // position: fixed;
+  // top: 30px;
+
+  a {
+    color: $color-link;
+    text-decoration: none;
+
+    &:hover {
+      background-color: none;
+      color: $color-bg;
+    }
+  }
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand {
+  color: $color-link;
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+  color: $color-link;
+}
+
+
+
+
+.navbar-inverse {
+  width: 100%;
+  z-index: 100;
+}
+
+
+
+
+// xs
+@media (max-width: 767px) {
+  .navbar-inverse {
+    font-size: 2rem;
+  }
+
+  .img-responsive {
+    margin-top: 100px;
+  }
+
+  .caption {
+    text-align: left;
+    position: relative;
+    margin-left: 30px;
+
+    span {
+      font-size: 100%;
+      margin: 0;
+      position: absolute;
+      top: 0;
+      left: -30px;
+      text-align: right;
+    }
+  }
+  // .navbar-brand {
+  //   font-weight: 900;
+  //   font-size: 1.6rem;
+  // }
+
+  .media-body {
+    margin-left: 0;
+    padding-left: 0;
+  }
+}
+
+
+
+
+// sm
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-inverse {
+    font-size: 1.3rem;
+  }
+  #about h2 {
+    margin-top: 10px;
+  }
+}
