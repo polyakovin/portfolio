@@ -1,8 +1,10 @@
 <h2 id="hobbies">Увлечения</h2>
 <div class="row">
   <div class="col-xl-3 col-lg-4 col-md-6" *ngFor="let hobby of hobbies">
-    <span class="fa fa-fw fa-{{ hobby.icon }}"></span>
-    <span *ngIf="!hobby.href">{{ hobby.title }}</span>
+    <fa-layers class="fa-fw">
+      <fa-icon [icon]="['fa', hobby.icon]"></fa-icon>
+    </fa-layers>
+    <span class="title" *ngIf="!hobby.href">{{ hobby.title }}</span>
     <a *ngIf="hobby.href" href="{{ hobby.href }}" target="_blank">{{ hobby.title }}</a>
   </div>
 </div>

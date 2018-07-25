@@ -1,7 +1,6 @@
 import { CommonService } from '../../common.service';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 declare var $: any;
 
@@ -13,7 +12,6 @@ declare var $: any;
 export class PhotoComponent implements OnInit {
   role: number = 0;
   polaroid;
-  faCoffee = faCoffee;
 
   roles = [
     "Web-разработчик",

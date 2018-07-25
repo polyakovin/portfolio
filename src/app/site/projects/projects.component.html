@@ -20,7 +20,7 @@
                 <div class="media-body">
                   <h4>
                     {{ work.name }}
-                    <span *ngIf="work.favourite" class="favourite fa fa-star"></span>
+                    <fa-icon *ngIf="work.favourite" class="favourite" [icon]="['fa', 'star']"></fa-icon>
                   </h4>
                   <ul class="list-inline" *ngIf="false">
                     <li class="list-inline-item" *ngFor="let tag of work.tags">
@@ -56,7 +56,9 @@
         <ul class="list-unstyled mt-2 mb-0">
           <li *ngFor="let link of selectedXP.links">
             <a href="{{link.url}}" target="_blank">
-              <span class="fa fa-fw fa-{{link.icon || 'link'}}"></span>
+              <fa-layers class="fa-fw">
+                <fa-icon [icon]="['fa', link.icon || 'link']"></fa-icon>
+              </fa-layers>
               {{link.name}}
             </a>
           </li>

@@ -14,7 +14,9 @@ export class PrideComponent implements OnInit {
 
   ngOnInit() {
     this.http.get("assets/data/mainProjects.json").subscribe(
-      data => this.mainProjects = data,
+      data => {
+        this.mainProjects = data
+      },
       error => console.log(error)
     );
   }
