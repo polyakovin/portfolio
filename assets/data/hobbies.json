@@ -1,0 +1,57 @@
+[
+  {
+    "title": "Путешествия",
+    "icon": "map-signs",
+    "href": "https://vk.com/albums11722643"
+  },
+  {
+    "title": "Автоматизация",
+    "icon": "cog"
+  },
+  {
+    "title": "Порядок",
+    "icon": "sort-amount-down"
+  },
+  {
+    "title": "Книги",
+    "icon": "book",
+    "href": "https://vk.com/ip.biblioworm"
+  },
+  {
+    "title": "Писательство",
+    "icon": "pen-nib",
+    "href": "https://noggatur.github.io"
+  },
+  {
+    "title": "Общение",
+    "icon": "hands-helping"
+  },
+  {
+    "title": "Дизайн",
+    "icon": "quote-right",
+    "href": "https://vk.com/album11722643_228692466"
+  },
+  {
+    "title": "Оформление",
+    "icon": "concierge-bell"
+  },
+  {
+    "title": "Живопись",
+    "icon": "palette",
+    "href": "https://vk.com/ip.painter"
+  },
+  {
+    "title": "Музыка",
+    "icon": "headphones",
+    "href": "https://vk.com/ip.musician"
+  },
+  {
+    "title": "ЗОЖ",
+    "icon": "volleyball-ball",
+    "href": "https://www.instagram.com/polyakov.igor"
+  },
+  {
+    "title": "Фотография",
+    "icon": "camera-retro"
+  }
+]
