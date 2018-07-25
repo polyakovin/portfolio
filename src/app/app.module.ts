@@ -17,7 +17,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 // Объединяем все нужные иконки в один объект
 let fa = {...fas, ...fab};
 for (const icon in fa) {
-  fa[icon].prefix = 'fa';
+  fa[icon].prefix = 'fas';
 }
 library.add(fa);
 
