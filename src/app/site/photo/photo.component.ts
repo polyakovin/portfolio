@@ -15,7 +15,7 @@ export class PhotoComponent implements OnInit {
 
   roles = [
     "Web-разработчик",
-    "Учёный",
+    "Инженер",
     "Дизайнер",
     "Художник"
   ];
