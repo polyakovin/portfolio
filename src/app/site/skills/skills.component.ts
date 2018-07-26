@@ -18,7 +18,7 @@ export class SkillsComponent implements OnInit {
 
     let label = this.label,
         width = $("#mindmap").width(),
-        height = 900;
+        height = 770;
 
     let svg = d3.select("#mindmap").append("svg")
       .attr("width", width)
