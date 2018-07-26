@@ -8,6 +8,7 @@ import { HttpService } from '../http.service';
 })
 export class SiteComponent implements OnInit {
   isContactsCardShown = false;
+  links = [];
 
   constructor(private http: HttpService) { }
 
