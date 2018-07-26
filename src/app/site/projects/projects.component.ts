@@ -11,6 +11,8 @@ export class ProjectsComponent implements OnInit {
   xps = [];
   selectedXP: any;
   videoUrl: any;
+  projectsLimit = 3;
+  isButtonShown = true;
 
   constructor(private http: HttpService, private sanitizer: DomSanitizer) {}
 
@@ -23,6 +25,11 @@ export class ProjectsComponent implements OnInit {
       },
       error => console.log(error)
     );
+  }
+
+  showAllProjects() {
+    this.projectsLimit = this.xps.length;
+    this.isButtonShown = false;
   }
 
   openModal(work) {

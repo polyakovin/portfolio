@@ -1,5 +1,5 @@
 <h2 id="projects">Проекты</h2>
-<div *ngFor="let xp of xps; let i = index">
+<div *ngFor="let xp of xps.slice(0, projectsLimit); let i = index">
   <div class="rule">
     <hr>
     <div class="text-over-rule">
@@ -30,6 +30,13 @@
       </a>
     </div>
   </div>
+</div>
+
+<div class="text-center mt-4">
+  <button class="btn btn-light" (click)="showAllProjects()" *ngIf="isButtonShown">
+    Показать все проекты
+    <fa-icon [icon]="['fas', 'level-down-alt']"></fa-icon>
+  </button>
 </div>
 
 <!-- Модальное окно с более подробным описанием проекта -->
