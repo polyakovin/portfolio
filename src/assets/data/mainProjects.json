@@ -1,20 +1,14 @@
 [
   {
     "explanation": "Творю",
-    "icon": "code",
-    "link": "https://vk.com/ip.painter",
-    "oneLine": "oneLine"
+    "icon": "code"
   },
   {
-    "explanation": "Улучшаю мир",
-    "icon": "cogs",
-    "link": "https://vk.com/ip.painter?w=wall-94792100_11",
-    "oneLine": "oneLine"
+    "explanation": "Помогаю людям",
+    "icon": "life-ring"
   },
   {
-    "explanation": "Упрощаю жизнь себе и окружающим",
-    "icon": "life-ring",
-    "link": "https://github.com/noggatur/abstracts",
-    "oneLine": ""
+    "explanation": "Двигаю науку",
+    "icon": "rocket"
   }
 ]

@@ -1,10 +1,12 @@
 .media {
-  fa-layers {
-    margin-right: 20px;
+  cursor: default;
+
+  .media-body {
+    padding-top: 19px;
   }
 
-  .oneLine {
-    padding-top: 20px;
+  fa-layers {
+    margin-right: 20px;
   }
 
   @media (max-width: 575px) {

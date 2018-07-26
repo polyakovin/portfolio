@@ -16,8 +16,7 @@ export class PhotoComponent implements OnInit {
   roles = [
     "Web-разработчик",
     "Инженер",
-    "Дизайнер",
-    "Художник"
+    "Учёный"
   ];
 
   constructor(public common: CommonService, public router: Router) {}

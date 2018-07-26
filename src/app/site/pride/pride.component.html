@@ -1,10 +1,9 @@
-<a class="media" *ngFor="let project of mainProjects; let i = index" href="{{ project.link }}" target="_blank"
-  (mouseenter)="common.prideHovered(i)">
+<span class="media" *ngFor="let project of mainProjects; let i = index" (mouseenter)="common.prideHovered(i)">
   <!-- <fa-icon [icon]="project.icon"></fa-icon> -->
   <fa-layers class="fa-fw fa-3x d-flex align-self-center">
     <fa-icon [icon]="['fas', project.icon]"></fa-icon>
   </fa-layers>
-  <div class="media-body mt-0 mb-0 {{ project.oneLine }}">
+  <div class="media-body mt-0 mb-0">
     {{ project.explanation }}
   </div>
-</a>
+</span>
