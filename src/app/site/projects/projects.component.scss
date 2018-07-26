@@ -1,87 +1,89 @@
 @import "./../../../styles/variables";
 
-#accordion {
-  .card {
+.rule {
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 30px;
 
+  hr {
+    border-style: dashed
+  }
 
-    h3, h4 {
-      text-align: left;
-      margin-bottom: 0;
+  .text-over-rule {
+    position: absolute;
+    top: -12px;
+    text-align: center;
+    width: 100%;
+
+    .text {
+      background-color: white;
+      padding: 0 4px;
+      color: #ddd;
+    }
+  }
+}
+
+.year-of-projects {
+  padding: 0;
+
+  h3, h4 {
+    text-align: left;
+    margin-bottom: 0;
+    font-size: 1.1rem;
+
+    a {
+      display: inline-block;
+      width: 100%;
+
+      &:hover, &:focus {
+        color: $color-primary;
+        text-decoration: none;
+      }
+    }
+  }
+
+  h3 {
+    font-family: $font-primary;
+    font-size: 1.3rem;
+
+    @media (max-width: 576px) {
+      font-size: 1rem;
+    }
+    @media (min-width: 576px) and (max-width: 767px) {
       font-size: 1.1rem;
-
-      a {
-        display: inline-block;
-        width: 100%;
-
-        &:hover, &:focus {
-          color: $color-primary;
-          text-decoration: none;
-        }
-      }
     }
 
-    h3 {
-      font-family: $font-primary;
-      font-size: 1.3rem;
-
-      @media (max-width: 576px) {
-        font-size: 1rem;
-      }
-      @media (min-width: 576px) and (max-width: 767px) {
-        font-size: 1.1rem;
-      }
-
-      a {
-        padding: 0.75rem 1.25rem;
-      }
+    a {
+      padding: 0.75rem 1.25rem;
     }
+  }
 
-    h4 {
-      margin-bottom: 5px;
-      font-weight: 700;
-    }
+  h4 {
+    margin-bottom: 5px;
+    font-weight: 700;
+  }
 
-    .card-header {
-      padding: 0;
+  .col-lg-6, .col-xs-6 {
+    .work {
+      display: block;
+      color: $color-primary;
+      padding: 10px;
+      margin: 5px 10px;
 
       &:hover {
-        background-color: #f0f0f2;
-        color: $color-primary;
-        cursor: pointer;
+        background-color: #f6f6f6;
+        border-radius: 10px;
       }
-    }
 
-    .card-block {
-      padding: 0;
-      // padding: 5px 10px;
+      .favourite {
+        color: orange;
+      }
 
-      .col-lg-6, .col-xs-6 {
-        // margin-bottom: 22px;
-
-        .work {
-          display: block;
-          color: $color-primary;
-          padding: 10px;
-          margin: 5px 10px;
-
-          &:hover {
-            background-color: #f0f0f2;
-            border-radius: 10px;
-          }
-
-          .favourite {
-            color: orange;
-          }
-
-          img {
-            width: 100px;
-            height: 100px;
-            margin-right: 3px;
-            border-radius: 10px;
-            // border-top-left-radius: 10px;
-            // border-bottom-left-radius: 10px;
-          }
-        }
+      img {
+        width: 100px;
+        height: 100px;
+        margin-right: 3px;
+        border-radius: 10px;
       }
     }
   }
@@ -102,5 +104,4 @@
 .modal-footer {
   display: block;
   text-align: left;
-  // justify-content: flex-start;
 }
