@@ -1,6 +1,7 @@
 [
   {
     "href": "mailto:igor_polyakov@phystech.edu",
+    "isSelf": true,
     "icon": "envelope"
   },
   {
@@ -20,7 +21,7 @@
     "icon": "github"
   },
   {
-    "href": "https://www.youtube.com/channel/UC3E_hX1GE90FQX4bsUmsfjg",
+    "href": "https://www.youtube.com/channel/UC5SwgyeDZWtSDTX4iGozjmA",
     "icon": "youtube"
   },
   {

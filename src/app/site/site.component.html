@@ -3,7 +3,7 @@
   <div class="contacts" (mouseover)="isContactsCardShown = true" (mouseleave)="isContactsCardShown = false">
     <fa-icon [icon]="['fas', 'address-card']" *ngIf="!isContactsCardShown"></fa-icon>
     <div *ngIf="isContactsCardShown">
-      <a *ngFor="let link of links" href="{{ link.href }}" class="links" target="_blank">
+      <a *ngFor="let link of links" href="{{ link.href }}" class="links" target="{{ link.isSelf ? '_self' : '_blank' }}">
         <fa-icon [icon]="['fas', link.icon]"></fa-icon>
       </a>
     </div>
