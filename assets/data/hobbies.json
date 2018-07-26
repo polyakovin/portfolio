@@ -1,44 +1,8 @@
 [
   {
-    "title": "Путешествия",
-    "icon": "map-signs",
-    "href": "https://vk.com/albums11722643"
-  },
-  {
-    "title": "Автоматизация",
-    "icon": "cog"
-  },
-  {
     "title": "Порядок",
-    "icon": "sort-amount-down"
-  },
-  {
-    "title": "Книги",
-    "icon": "book",
-    "href": "https://vk.com/ip.biblioworm"
-  },
-  {
-    "title": "Писательство",
-    "icon": "pen-nib",
-    "href": "https://noggatur.github.io"
-  },
-  {
-    "title": "Общение",
-    "icon": "hands-helping"
-  },
-  {
-    "title": "Дизайн",
-    "icon": "quote-right",
-    "href": "https://vk.com/album11722643_228692466"
-  },
-  {
-    "title": "Оформление",
-    "icon": "concierge-bell"
-  },
-  {
-    "title": "Живопись",
-    "icon": "palette",
-    "href": "https://vk.com/ip.painter"
+    "icon": "sort-amount-down",
+    "href": "https://vk.com/ip.collections"
   },
   {
     "title": "Музыка",
@@ -46,12 +10,33 @@
     "href": "https://vk.com/ip.musician"
   },
   {
-    "title": "ЗОЖ",
-    "icon": "volleyball-ball",
-    "href": "https://www.instagram.com/polyakov.igor"
+    "title": "Писательство",
+    "icon": "pen-nib",
+    "href": "https://vk.com/@igor.polyakov-moi-posty"
   },
   {
-    "title": "Фотография",
-    "icon": "camera-retro"
+    "title": "Автоматизация",
+    "icon": "cog",
+    "href": "https://github.com/noggatur?tab=repositories"
+  },
+  {
+    "title": "Живопись",
+    "icon": "palette",
+    "href": "https://vk.com/ip.painter"
+  },
+  {
+    "title": "Дизайн",
+    "icon": "quote-right",
+    "href": "https://vk.com/ip.collections?w=wall-167597241_15"
+  },
+  {
+    "title": "Путешествия",
+    "icon": "map-signs",
+    "href": "https://vk.com/ip.journeys"
+  },
+  {
+    "title": "Книги",
+    "icon": "book",
+    "href": "https://vk.com/ip.biblioworm"
   }
 ]
