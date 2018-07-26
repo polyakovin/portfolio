@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng build --prod --source-map --extract-css --base-href /portfolio/ && gh-pages -d dist/portfolio"
+    "deploy": "ng build --prod --source-map --extract-css && gh-pages -d dist/portfolio"
   },
   "private": true,
   "dependencies": {

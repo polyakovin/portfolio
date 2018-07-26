@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { HttpService } from './http.service';
 import { CommonService } from './common.service';
 
+// https://github.com/FortAwesome/angular-fontawesome
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
