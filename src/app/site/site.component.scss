@@ -1,0 +1,18 @@
+.container {
+  position: relative;
+
+  .contacts {
+    position: absolute;
+    top: -40px;
+    right: 0;
+    font-size: 2rem;
+
+    a {
+      margin-left: 15px;
+    }
+  }
+
+  .row {
+    margin-top: 50px;
+  }
+}

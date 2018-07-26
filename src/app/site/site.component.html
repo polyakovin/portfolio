@@ -1,5 +1,14 @@
 <!-- <na-header></na-header> -->
 <div class="container">
+  <div class="contacts" (mouseover)="isContactsCardShown = true" (mouseleave)="isContactsCardShown = false">
+    <fa-icon [icon]="['fas', 'address-card']" *ngIf="!isContactsCardShown"></fa-icon>
+    <div *ngIf="isContactsCardShown">
+      <a *ngFor="let link of links" href="{{ link.href }}" class="links" target="_blank">
+        <fa-icon [icon]="['fas', link.icon]"></fa-icon>
+      </a>
+    </div>
+  </div>
+
   <div class="row">
     <div class="col">
       <na-photo></na-photo>
