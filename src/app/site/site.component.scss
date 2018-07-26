@@ -7,6 +7,37 @@
     right: 0;
     font-size: 2rem;
 
+    > .links {
+      height: 48px;
+      overflow: hidden;
+      z-index: 2;
+
+      .links-list {
+        background-color: #fff;
+        margin-left: 100%;
+        -webkit-transition: margin-left 200ms ease-in-out;
+        transition: margin-left 200ms ease-in-out;
+
+        &.shown {
+          margin-left: 0;
+        }
+      }
+    }
+
+    > .address-card {
+      position: absolute;
+      top: 0;
+      right: 0;
+      opacity: 0;
+      z-index: -1;
+      -webkit-transition: opacity 200ms ease-in-out 200ms;
+      transition: opacity 200ms ease-in-out 200ms;
+
+      &.shown {
+        opacity: 1;
+      }
+    }
+
     a {
       margin-left: 15px;
     }
