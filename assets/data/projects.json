@@ -82,12 +82,12 @@
         "img": "blog.jpg",
         "links": [
           {
-            "url": "https://noggatur.github.io",
+            "url": "https://polyakovin.github.io",
             "name": "Сайт проекта",
             "icon": "globe"
           },
           {
-            "url": "https://github.com/noggatur/noggatur.github.io",
+            "url": "https://github.com/polyakovin/polyakovin.github.io",
             "name": "Репозиторий проекта",
             "icon": "github-alt"
           }
@@ -102,7 +102,7 @@
         "imgLarge": "philosophy.png",
         "links": [
           {
-            "url": "https://github.com/noggatur/philosophy",
+            "url": "https://github.com/polyakovin/philosophy",
             "name": "Репозиторий для конспекта",
             "icon": "github-alt"
           }
@@ -141,7 +141,7 @@
             "icon": "cog"
           },
           {
-            "url": "https://github.com/noggatur/webgl",
+            "url": "https://github.com/polyakovin/webgl",
             "name": "Репозиторий, содержащий проект",
             "icon": "github-alt"
           }
@@ -155,7 +155,7 @@
         "img": "abstracts.jpg",
         "links": [
           {
-            "url": "https://github.com/noggatur/abstracts",
+            "url": "https://github.com/polyakovin/abstracts",
             "name": "Репозиторий для конспектов",
             "icon": "github-alt"
           },
@@ -213,7 +213,7 @@
             "icon": "globe"
           },
           {
-            "url": "https://github.com/noggatur/portfolio",
+            "url": "https://github.com/polyakovin/portfolio",
             "name": "Рабочий репозиторий проекта",
             "icon": "github-alt"
           },
