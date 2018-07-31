@@ -31,6 +31,7 @@ import { EducationComponent } from './site/education/education.component';
 import { FooterComponent } from './site/footer/footer.component';
 import { PrideComponent } from './site/pride/pride.component';
 import { PhotoComponent } from './site/photo/photo.component';
+import { SelfPresentationComponent } from './site/self-presentation/self-presentation.component';
 
 import { IdeasComponent } from './ideas/ideas.component';
 
@@ -46,6 +47,7 @@ import { IdeasComponent } from './ideas/ideas.component';
     FooterComponent,
     PrideComponent,
     PhotoComponent,
+    SelfPresentationComponent,
     IdeasComponent
   ],
   imports: [
