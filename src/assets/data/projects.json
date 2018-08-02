@@ -4,6 +4,50 @@
     "name": "",
     "works": [
       {
+        "name": "Графические коллекции",
+        "description": "Нашёл подходящее место для многочисленных коллекций своих вдохновителей.",
+        "favourite": true,
+        "img": "collections.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/ip.collections",
+            "name": "Группа ВКонтакте с альбомами изображений",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Фотографии с путешествий",
+        "description": "Решил хранить фотоотчёты со своих поездок в соцсетях.",
+        "favourite": true,
+        "img": "journeys.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/ip.journeys",
+            "name": "Группа ВКонтакте с фотографиями",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Сайт фотографа Алёны Дёминой",
+        "description": "Сайт-визитка.",
+        "favourite": false,
+        "img": "demina.jpg",
+        "links": [
+          {
+            "url": "https://polyakovin.github.io/demina",
+            "name": "Сайт проекта",
+            "icon": "globe"
+          },
+          {
+            "url": "https://github.com/polyakovin/demina",
+            "name": "Рабочий репозиторий проекта",
+            "icon": "github-alt"
+          }
+        ]
+      },
+      {
         "name": "Индикатриса рассеяния",
         "description": "Вычисление индикатрисы рассеяния объекта произвольной формы в условиях удалённого космического пространства.",
         "tags": ["three.js", "plotly.js", "Angular 2", "Bootstrap"],
