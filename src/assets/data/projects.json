@@ -187,6 +187,24 @@
         ]
       },
       {
+        "name": "Тестовое задание в UCHi.RU",
+        "description": "Задание показалось интересным. Выполнил.",
+        "favourite": true,
+        "img": "uchi_test.jpg",
+        "links": [
+          {
+            "url": "https://polyakovin.github.io/test_uchi.ru/",
+            "name": "Реализация тестового задания",
+            "icon": "globe"
+          },
+          {
+            "url": "https://github.com/polyakovin/test_uchi.ru",
+            "name": "Репозиторий проекта",
+            "icon": "github-alt"
+          }
+        ]
+      },
+      {
         "name": "Оформление учебника по ДЗЗ",
         "description": "Конспект лекций перерос в книгу. И благодаря векторной графике удалось сократить размер файла в 50 раз, увеличив качество при этом.",
         "tags": ["Типографика", "LaTeX", "TikZ"],
