@@ -136,7 +136,7 @@
         "img": "drag&drop.jpg",
         "links": [
           {
-            "url": "assets/archive/drag&drop/index.html",
+            "url": "https://polyakovin.github.io/three/",
             "name": "Интерактивная 3D-сцена",
             "icon": "cog"
           },
