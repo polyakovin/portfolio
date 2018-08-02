@@ -486,6 +486,24 @@
         ]
       },
       {
+        "name": "Упражнения по скорочтению",
+        "description": "Когда изучал скорочтение, решил реализовать упражнения в виде сайта, чтобы было интереснее и проще их выполнять.",
+        "favourite": false,
+        "img": "speedreading.jpg",
+        "links": [
+          {
+            "url": "https://polyakovin.github.io/speedReading",
+            "name": "Демонстрация работы проекта",
+            "icon": "github-alt"
+          },
+          {
+            "url": "https://github.com/polyakovin/speedReading",
+            "name": "Репозиторий проекта",
+            "icon": "github-alt"
+          }
+        ]
+      },
+      {
         "name": "Эскиз двери",
         "description": "Цель: показать клиенту внешний вид его будущей двери.",
         "tags": ["Adobe Photoshop"],
