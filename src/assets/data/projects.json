@@ -55,9 +55,14 @@
         "img": "magnitude.jpg",
         "links": [
           {
-            "url": "assets/archive/magnitude/",
-            "name": "Демонстрация работы сервиса",
+            "url": "https://polyakovin.github.io/three/#/magnitude-computer",
+            "name": "Демонстрация работы программы",
             "icon": "cog"
+          }
+          {
+            "url": "https://github.com/polyakovin/three/src/app/magnitude-computer",
+            "name": "Исходный код проекта",
+            "icon": "github-alt"
           }
         ]
       }
@@ -180,14 +185,14 @@
         "img": "drag&drop.jpg",
         "links": [
           {
-            "url": "https://polyakovin.github.io/three/",
+            "url": "https://polyakovin.github.io/three/#/drag-n-drop",
             "name": "Интерактивная 3D-сцена",
-            "icon": "cog"
+            "icon": "globe"
           },
           {
-            "url": "https://github.com/polyakovin/webgl",
-            "name": "Репозиторий, содержащий проект",
-            "icon": "github-alt"
+            "url": "https://github.com/polyakovin/three/blob/master/src/app/drag-n-drop/drag-n-drop.component.ts",
+            "name": "Код проекта",
+            "icon": "code"
           }
         ]
       },
