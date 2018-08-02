@@ -48,6 +48,24 @@
         ]
       },
       {
+        "name": "Симулятор гиперспетрометра",
+        "description": "Наглядная демонстрация работы научной аппаратуры гиперспектрометра.",
+        "favourite": false,
+        "img": "hyper.jpg",
+        "links": [
+          {
+            "url": "https://polyakovin.github.io/hyperspectrometer/",
+            "name": "Демонстрация работы программы",
+            "icon": "cog"
+          }
+          {
+            "url": "https://github.com/polyakovin/hyperspectrometer",
+            "name": "Исходный код проекта",
+            "icon": "github-alt"
+          }
+        ]
+      },
+      {
         "name": "Индикатриса рассеяния",
         "description": "Вычисление индикатрисы рассеяния объекта произвольной формы в условиях удалённого космического пространства.",
         "tags": ["three.js", "plotly.js", "Angular 2", "Bootstrap"],
