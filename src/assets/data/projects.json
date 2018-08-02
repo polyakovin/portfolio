@@ -57,7 +57,7 @@
             "url": "https://polyakovin.github.io/hyperspectrometer/",
             "name": "Демонстрация работы программы",
             "icon": "cog"
-          }
+          },
           {
             "url": "https://github.com/polyakovin/hyperspectrometer",
             "name": "Исходный код проекта",
@@ -76,7 +76,7 @@
             "url": "https://polyakovin.github.io/three/#/magnitude-computer",
             "name": "Демонстрация работы программы",
             "icon": "cog"
-          }
+          },
           {
             "url": "https://github.com/polyakovin/three/src/app/magnitude-computer",
             "name": "Исходный код проекта",
@@ -494,7 +494,7 @@
           {
             "url": "https://polyakovin.github.io/speedReading",
             "name": "Демонстрация работы проекта",
-            "icon": "github-alt"
+            "icon": "cog"
           },
           {
             "url": "https://github.com/polyakovin/speedReading",
