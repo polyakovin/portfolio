@@ -1,5 +1,18 @@
 <h2 id="projects">Проекты</h2>
-<div *ngFor="let xp of xps.slice(0, projectsLimit); let i = index">
+<ul class="nav nav-pills justify-content-center">
+  <li class="nav-item" *ngFor="let type of types">
+    <a class="nav-link" [ngClass]="{active: selectedType === type.en}" href="#" (click)="selectType($event, type.en)">
+      {{ type.ru }}
+    </a>
+  </li>
+</ul>
+<div class="form-check text-center mt-1" (click)="toggleBest()">
+  <input class="form-check-input" type="checkbox" [checked]="selectedBest">
+  <label class="form-check-label">
+    Лучшие работы
+  </label>
+</div>
+<div *ngFor="let xp of xpsFiltered; let i = index">
   <div class="rule">
     <hr>
     <div class="text-over-rule">
@@ -29,13 +42,6 @@
       </a>
     </div>
   </div>
-</div>
-
-<div class="text-center mt-4">
-  <button class="btn btn-light" (click)="showAllProjects()" *ngIf="isButtonShown">
-    Показать все проекты
-    <fa-icon [icon]="['fas', 'level-down-alt']"></fa-icon>
-  </button>
 </div>
 
 <!-- Модальное окно с более подробным описанием проекта -->
