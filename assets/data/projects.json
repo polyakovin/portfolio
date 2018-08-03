@@ -4,16 +4,85 @@
     "name": "",
     "works": [
       {
+        "name": "Графические коллекции",
+        "description": "Нашёл подходящее место для многочисленных коллекций своих вдохновителей.",
+        "type": "other",
+        "best": true,
+        "img": "collections.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/ip.collections",
+            "name": "Группа ВКонтакте с альбомами изображений",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Фотографии с путешествий",
+        "description": "Решил хранить фотоотчёты со своих поездок в соцсетях.",
+        "type": "other",
+        "best": true,
+        "img": "journeys.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/ip.journeys",
+            "name": "Группа ВКонтакте с фотографиями",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Сайт фотографа Алёны Дёминой",
+        "description": "Сайт-визитка.",
+        "type": "web",
+        "img": "demina.jpg",
+        "links": [
+          {
+            "url": "https://polyakovin.github.io/demina",
+            "name": "Сайт проекта",
+            "icon": "globe"
+          },
+          {
+            "url": "https://github.com/polyakovin/demina",
+            "name": "Рабочий репозиторий проекта",
+            "icon": "github-alt"
+          }
+        ]
+      },
+      {
+        "name": "Симулятор гиперспетрометра",
+        "description": "Наглядная демонстрация работы научной аппаратуры гиперспектрометра.",
+        "type": "science",
+        "img": "hyper.jpg",
+        "links": [
+          {
+            "url": "https://polyakovin.github.io/hyperspectrometer/",
+            "name": "Демонстрация работы программы",
+            "icon": "cog"
+          },
+          {
+            "url": "https://github.com/polyakovin/hyperspectrometer",
+            "name": "Исходный код проекта",
+            "icon": "github-alt"
+          }
+        ]
+      },
+      {
         "name": "Индикатриса рассеяния",
         "description": "Вычисление индикатрисы рассеяния объекта произвольной формы в условиях удалённого космического пространства.",
-        "tags": ["three.js", "plotly.js", "Angular 2", "Bootstrap"],
-        "favourite": true,
+        "type": "science",
+        "best": true,
         "img": "magnitude.jpg",
         "links": [
           {
-            "url": "assets/archive/magnitude/",
-            "name": "Демонстрация работы сервиса",
+            "url": "https://polyakovin.github.io/three/#/magnitude-computer",
+            "name": "Демонстрация работы программы",
             "icon": "cog"
+          },
+          {
+            "url": "https://github.com/polyakovin/three/src/app/magnitude-computer",
+            "name": "Исходный код проекта",
+            "icon": "github-alt"
           }
         ]
       }
@@ -26,8 +95,8 @@
       {
         "name": "Emotion Miner",
         "description": "Сервис для сбора датасетов эмоций людей по видео.",
-        "tags": ["Angular 2", "Bootstrap"],
-        "favourite": true,
+        "type": "web",
+        "best": true,
         "img": "emotionminer.jpg",
         "links": [
           {
@@ -50,16 +119,15 @@
       {
         "name": "Рефракция",
         "description": "Разработан алгоритм вычисления траектории хода солнечных лучей в атмосфере Земли при различных прицельных высотах.",
-        "tags": ["Python"],
-        "favourite": false,
+        "type": "science",
+        "best": true,
         "img": "refraction.jpg",
         "links": []
       },
       {
         "name": "OYWO",
         "description": "Разработана оптимальная и мотивационная система контроля своего времени и занятости.",
-        "tags": ["Angular 2", "Bootstrap", "D3.js", "Play! Framework"],
-        "favourite": true,
+        "type": "web",
         "img": "oywo.jpg",
         "links": [
           {
@@ -77,8 +145,7 @@
       {
         "name": "Мой блог",
         "description": "Так давно хотел завести себе платформу, в которой смогу записывать свои впечатления и открытия и чтобы ничего не терять. И завёл.",
-        "tags": ["Angular 2", "Bootstrap", "D3.js", "Play! Framework"],
-        "favourite": true,
+        "type": "web",
         "img": "blog.jpg",
         "links": [
           {
@@ -96,8 +163,8 @@
       {
         "name": "Конспект по истории и философии науки",
         "description": "Предмет читался на парах так интересно, что решил сделать по нему отдельный проект!",
-        "tags": ["Markdown", "Типографика"],
-        "favourite": false,
+        "type": "text",
+        "best": true,
         "img": "philosophy.jpg",
         "imgLarge": "philosophy.png",
         "links": [
@@ -111,8 +178,8 @@
       {
         "name": "Конструктор документов для заказа",
         "description": "Упрощено делопроизводство в компании по изготовлению стальных дверей «Бастион».",
-        "tags": ["Angular 2", "Bootstrap"],
-        "favourite": false,
+        "type": "web",
+        "best": true,
         "img": "bastion.jpg",
         "links": [
           {
@@ -131,27 +198,26 @@
       {
         "name": "3D в браузере",
         "description": "Ознакомился с технологией WebGL и библиотекой three.js, решив простенькую задачку перетаскивания объектов по плоскости.",
-        "tags": ["Three.js"],
-        "favourite": false,
+        "type": "web",
         "img": "drag&drop.jpg",
         "links": [
           {
-            "url": "assets/archive/drag&drop/index.html",
+            "url": "https://polyakovin.github.io/three/#/drag-n-drop",
             "name": "Интерактивная 3D-сцена",
-            "icon": "cog"
+            "icon": "globe"
           },
           {
-            "url": "https://github.com/polyakovin/webgl",
-            "name": "Репозиторий, содержащий проект",
-            "icon": "github-alt"
+            "url": "https://github.com/polyakovin/three/blob/master/src/app/drag-n-drop/drag-n-drop.component.ts",
+            "name": "Код проекта",
+            "icon": "code"
           }
         ]
       },
       {
         "name": "Структурирование своих знаний",
         "description": "Возникла идея создать информационный ресурс, которому я буду доверять и при этом быстро получать то, что нужно. Без воды.",
-        "tags": ["Markdown", "Типографика"],
-        "favourite": true,
+        "type": "text",
+        "best": true,
         "img": "abstracts.jpg",
         "links": [
           {
@@ -169,8 +235,8 @@
       {
         "name": "Интерактивные уроки для детей",
         "description": "Принял участие в образовательном проекте UCHi.RU, создав несколько уроков, полезных функций и документацию по API компании.",
-        "tags": ["Angular 2", "Bootstrap", "D3.js", "Play! Framework"],
-        "favourite": true,
+        "type": "web",
+        "best": true,
         "img": "uchi.jpg",
         "video": "https://vk.com/video_ext.php?oid=-94792100&id=456239017&hash=3371d6e8fcab148c",
         "links": [
@@ -187,10 +253,28 @@
         ]
       },
       {
+        "name": "Тестовое задание в UCHi.RU",
+        "description": "Задание показалось интересным. Выполнил.",
+        "type": "web",
+        "img": "uchi_test.jpg",
+        "links": [
+          {
+            "url": "https://polyakovin.github.io/test_uchi.ru/",
+            "name": "Реализация тестового задания",
+            "icon": "archive"
+          },
+          {
+            "url": "https://github.com/polyakovin/test_uchi.ru",
+            "name": "Репозиторий проекта",
+            "icon": "github-alt"
+          }
+        ]
+      },
+      {
         "name": "Оформление учебника по ДЗЗ",
         "description": "Конспект лекций перерос в книгу. И благодаря векторной графике удалось сократить размер файла в 50 раз, увеличив качество при этом.",
-        "tags": ["Типографика", "LaTeX", "TikZ"],
-        "favourite": true,
+        "type": "text",
+        "best": true,
         "img": "dzz.jpg",
         "links": [
           {
@@ -203,8 +287,8 @@
       {
         "name": "Моё портфолио",
         "description": "Реализована идея создания «продающего» web-CV в формате посадочной страницы. Ключевые навыки представлены инфографикой.",
-        "tags": ["Bootstrap", "SCSS", "Angular 2", "D3.js"],
-        "favourite": true,
+        "type": "web",
+        "best": true,
         "img": "portfolio.jpg",
         "links": [
           {
@@ -227,8 +311,8 @@
       {
         "name": "Веб-сайт компании «Ваш Выбор!»",
         "description": "Сайт сменил формат презентации фирмы в соответствии с новым фирменным стилем и способствует увеличению продаж.",
-        "tags": ["Bootstrap", "SCSS", "PHP"],
-        "favourite": true,
+        "type": "web",
+        "best": true,
         "img": "vashvyboNewSite.jpg",
         "links": [
           {
@@ -242,8 +326,8 @@
         "name": "Алгоритм наведения антенны на сигнал",
         "description": "Разработан алгоритм поиска радиосигнала в космосе, а также математическая модель системы.",
         "descriptionAdditional": "Разработка представлена на 58 конференции МФТИ в рамках научно-исследовательской работы.",
-        "tags": ["C", "LaTeX", "TikZ"],
-        "favourite": true,
+        "type": "science",
+        "best": true,
         "img": "afu.jpg",
         "links": [
           {
@@ -256,8 +340,8 @@
       {
         "name": "Иллюстрации для научных изданий",
         "description": "Построено более 500 математически точных векторных изображения к курсам физики и математики.",
-        "tags": ["TikZ", "Типографика", "Композиция"],
-        "favourite": true,
+        "type": "graphics",
+        "best": true,
         "img": "tikz.jpg",
         "links": [
           {
@@ -275,8 +359,7 @@
       {
         "name": "Объявление о выездной чайной церемонии",
         "description": "Оформлено объявление для расклейки на улицах города.",
-        "tags": ["Adobe Photoshop", "Типографика", "Композиция"],
-        "favourite": false,
+        "type": "graphics",
         "img": "tea.jpg",
         "links": [
           {
@@ -295,8 +378,8 @@
       {
         "name": "Видеовстреча с одноклассниками",
         "description": "Захотелось увидеть всех их вместе. Решение реализовать идею с помощью видеокамеры оказалось идеальным!",
-        "tags": ["HTML", "CSS", "JavaScript"],
-        "favourite": true,
+        "type": "other",
+        "best": true,
         "img": "classmates.jpg",
         "video": "https://www.youtube.com/embed/FLF2kz0ozaY",
         "links": [
@@ -310,8 +393,8 @@
       {
         "name": "Картина «Фиби»",
         "description": "Пообщавшись с художником, попытался применить некоторые техники настоящей живописи в этой картине.",
-        "tags": [],
-        "favourite": true,
+        "type": "graphics",
+        "best": true,
         "img": "paintingFibi.jpg",
         "links": [
           {
@@ -322,10 +405,27 @@
         ]
       },
       {
+        "name": "Мой сайт",
+        "description": "Первая версия моего сайта. Как же мне тогда хотелось выпендриться!",
+        "type": "web",
+        "img": "portfolio_old.jpg",
+        "links": [
+          {
+            "url": "https://polyakovin.github.io/portfolio_old/",
+            "name": "Архивная копия сайта",
+            "icon": "archive"
+          },
+          {
+            "url": "https://github.com/polyakovin/portfolio_old",
+            "name": "Репозиторий проекта",
+            "icon": "github-alt"
+          }
+        ]
+      },
+      {
         "name": "Веб-сайт экзамена по ТФКП",
         "description": "Задача состояла в автоматизации процесса отбора достойных из желающих попасть на досрочную сдачу экзамена.",
-        "tags": ["HTML", "CSS", "JavaScript", "jQuery", "PHP", "MySQL"],
-        "favourite": false,
+        "type": "web",
         "img": "tfcv.jpg",
         "links": [
           {
@@ -338,8 +438,7 @@
       {
         "name": "Клип-арт для сайта компании «ALTER»",
         "description": "Нужно было изобразить достоинства высотомера.",
-        "tags": ["Adobe Photoshop"],
-        "favourite": false,
+        "type": "graphics",
         "img": "alter.jpg",
         "links": [
           {
@@ -357,8 +456,8 @@
       {
         "name": "Фирстиль компании «Ваш Выбор!»",
         "description": "Стиль компании стал серьёзнее и привлекательнее.",
-        "tags": ["Типографика", "Композиция", "Adobe Photoshop"],
-        "favourite": false,
+        "type": "graphics",
+        "best": true,
         "img": "vashvyboNew.jpg",
         "links": [
           {
@@ -371,8 +470,7 @@
       {
         "name": "Картина «Натюрморт с капустой»",
         "description": "В этом рисунке старался применить как можно больше акварельных техник. Потом я отправил его на северный полюс.",
-        "tags": [],
-        "favourite": false,
+        "type": "graphics",
         "img": "paintingCabbage.jpg",
         "links": [
           {
@@ -383,10 +481,28 @@
         ]
       },
       {
+        "name": "Упражнения по скорочтению",
+        "description": "Когда изучал скорочтение, решил реализовать упражнения в виде сайта, чтобы было интереснее и проще их выполнять.",
+        "type": "web",
+        "img": "speedreading.jpg",
+        "links": [
+          {
+            "url": "https://polyakovin.github.io/speedReading",
+            "name": "Демонстрация работы проекта",
+            "icon": "cog"
+          },
+          {
+            "url": "https://github.com/polyakovin/speedReading",
+            "name": "Репозиторий проекта",
+            "icon": "github-alt"
+          }
+        ]
+      },
+      {
         "name": "Эскиз двери",
         "description": "Цель: показать клиенту внешний вид его будущей двери.",
-        "tags": ["Adobe Photoshop"],
-        "favourite": false,
+        "type": "graphics",
+        "best": true,
         "img": "door.jpg",
         "links": [
           {
@@ -399,8 +515,7 @@
       {
         "name": "Картина «Бутылки»",
         "description": "Впервые попробовал масло. Нет-нет, не на вкус — в смысле, масляные краски. Даже бутылки добыл для первого знакомства!",
-        "tags": [],
-        "favourite": false,
+        "type": "graphics",
         "img": "paintingBottles.jpg",
         "links": [
           {
@@ -413,8 +528,8 @@
       {
         "name": "Оформление конспектов лекций",
         "description": "Производство конспектов к 400 видеолекциям образовательного интернет-ресурса на Физтехе.",
-        "tags": ["LaTeX", "Типографика", "Adobe Photoshop"],
-        "favourite": true,
+        "type": "text",
+        "best": true,
         "img": "lectoriy.jpg",
         "links": [
           {
@@ -458,22 +573,20 @@
       {
         "name": "Набор конспекта курса лекций",
         "description": "Хотел разобраться в предмете, но литературы не было. Решил её сделать самостоятельно. С тех пор я умею красиво оформлять формулы.",
-        "tags": ["LaTeX", "Типографика", "Adobe Photoshop"],
-        "favourite": false,
+        "type": "text",
         "img": "latex.jpg"
       },
       {
         "name": "Размещение рекламы на досках объявлений",
         "description": "Умственной работы было слишком много, так что я начал бегать по кампусу и следить за порядком на досках объявлений.",
-        "tags": ["Композиция"],
-        "favourite": false,
+        "type": "other",
         "img": "ads.jpg"
       },
       {
         "name": "Картина «Махаон»",
         "description": "Захотелось нарисовать пушистую бабочку. Сухой пастелью удалось передать нужную фактуру.",
-        "tags": [],
-        "favourite": false,
+        "type": "graphics",
+        "best": true,
         "img": "paintingSwallowtail.jpg",
         "links": [
           {
@@ -486,8 +599,7 @@
       {
         "name": "Картина «Черепашка»",
         "description": "Ещё один рисунок по книжке про суперреалистичную графику простым карандашом.",
-        "tags": [],
-        "favourite": false,
+        "type": "graphics",
         "img": "paintingTurtle.jpg",
         "links": [
           {
@@ -506,8 +618,7 @@
       {
         "name": "Веб-сайт проекта «SMIDA»",
         "description": "Сервис для научного проекта Университетского Центра Свальбарда. Реализованы: система пользователей, файлообменник, библиотека, мультиязычность.",
-        "tags": ["HTML", "CSS", "JavaScript", "jQuery", "PHP", "MySQL"],
-        "favourite": true,
+        "type": "web",
         "img": "smida.jpg",
         "links": [
           {
@@ -525,8 +636,8 @@
       {
         "name": "Картина «Дух Франции»",
         "description": "Девушка с обложки одного из альбомов французского композитора Поля Мориа вдохновила написать эту картину.",
-        "tags": [],
-        "favourite": false,
+        "type": "graphics",
+        "best": true,
         "img": "paintingFrenchSpirit.jpg",
         "links": [
           {
@@ -539,8 +650,7 @@
       {
         "name": "Картина «Настя»",
         "description": "Решили с подругой-художницей нарисовать друг друга. Вот, как это получилось у меня.",
-        "tags": [],
-        "favourite": false,
+        "type": "graphics",
         "img": "paintingNastya.jpg",
         "links": [
           {
@@ -553,8 +663,8 @@
       {
         "name": "Картина «Закат на Эльтигене»",
         "description": "Очень давно мечал изобразить это место. Наконец дошли руки. Миссия выполнена!",
-        "tags": [],
-        "favourite": true,
+        "type": "graphics",
+        "best": true,
         "img": "paintingEltigen.jpg",
         "links": [
           {
@@ -567,8 +677,7 @@
       {
         "name": "Картина «Double B-Day»",
         "description": "Мои концертные друзья подарили мне на день рождения крутой набор пастели. С радостью нарисовал их всех за игрой в Имаджинариум.",
-        "tags": [],
-        "favourite": false,
+        "type": "graphics",
         "img": "paintingDoubleBDay.jpg",
         "links": [
           {
@@ -581,8 +690,8 @@
       {
         "name": "Картина «Лисхен»",
         "description": "Впервые заказали у меня портрет. Нашла девушка через ВКонтакте и попросила нарисовать её. Отнёсся к работе довольно серьёзно.",
-        "tags": [],
-        "favourite": true,
+        "type": "graphics",
+        "best": true,
         "img": "paintingLishen.jpg",
         "links": [
           {
@@ -595,8 +704,7 @@
       {
         "name": "Картина «Церковь Вознесения Господня»",
         "description": "Первая работа на пленере. Не слишком удобно, но полезнее для здоровья, чем дома за компьютером!",
-        "tags": [],
-        "favourite": false,
+        "type": "graphics",
         "img": "paintingKolomenskoe.jpg",
         "links": [
           {
@@ -609,8 +717,8 @@
       {
         "name": "Картина «Кот»",
         "description": "Нашёл любопытную книженцию, в которой учат рисовать суперреалистичные картины простым карандашом. Попробовал. Прикольная техника.",
-        "tags": [],
-        "favourite": true,
+        "type": "graphics",
+        "best": true,
         "img": "paintingCat.jpg",
         "links": [
           {
@@ -623,8 +731,7 @@
       {
         "name": "Открытка к Международному Женскому Дню",
         "description": "Возникла вот такая идея поздравительной открытки для наших одногруппниц от имени одногруппников.",
-        "tags": [],
-        "favourite": true,
+        "type": "graphics",
         "img": "painting8March.jpg",
         "links": [
           {
@@ -643,8 +750,7 @@
       {
         "name": "Картина «Ольга»",
         "description": "Стало интересно, получится ли нарисовать портрет той же пастелью...",
-        "tags": [],
-        "favourite": false,
+        "type": "graphics",
         "img": "paintingOlga.jpg",
         "links": [
           {
@@ -657,8 +763,7 @@
       {
         "name": "Картина «Пиво и крабы»",
         "description": "От нечего делать нарисовал купленных у моря крабов на фоне украинского пива.",
-        "tags": [],
-        "favourite": false,
+        "type": "graphics",
         "img": "paintingBeerAndCrabs.jpg",
         "links": [
           {
@@ -671,8 +776,7 @@
       {
         "name": "Картина «Натюрморт»",
         "description": "Вторая попытка нарисовать натюрморт пастелью.",
-        "tags": [],
-        "favourite": false,
+        "type": "graphics",
         "img": "paintingStillLife.jpg",
         "links": [
           {
@@ -685,8 +789,7 @@
       {
         "name": "Картина «Фрукты»",
         "description": "Впервые познакомился с пастелью и сразу же её полюбил.",
-        "tags": [],
-        "favourite": false,
+        "type": "graphics",
         "img": "paintingFruits.jpg",
         "links": [
           {
@@ -705,8 +808,7 @@
       {
         "name": "Веб-сайт компании «Классика тренинга»",
         "description": "Сайт-визитка с блоком администратора, который позволял добавлять новости и даты мероприятий фирмы.",
-        "tags": ["HTML", "CSS", "JavaScript", "jQuery", "PHP", "MySQL"],
-        "favourite": false,
+        "type": "web",
         "img": "trainingСlassics.jpg",
         "links": [
           {
@@ -725,8 +827,7 @@
       {
         "name": "Веб-сайт компании «Ваш Выбор!»",
         "description": "В качестве основных страниц сайта выступили: конструктор металлической двери, каталог дверей, форма заказа, контакты, администраторский блок.",
-        "tags": ["HTML", "CSS", "JavaScript", "jQuery", "PHP", "MySQL"],
-        "favourite": true,
+        "type": "web",
         "img": "vashvybor.jpg",
         "links": [
           {
