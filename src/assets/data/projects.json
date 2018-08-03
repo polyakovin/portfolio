@@ -125,6 +125,23 @@
         "links": []
       },
       {
+        "name": "Таблица Франклина",
+        "description": "Реализация таблицы Франклина применительно к выполнению дневных рутин.",
+        "type": "web",
+        "img": "franklin.jpg",
+        "links": [
+          {
+            "url": "https://polyakovin.github.io/franklinTable",
+            "name": "Демонстрация работы проекта",
+            "icon": "globe"
+          },
+          {
+            "url": "https://github.com/polyakovin/franklinTable",
+            "name": "Репозиторий проекта",
+            "icon": "github-alt"
+          }]
+      },
+      {
         "name": "OYWO",
         "description": "Разработана оптимальная и мотивационная система контроля своего времени и занятости.",
         "type": "web",
