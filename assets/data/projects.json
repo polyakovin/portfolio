@@ -85,6 +85,19 @@
             "icon": "github-alt"
           }
         ]
+      },
+      {
+        "name": "Emotion Miner. Mobile",
+        "description": "Техническая демонстрация мобильного приложения для платформы Emotion Miner.",
+        "type": "web",
+        "img": "emotionminer_m.jpg",
+        "links": [
+          {
+            "url": "https://emotion-miner-ionic-test.herokuapp.com/",
+            "name": "Тестовый сайт проекта",
+            "icon": "cog"
+          }
+        ]
       }
     ]
   },
@@ -340,9 +353,14 @@
         "img": "vashvyboNewSite.jpg",
         "links": [
           {
-            "url": "http://вашвыбор67.рф/landing",
-            "name": "Сайт проекта",
-            "icon": "globe"
+            "url": "https://polyakovin.github.io/yourChoice2",
+            "name": "Демонстрационная копия проекта",
+            "icon": "archive"
+          },
+          {
+            "url": "https://github.com/polyakovin/yourChoice2",
+            "name": "Репозиторий проекта",
+            "icon": "github"
           }
         ]
       },
@@ -452,6 +470,16 @@
         "type": "web",
         "img": "tfcv.jpg",
         "links": [
+          {
+            "url": "https://polyakovin.github.io/tfkp",
+            "name": "Архивная копия проекта",
+            "icon": "archive"
+          },
+          {
+            "url": "https://github.com/polyakovin/tfkp",
+            "name": "Репозиторий проекта",
+            "icon": "github-alt"
+          },
           {
             "url": "https://vk.com/photo-94792100_418179029",
             "name": "Пост о проекте",
@@ -651,6 +679,11 @@
             "icon": "globe"
           },
           {
+            "url": "https://github.com/polyakovin/smida",
+            "name": "Репозиторий проекта",
+            "icon": "github-alt"
+          },
+          {
             "url": "https://vk.com/album-94792100_232721172",
             "name": "Пост о проекте",
             "icon": "vk"
@@ -836,6 +869,16 @@
         "img": "trainingСlassics.jpg",
         "links": [
           {
+            "url": "https://polyakovin.github.io/trainingClassics",
+            "name": "Архивная копия проекта",
+            "icon": "archive"
+          },
+          {
+            "url": "https://github.com/polyakovin/trainingClassics",
+            "name": "Репозиторий проекта",
+            "icon": "github"
+          },
+          {
             "url": "https://vk.com/photo-94792100_418180760",
             "name": "Пост о проекте",
             "icon": "vk"
@@ -855,14 +898,19 @@
         "img": "vashvybor.jpg",
         "links": [
           {
-            "url": "http://вашвыбор67.рф/constructor.php",
-            "name": "Конструктор стальных дверей",
-            "icon": "globe"
+            "url": "https://polyakovin.github.io/yourChoice",
+            "name": "Архивная копия проекта",
+            "icon": "archive"
           },
           {
-            "url": "http://вашвыбор67.рф/gallery.php",
-            "name": "Галерея дверей со склада",
-            "icon": "globe"
+            "url": "https://polyakovin.github.io/yourChoice/constructor.html",
+            "name": "Конструктор стальных дверей",
+            "icon": "archive"
+          },
+          {
+            "url": "https://github.com/polyakovin/yourChoice",
+            "name": "Репозиторий проекта",
+            "icon": "github-alt"
           },
           {
             "url": "https://vk.com/photo-94792100_418166890",
