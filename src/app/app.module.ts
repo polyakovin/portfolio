@@ -29,7 +29,6 @@ import { ProjectsComponent } from './site/projects/projects.component';
 import { HobbiesComponent } from './site/hobbies/hobbies.component';
 import { EducationComponent } from './site/education/education.component';
 import { FooterComponent } from './site/footer/footer.component';
-import { PrideComponent } from './site/pride/pride.component';
 import { PhotoComponent } from './site/photo/photo.component';
 import { SelfPresentationComponent } from './site/self-presentation/self-presentation.component';
 
@@ -45,7 +44,6 @@ import { IdeasComponent } from './ideas/ideas.component';
     HobbiesComponent,
     EducationComponent,
     FooterComponent,
-    PrideComponent,
     PhotoComponent,
     SelfPresentationComponent,
     IdeasComponent

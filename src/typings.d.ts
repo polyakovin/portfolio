@@ -1,5 +1,1 @@
-// declare var $: any;
-
-interface JQuery {
-  rotate(options?: any): any;
-}
+interface JQuery {}
