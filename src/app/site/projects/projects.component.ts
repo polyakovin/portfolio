@@ -12,32 +12,35 @@ export class ProjectsComponent implements OnInit {
   xpsFiltered = [];
   selectedXP: any;
   videoUrl: any;
-  projectsLimit = 3;
-  isButtonShown = true;
-  types = [
-    {
-      ru: "Всё",
-      en: "all"
-    },
-    {
-      ru: "Веб",
-      en: "web"
-    },
-    {
-      ru: "Графика",
-      en: "graphics"
-    },
-    {
-      ru: "Текст",
-      en: "text"
-    },
-    {
-      ru: "Остальное",
-      en: "other"
-    }
-  ];
-  selectedType = 'web';
-  selectedBest = true;
+
+  filter = {
+    isShown: false,
+    types: [
+      {
+        ru: "Всё",
+        en: "all"
+      },
+      {
+        ru: "Веб",
+        en: "web"
+      },
+      {
+        ru: "Графика",
+        en: "graphics"
+      },
+      {
+        ru: "Наука",
+        en: "science"
+      },
+      {
+        ru: "Остальное",
+        en: "other"
+      }
+    ],
+    selectedType: 'web',
+    selectedBest: true
+  };
+
 
   constructor(private http: HttpService, private sanitizer: DomSanitizer) {}
 
@@ -60,8 +63,8 @@ export class ProjectsComponent implements OnInit {
     for (let xp of xpEditable) {
       const worksFiltered = [];
       for (let work of xp.works) {
-        if ((!this.selectedBest || work.best) &&
-            (this.selectedType === 'all' || this.selectedType === work.type)) {
+        if ((!this.filter.selectedBest || work.best) &&
+            (this.filter.selectedType === 'all' || this.filter.selectedType === work.type)) {
           worksFiltered.push(work);
         }
       }
@@ -83,17 +86,21 @@ export class ProjectsComponent implements OnInit {
 
   selectType(event, type) {
     event.preventDefault();
-    this.selectedType = type;
+    this.filter.selectedType = type;
     this.filterWorks();
   }
 
   toggleBest() {
     // event.preventDefault();
-    this.selectedBest = !this.selectedBest;
+    this.filter.selectedBest = !this.filter.selectedBest;
     this.filterWorks();
   }
 
   copyObject(object) { // https://scotch.io/bar-talk/copying-objects-in-javascript
     return JSON.parse(JSON.stringify(object));
+  }
+
+  showFilters() {
+    this.filter.isShown = true;
   }
 }
