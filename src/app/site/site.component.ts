@@ -14,7 +14,7 @@ export class SiteComponent implements OnInit {
 
   ngOnInit() {
     this.http.get("assets/data/links.json").subscribe(
-      data => this.links = data.reverse(),
+      data => this.links = data,
       error => console.log(error)
     );
   }

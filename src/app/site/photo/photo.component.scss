@@ -14,36 +14,51 @@ $plaroid_h: $h * $basic_w + px;
 $plaroid_h2: $h2 * $basic_w + px;
 $plaroid_p: $p * $basic_w + px;
 
-.polaroid-container {
-	// margin-left: 20px;
-	// position: relative;
+figure {
+	width: $plaroid_W;
+	padding: $plaroid_p;
+	box-shadow: -1px 5px 15px -5px #aaa;
 
-	figure {
-		width: $plaroid_W;
-		padding: $plaroid_p;
-		box-shadow: -1px 5px 15px -5px #aaa;
+	transform: rotate(3deg) scale(0.45);
+	transform-origin: 100% 0;
+	position: absolute;
+	right: -8px;
+	top: 3px;
+	background-color: #fff;
+	z-index: 10;
 
-		.me {
-			width: $plaroid_w;
-			height: $plaroid_h;
-			background: url("../../../assets/images/me.jpg") no-repeat;
-			// background-color: seagreen;
-		}
+	.me {
+		width: $plaroid_w;
+		height: $plaroid_h;
+		background: url("../../../assets/images/me.jpg") no-repeat;
+		// background-color: seagreen;
+	}
 
-		figcaption {
-			max-width: $plaroid_w;
-			// min-height: $plaroid_h2;
-			// max-height: $plaroid_h2;
-			font-size: 1.3rem;
-			text-align: center;
+	.clip {
+		width: 50px;
+		height: 171px;
+		background: url(../../../assets/images/clip.png);
+		position: absolute;
+		top: -10px;
+    right: 76px;
+    transform: rotate(-20deg);
+    z-index: 2;
 
-			h1 {
-				margin-top: 0;
-				margin-bottom: 5px;
-				padding-top: 7px;
-				font-weight: 400;
-				font-size: 2rem;
-			}
+	}
+
+	figcaption {
+		max-width: $plaroid_w;
+		// min-height: $plaroid_h2;
+		// max-height: $plaroid_h2;
+		font-size: 1.7rem;
+		text-align: center;
+
+		h1 {
+			margin-top: 0;
+			margin-bottom: 5px;
+			padding-top: 7px;
+			font-weight: 400;
+			font-size: 2rem;
 		}
 	}
 }
