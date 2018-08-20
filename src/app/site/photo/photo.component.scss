@@ -15,6 +15,7 @@ $plaroid_h2: $h2 * $basic_w + px;
 $plaroid_p: $p * $basic_w + px;
 
 .polaroid-container {
+	margin-left: 20px;
 	position: relative;
 
 	figure {
