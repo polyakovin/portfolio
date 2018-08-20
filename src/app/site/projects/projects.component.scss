@@ -66,7 +66,11 @@
   h4 {
     margin-bottom: 5px;
     font-size: 1.5rem;
-    // font-weight: 700;
+    transition: color 100ms ease-in-out;
+  }
+
+  img {
+    transition: filter 100ms ease-in-out;
   }
 
   .col-lg-6, .col-xs-6 {
@@ -77,8 +81,16 @@
       margin: 5px 10px;
 
       &:hover {
-        background-color: #f6f6f6;
-        border-radius: 10px;
+        // background-color: #f6f6f6;
+        // border-radius: 10px;
+
+        img {
+          filter: brightness(1.1);
+        }
+
+        h4 {
+          color: darken(#ffe000, 7);
+        }
       }
 
       .favourite {
