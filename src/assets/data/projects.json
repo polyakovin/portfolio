@@ -4,6 +4,20 @@
     "name": "",
     "works": [
       {
+        "name": "EdLabs",
+        "description": "Миленький сайт-визитка.",
+        "type": "web",
+        "best": true,
+        "img": "edlabs.jpg",
+        "links": [
+          {
+            "url": "http://edlabs.ru/",
+            "name": "Сайт проекта",
+            "icon": "globe"
+          }
+        ]
+      },
+      {
         "name": "Графические коллекции",
         "description": "Нашёл подходящее место для многочисленных коллекций своих вдохновителей.",
         "type": "other",
