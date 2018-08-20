@@ -19,13 +19,20 @@ figure {
 	padding: $plaroid_p;
 	box-shadow: -1px 5px 15px -5px #aaa;
 
-	transform: rotate(3deg) scale(0.45);
+	transform: rotate(3deg) scale(0.5);
 	transform-origin: 100% 0;
 	position: absolute;
 	right: -8px;
 	top: 3px;
 	background-color: #fff;
 	z-index: 10;
+
+	fa-icon {
+		position: absolute;
+		left: -60px;
+		top: 20px;
+		font-size: 4rem;
+	}
 
 	.me {
 		width: $plaroid_w;
