@@ -26,10 +26,15 @@
 .year-of-projects {
   padding: 0;
 
+  .media-body {
+    margin: auto;
+  }
+
   h3, h4 {
     text-align: left;
     margin-bottom: 0;
     font-size: 1.1rem;
+    font-family: $font-primary;
 
     a {
       display: inline-block;
@@ -60,7 +65,8 @@
 
   h4 {
     margin-bottom: 5px;
-    font-weight: 700;
+    font-size: 1.5rem;
+    // font-weight: 700;
   }
 
   .col-lg-6, .col-xs-6 {

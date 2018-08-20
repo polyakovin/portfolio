@@ -27,17 +27,11 @@
       <a href="#" class="work" (click)="openModal(work)"
           data-toggle="modal" data-target=".bd-example-modal-lg">
         <div class="media">
-          <img class="d-flex mr-3" src="assets/images/projects/thumbs/{{work.img}}" alt="{{work.name}}">
+          <img class="align-self-center mr-3" src="assets/images/projects/thumbs/{{work.img}}" alt="{{work.name}}">
           <div class="media-body">
             <h4>
               {{ work.name }}
             </h4>
-            <ul class="list-inline" *ngIf="false">
-              <li class="list-inline-item" *ngFor="let tag of work.tags">
-                <a href="#">{{ tag }}</a>
-              </li>
-            </ul>
-            {{ work.description }}
           </div>
         </div>
       </a>
@@ -59,7 +53,7 @@
         </div>
       </div>
       <div class="modal-footer">
-        {{ selectedXP.description }}
+        {{ selectedXP.description || '' }}
         <ul class="list-unstyled mt-2 mb-0">
           <li *ngFor="let link of selectedXP.links">
             <a href="{{link.url}}" target="_blank">
