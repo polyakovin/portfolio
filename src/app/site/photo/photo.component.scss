@@ -15,8 +15,8 @@ $plaroid_h2: $h2 * $basic_w + px;
 $plaroid_p: $p * $basic_w + px;
 
 .polaroid-container {
-	margin-left: 20px;
-	position: relative;
+	// margin-left: 20px;
+	// position: relative;
 
 	figure {
 		width: $plaroid_W;
@@ -32,8 +32,8 @@ $plaroid_p: $p * $basic_w + px;
 
 		figcaption {
 			max-width: $plaroid_w;
-			min-height: $plaroid_h2;
-			max-height: $plaroid_h2;
+			// min-height: $plaroid_h2;
+			// max-height: $plaroid_h2;
 			font-size: 1.3rem;
 			text-align: center;
 
