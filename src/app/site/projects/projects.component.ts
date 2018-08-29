@@ -1,6 +1,6 @@
 import { DomSanitizer } from '@angular/platform-browser';
 import { HttpService } from '../../http.service';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ApplicationRef } from '@angular/core';
 
 @Component({
   selector: 'na-projects',
@@ -12,6 +12,10 @@ export class ProjectsComponent implements OnInit {
   xpsFiltered = [];
   selectedXP: any;
   videoUrl: any;
+  currentWorkIndex = 0;
+  works = [];
+  worksView;
+  divCV;
 
   filter = {
     isShown: false,
@@ -38,14 +42,17 @@ export class ProjectsComponent implements OnInit {
       }
     ],
     selectedType: 'web',
-    selectedBest: true
+    selectedBest: false && true
   };
 
 
-  constructor(private http: HttpService, private sanitizer: DomSanitizer) {}
+  constructor(
+    private http: HttpService,
+    private sanitizer: DomSanitizer,
+    private appRef: ApplicationRef
+  ) {}
 
   ngOnInit() {
-    // Наполнение портфолио работами
     this.http.get("assets/data/projects.json").subscribe(
       xps => {
         this.xps = xps;
@@ -55,17 +62,66 @@ export class ProjectsComponent implements OnInit {
       },
       error => console.log(error)
     );
+
+    $(document).ready(() => {
+      this.worksView = $('.works-view');
+      this.divCV = $('.cv');
+
+      this.setWorksViewScale();
+      $(window).resize(() => {this.setWorksViewScale()});
+
+      $(document).keydown((event) => {
+        const key = {
+          left: 37,
+          right: 39
+        };
+
+        switch (event.keyCode) {
+          case key.left:
+            this.prevWork();
+            break;
+          case key.right:
+            this.nextWork();
+            break;
+        }
+      });
+    });
+
+    setInterval(() => {
+      this.setRandomWork();
+    }, 3000);
+  }
+
+  setWorksViewScale() {
+    let scale = 1;
+    const initialWidth = 800;
+    const initialHeight = 666;
+    const cvWidth = this.divCV.width();
+    const windowWidth = $(window).width();
+    console.log(windowWidth);
+    if (windowWidth > 1199) {
+      scale = 1;
+    } else if (windowWidth > 991) {
+      scale = 0.87;
+    } else {
+      scale = cvWidth/initialWidth;
+    }
+
+    this.worksView.height(initialHeight*scale);
+    this.worksView.css({transform: `scale(${scale})`});
   }
 
   filterWorks() {
     const xpEditable = this.copyObject(this.xps);
     this.xpsFiltered = [];
+    this.works = [];
     for (let xp of xpEditable) {
       const worksFiltered = [];
       for (let work of xp.works) {
         if ((!this.filter.selectedBest || work.best) &&
             (this.filter.selectedType === 'all' || this.filter.selectedType === work.type)) {
           worksFiltered.push(work);
+          this.works.push(work);
         }
       }
       if (worksFiltered.length > 0) {
@@ -102,5 +158,25 @@ export class ProjectsComponent implements OnInit {
 
   showFilters() {
     this.filter.isShown = true;
+  }
+
+  prevWork() {
+    this.currentWorkIndex = this.currentWorkIndex > 0 ? this.currentWorkIndex - 1 : this.currentWorkIndex;
+    this.appRef.tick();
+  }
+
+  nextWork() {
+    this.currentWorkIndex = this.currentWorkIndex < this.works.length - 1 ? this.currentWorkIndex + 1 : this.currentWorkIndex;
+    this.appRef.tick();
+  }
+
+  setRandomWork() {
+    const newWorkIndex = Math.round(Math.random()*(this.works.length - 1));
+    if (this.currentWorkIndex !== newWorkIndex) {
+      this.currentWorkIndex = newWorkIndex;
+      this.appRef.tick();
+    } else {
+      this.setRandomWork();
+    }
   }
 }

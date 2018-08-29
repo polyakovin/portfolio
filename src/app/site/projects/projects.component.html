@@ -1,45 +1,13 @@
-<h2 id="projects" (click)="showFilters()">Проекты</h2>
-<div *ngIf="filter.isShown">
-  <ul class="nav nav-pills justify-content-center">
-    <li class="nav-item" *ngFor="let type of filter.types">
-      <a class="nav-link" [ngClass]="{active: filter.selectedType === type.en}" href="#" (click)="selectType($event, type.en)">
-        {{ type.ru }}
-      </a>
-    </li>
-  </ul>
-  <div class="form-check text-center mt-1" (click)="toggleBest()">
-    <input class="form-check-input" type="checkbox" [checked]="filter.selectedBest">
-    <label class="form-check-label">
-      Лучшие работы
-    </label>
+<div class="works-view" *ngIf="works.length > 0">
+  <div class="imac"></div>
+  <div class="work">
+    <img [src]="'assets/images/projects/large/' + works[currentWorkIndex].img" [alt]="works[currentWorkIndex].name" (click)="openModal(works[currentWorkIndex])" data-toggle="modal" data-target=".bd-example-modal-lg">
   </div>
+  <div class="logo" (click)="toggleBest()"></div>
+  <div class="arrow arrow-left" (click)="prevWork()">&larr;</div>
+  <div class="arrow arrow-right" (click)="nextWork()">&rarr;</div>
 </div>
 
-<div *ngFor="let xp of xpsFiltered; let i = index">
-  <div class="rule">
-    <hr>
-    <div class="text-over-rule">
-      <span class="text">{{xp.year}}</span>
-    </div>
-  </div>
-  <div class="row no-gutters year-of-projects">
-    <div class="col-lg-6 col-xs-12" *ngFor="let work of xp.works">
-      <a href="#" class="work" (click)="openModal(work)"
-          data-toggle="modal" data-target=".bd-example-modal-lg">
-        <div class="media">
-          <img class="align-self-center mr-3" src="assets/images/projects/thumbs/{{work.img}}" alt="{{work.name}}">
-          <div class="media-body">
-            <h4>
-              {{ work.name }}
-            </h4>
-          </div>
-        </div>
-      </a>
-    </div>
-  </div>
-</div>
-
-<!-- Модальное окно с более подробным описанием проекта -->
 <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" *ngIf="selectedXP !== undefined">
   <div class="modal-dialog modal-lg">
     <div class="modal-content text-center">
