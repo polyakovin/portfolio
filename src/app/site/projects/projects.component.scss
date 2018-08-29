@@ -222,6 +222,20 @@
       }
     }
 
+    @media (max-width: 1199px) {
+      & {
+        width: 48%;
+        margin: 1%;
+      }
+    }
+
+    @media (max-width: 767px) {
+      & {
+        width: 98%;
+        margin: 1%;
+      }
+    }
+
     &:hover {
       .description {
         // opacity: 1;

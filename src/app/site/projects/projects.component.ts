@@ -71,6 +71,7 @@ export class ProjectsComponent implements OnInit {
     const initialHeight = 666;
     const cvWidth = this.divCV.width();
     const windowWidth = $(window).width();
+
     if (windowWidth > 1199) {
       scale = 1;
     } else if (windowWidth > 991) {
@@ -81,6 +82,9 @@ export class ProjectsComponent implements OnInit {
 
     this.worksView.height(initialHeight*scale);
     this.worksView.css({transform: `scale(${scale})`});
+
+    const works = $('.works-list .work');
+    works.height(works.width()*.625);
   }
 
   filterProjects() {
@@ -137,6 +141,9 @@ export class ProjectsComponent implements OnInit {
   showWorksList() {
     this.worksListShown = true;
     this.disableScroll();
+    setTimeout(() => {
+      this.setWorksViewScale();
+    }, 100);
   }
 
   closeWorksList() {
