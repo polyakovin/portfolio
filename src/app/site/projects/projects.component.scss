@@ -13,7 +13,6 @@
     width: 800px;
     height: 666px;
     background: url("../../../assets/images/imac.png") no-repeat;
-    cursor: pointer;
   }
 
   .work {
@@ -33,6 +32,85 @@
     }
   }
 
+  .button {
+    position: absolute;
+    top: 31px;
+    left: 34px;
+    width: 738px;
+    height: 417px;
+    cursor: pointer;
+
+    > .bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #000;
+      opacity: 0;
+      transition: opacity 200ms;
+    }
+
+    .message {
+      text-align: center;
+      width: 300px;
+      height: 100px;
+      margin: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      opacity: 0;
+      transition: opacity 200ms;
+
+      .body {
+        padding: 40px;
+        width: 100%;
+        height: 100%;
+        background: #eee;
+        border-radius: 8px;
+        position: relative;
+        top: -20px;
+        transition: top 200ms;
+        box-shadow: 0 3px 20px #222;
+
+
+        .header {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 20px;
+          background: #aaa;
+          border-top-left-radius: 8px;
+          border-top-right-radius: 8px;
+        }
+
+        button {
+          background: #08f;
+          color: #fff;
+          border-radius: 8px;
+          cursor: pointer;
+        }
+      }
+    }
+
+    &:hover {
+      > .bg {
+        opacity: 0.7;
+      }
+
+      .message {
+        opacity: 1;
+
+        .body {
+          top: 0;
+        }
+      }
+    }
+  }
+
   .logo {
     position: absolute;
     top: 494px;
@@ -40,113 +118,6 @@
     width: 50px;
     height: 50px;
     border-radius: 25px;
-  }
-}
-
-.rule {
-  position: relative;
-  margin-top: 40px;
-  margin-bottom: 30px;
-
-  hr {
-    border-style: dashed
-  }
-
-  .text-over-rule {
-    position: absolute;
-    top: -12px;
-    text-align: center;
-    width: 100%;
-
-    .text {
-      background-color: #fff;
-      padding: 0 4px;
-      color: #ddd;
-    }
-  }
-}
-
-.year-of-projects {
-  padding: 0;
-
-  .media-body {
-    margin: auto;
-  }
-
-  h3, h4 {
-    text-align: left;
-    margin-bottom: 0;
-    font-size: 1.1rem;
-    font-family: $font-primary;
-
-    a {
-      display: inline-block;
-      width: 100%;
-
-      &:hover, &:focus {
-        color: $color-primary;
-        text-decoration: none;
-      }
-    }
-  }
-
-  h3 {
-    font-family: $font-primary;
-    font-size: 1.3rem;
-
-    @media (max-width: 576px) {
-      font-size: 1rem;
-    }
-    @media (min-width: 576px) and (max-width: 767px) {
-      font-size: 1.1rem;
-    }
-
-    a {
-      padding: 0.75rem 1.25rem;
-    }
-  }
-
-  h4 {
-    margin-bottom: 5px;
-    font-size: 1.5rem;
-    transition: color 100ms ease-in-out;
-  }
-
-  img {
-    transition: filter 100ms ease-in-out;
-  }
-
-  .col-lg-6, .col-xs-6 {
-    .work {
-      display: block;
-      color: $color-primary;
-      padding: 10px;
-      margin: 5px 10px;
-
-      &:hover {
-        // background-color: #f6f6f6;
-        // border-radius: 10px;
-
-        img {
-          filter: brightness(1.1);
-        }
-
-        h4 {
-          color: darken(#ffe000, 7);
-        }
-      }
-
-      .favourite {
-        color: orange;
-      }
-
-      img {
-        width: 100px;
-        height: 100px;
-        margin-right: 3px;
-        border-radius: 10px;
-      }
-    }
   }
 }
 
@@ -167,8 +138,15 @@
     width: 100%;
     height: 100%;
     background: #fff;
-    opacity: 0.8;
+    opacity: 0.9;
     z-index: -1;
+  }
+
+  .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 3rem;
   }
 
   .work {

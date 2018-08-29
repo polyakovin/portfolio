@@ -2,11 +2,22 @@
   <div class="work">
     <img [src]="'assets/images/projects/landings/' + projectsForBanner[currentWorkIndex].img" [alt]="projectsForBanner[currentWorkIndex].name">
   </div>
-  <div class="imac" (click)="showWorksList()"></div>
+  <div class="imac"></div>
+  <div class="button" (click)="showWorksList()">
+    <div class="bg"></div>
+    <div class="message">
+      <div class="body">
+        <div class="header"></div>
+        <button>Открыть список проектов</button>
+      </div>
+    </div>
+  </div>
   <div class="logo" (click)="toggleBest()"></div>
 </div>
 
 <div class="works-list" *ngIf="worksListShown">
+  <h1>Проекты</h1>
+  <fa-icon class="close" [icon]="['fas', 'times']" (click)="closeWorksList()"></fa-icon>
   <div class="bg" (click)="closeWorksList()"></div>
   <div class="work" *ngFor="let project of projects" (click)="openModal(project)" data-toggle="modal" data-target=".bd-example-modal-lg">
     <img [src]="'assets/images/projects/landings/' + project.img" [alt]="project.name">
