@@ -61,6 +61,11 @@ blockquote {
 @media (min-width: 992px) and (max-width: 1199px) {} // md
 @media (min-width: 1200px) {} // lg
 
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none;
+  }
+}
 
 // Для D3
 .link {

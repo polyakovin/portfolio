@@ -16,6 +16,7 @@ $plaroid_p: $p * $basic_w + px;
 
 figure {
 	width: $plaroid_W;
+	max-width: 100%;
 	padding: $plaroid_p;
 	box-shadow: -1px 5px 15px -5px #aaa;
 	background-color: #fff;
@@ -30,8 +31,10 @@ figure {
 
 	.me {
 		width: $plaroid_w;
+		max-width: 100%;
 		height: $plaroid_h;
 		background: url("../../../assets/images/me.jpg") no-repeat;
+		background-position-x: 50%
 		// background-color: seagreen;
 	}
 
