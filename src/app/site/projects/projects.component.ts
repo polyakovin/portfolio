@@ -8,44 +8,15 @@ import { Component, OnInit, ApplicationRef } from '@angular/core';
   styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent implements OnInit {
-  xps = [];
-  xpsFiltered = [];
-  selectedXP: any;
+  projects = [];
+  projectsForBanner = [];
+  openedProject;
   videoUrl: any;
   currentWorkIndex = 0;
-  works = [];
   worksView;
   worksListShown = false;
   divCV;
-
-  filter = {
-    isShown: false,
-    types: [
-      {
-        ru: "Всё",
-        en: "all"
-      },
-      {
-        ru: "Веб",
-        en: "web"
-      },
-      {
-        ru: "Графика",
-        en: "graphics"
-      },
-      {
-        ru: "Наука",
-        en: "science"
-      },
-      {
-        ru: "Остальное",
-        en: "other"
-      }
-    ],
-    selectedType: 'web',
-    selectedBest: false && true
-  };
-
+  selectedBest = false;
 
   constructor(
     private http: HttpService,
@@ -55,11 +26,9 @@ export class ProjectsComponent implements OnInit {
 
   ngOnInit() {
     this.http.get("assets/data/projects.json").subscribe(
-      xps => {
-        this.xps = xps;
-        // console.log(xps);
-        this.selectedXP = this.xps[0];
-        this.filterWorks();
+      projects => {
+        this.projects = projects;
+        this.filterProjects();
       },
       error => console.log(error)
     );
@@ -72,21 +41,11 @@ export class ProjectsComponent implements OnInit {
       $(window).resize(() => {this.setWorksViewScale()});
 
       $(document).keydown((event) => {
-        console.log(event.keyCode);
-
         const key = {
-          left: 37,
-          right: 39,
           escape: 27
         };
 
         switch (event.keyCode) {
-          case key.left:
-            this.prevWork();
-            break;
-          case key.right:
-            this.nextWork();
-            break;
           case key.escape:
             this.closeWorksList();
             break;
@@ -95,8 +54,8 @@ export class ProjectsComponent implements OnInit {
     });
 
     setInterval(() => {
-      this.setRandomWork();
-    }, 3000);
+      this.setNextProject();
+    }, 5000);
   }
 
   setWorksViewScale() {
@@ -118,73 +77,51 @@ export class ProjectsComponent implements OnInit {
     this.worksView.css({transform: `scale(${scale})`});
   }
 
-  filterWorks() {
-    const xpEditable = this.copyObject(this.xps);
-    this.xpsFiltered = [];
-    this.works = [];
-    for (let xp of xpEditable) {
-      const worksFiltered = [];
-      for (let work of xp.works) {
-        if ((!this.filter.selectedBest || work.best) &&
-            (this.filter.selectedType === 'all' || this.filter.selectedType === work.type)) {
-          worksFiltered.push(work);
-          this.works.push(work);
+  filterProjects() {
+    const projectsEditable = this.copyObject(this.projects);
+    this.projects = [];
+    this.projectsForBanner = [];
+    for (let project of projectsEditable) {
+      if (!project.ohNo && (!this.selectedBest || project.best)) {
+        this.projects.push(project);
+
+        if (project.forBanner) {
+          this.projectsForBanner.push(project);
         }
       }
-      if (worksFiltered.length > 0) {
-        xp.works = worksFiltered;
-        this.xpsFiltered.push(xp);
-      }
     }
   }
 
-  openModal(work) {
-    this.selectedXP = work;
+  openModal(project) {
+    this.openedProject = project;
 
     // Разрешаем ангуляру пользоваться ссылкой на видео с видеохостинга
-    if (this.selectedXP.video !== undefined) {
-      this.videoUrl = this.sanitizer.bypassSecurityTrustResourceUrl(this.selectedXP.video);
+    if (this.openedProject.video !== undefined) {
+      this.videoUrl = this.sanitizer.bypassSecurityTrustResourceUrl(this.openedProject.video);
     }
-  }
-
-  selectType(event, type) {
-    event.preventDefault();
-    this.filter.selectedType = type;
-    this.filterWorks();
   }
 
   toggleBest() {
-    // event.preventDefault();
-    this.filter.selectedBest = !this.filter.selectedBest;
-    this.filterWorks();
+    this.selectedBest = !this.selectedBest;
+    this.filterProjects();
   }
 
   copyObject(object) { // https://scotch.io/bar-talk/copying-objects-in-javascript
     return JSON.parse(JSON.stringify(object));
   }
 
-  showFilters() {
-    this.filter.isShown = true;
-  }
-
-  prevWork() {
-    this.currentWorkIndex = this.currentWorkIndex > 0 ? this.currentWorkIndex - 1 : this.currentWorkIndex;
-    this.appRef.tick();
-  }
-
-  nextWork() {
-    this.currentWorkIndex = this.currentWorkIndex < this.works.length - 1 ? this.currentWorkIndex + 1 : this.currentWorkIndex;
-    this.appRef.tick();
-  }
-
   setRandomWork() {
-    const newWorkIndex = Math.round(Math.random()*(this.works.length - 1));
+    const newWorkIndex = Math.round(Math.random()*(this.projectsForBanner.length - 1));
     if (this.currentWorkIndex !== newWorkIndex) {
       this.currentWorkIndex = newWorkIndex;
       this.appRef.tick();
     } else {
       this.setRandomWork();
     }
+  }
+
+  setNextProject() {
+    this.currentWorkIndex = this.currentWorkIndex < this.projectsForBanner.length - 1 ? this.currentWorkIndex + 1 : 0;
   }
 
   showWorksList() {

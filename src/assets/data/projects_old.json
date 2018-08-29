@@ -1,0 +1,905 @@
+[
+  {
+    "year": 2018,
+    "name": "",
+    "works": [
+      {
+        "name": "EdLabs",
+        "type": "web",
+        "best": true,
+        "img": "edlabs.jpg",
+        "links": [
+          {
+            "url": "http://edlabs.ru/",
+            "name": "Сайт проекта",
+            "icon": "globe"
+          }
+        ]
+      },
+      {
+        "name": "Графические коллекции",
+        "description": "Нашёл подходящее место для многочисленных коллекций своих вдохновителей.",
+        "type": "other",
+        "best": true,
+        "img": "collections.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/ip.collections",
+            "name": "Группа ВКонтакте с альбомами изображений",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Сайт фотографа Алёны Дёминой",
+        "type": "web",
+        "img": "demina.jpg",
+        "links": [
+          {
+            "url": "https://polyakovin.github.io/demina",
+            "name": "Сайт проекта",
+            "icon": "globe"
+          },
+          {
+            "url": "https://github.com/polyakovin/demina",
+            "name": "Рабочий репозиторий проекта",
+            "icon": "github-alt"
+          }
+        ]
+      },
+      {
+        "name": "Симулятор гиперспетрометра",
+        "description": "Наглядная демонстрация работы научной аппаратуры гиперспектрометра.",
+        "type": "science",
+        "img": "hyper.jpg",
+        "links": [
+          {
+            "url": "https://polyakovin.github.io/hyperspectrometer/",
+            "name": "Демонстрация работы программы",
+            "icon": "cog"
+          },
+          {
+            "url": "https://github.com/polyakovin/hyperspectrometer",
+            "name": "Исходный код проекта",
+            "icon": "github-alt"
+          }
+        ]
+      },
+      {
+        "name": "Индикатриса рассеяния",
+        "description": "Вычисление индикатрисы рассеяния объекта произвольной формы в условиях удалённого космического пространства.",
+        "type": "science",
+        "best": true,
+        "img": "magnitude.jpg",
+        "links": [
+          {
+            "url": "https://polyakovin.github.io/three/#/magnitude-computer",
+            "name": "Демонстрация работы программы",
+            "icon": "cog"
+          },
+          {
+            "url": "https://github.com/polyakovin/three/src/app/magnitude-computer",
+            "name": "Исходный код проекта",
+            "icon": "github-alt"
+          }
+        ]
+      },
+      {
+        "name": "Emotion Miner. Mobile",
+        "description": "Техническая демонстрация мобильного приложения для платформы Emotion Miner.",
+        "type": "web",
+        "img": "emotionminer_m.jpg",
+        "links": [
+          {
+            "url": "https://emotion-miner-ionic-test.herokuapp.com/",
+            "name": "Тестовый сайт проекта",
+            "icon": "cog"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2017,
+    "name": "Совершенствование специальных навыков",
+    "works": [
+      {
+        "name": "Emotion Miner",
+        "description": "Сервис для сбора датасетов эмоций людей по видео.",
+        "type": "web",
+        "best": true,
+        "img": "emotionminer.jpg",
+        "links": [
+          {
+            "url": "https://emotionminer.com",
+            "name": "Сайт проекта",
+            "icon": "globe"
+          },
+          {
+            "url": "http://neurodatalab.com",
+            "name": "Сайт клиента, сделавшего заказ",
+            "icon": "globe"
+          },
+          {
+            "url": "https://youtu.be/dTLLGIVRFj8",
+            "name": "Обзор на платформу от филиппинского видеоблоггера",
+            "icon": "youtube"
+          }
+        ]
+      },
+      {
+        "name": "Рефракция",
+        "description": "Алгоритм вычисления траектории хода солнечных лучей в атмосфере Земли при различных прицельных высотах.",
+        "type": "science",
+        "best": true,
+        "img": "refraction.jpg",
+        "links": []
+      },
+      {
+        "name": "Таблица Франклина",
+        "description": "Реализация таблицы Франклина применительно к выполнению дневных рутин.",
+        "type": "web",
+        "img": "franklin.jpg",
+        "links": [
+          {
+            "url": "https://polyakovin.github.io/franklinTable",
+            "name": "Демонстрация работы проекта",
+            "icon": "globe"
+          },
+          {
+            "url": "https://github.com/polyakovin/franklinTable",
+            "name": "Репозиторий проекта",
+            "icon": "github-alt"
+          }
+        ]
+      },
+      {
+        "name": "OYWO",
+        "description": "Оптимальная и мотивационная система контроля своего времени и занятости.",
+        "type": "web",
+        "best": true,
+        "img": "oywo.jpg",
+        "links": [
+          {
+            "url": "http://oywo.ru",
+            "name": "Сайт проекта",
+            "icon": "globe"
+          },
+          {
+            "url": "https://vk.com/useoywo",
+            "name": "Группа поддержки проекта ВКонтакте",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Мой блог",
+        "description": "Так давно хотел завести себе платформу, в которой смогу записывать свои впечатления и открытия и чтобы ничего не терять. И завёл.",
+        "type": "web",
+        "img": "blog.jpg",
+        "links": [
+          {
+            "url": "https://polyakovin.github.io",
+            "name": "Сайт проекта",
+            "icon": "globe"
+          },
+          {
+            "url": "https://github.com/polyakovin/polyakovin.github.io",
+            "name": "Репозиторий проекта",
+            "icon": "github-alt"
+          }
+        ]
+      },
+      {
+        "name": "Конспект по истории и философии науки",
+        "description": "Предмет читался на парах так интересно, что решил сделать по нему отдельный проект!",
+        "type": "other",
+        "best": true,
+        "img": "philosophy.jpg",
+        "imgLarge": "philosophy.png",
+        "links": [
+          {
+            "url": "https://github.com/polyakovin/philosophy",
+            "name": "Репозиторий для конспекта",
+            "icon": "github-alt"
+          }
+        ]
+      },
+      {
+        "name": "Конструктор документов для заказа",
+        "description": "Упрощено делопроизводство в компании по изготовлению стальных дверей «Бастион».",
+        "type": "web",
+        "best": true,
+        "img": "bastion.jpg",
+        "links": [
+          {
+            "url": "https://polyakovin.github.io/bastionRequest",
+            "name": "Демонстрация работы проекта",
+            "icon": "cog"
+          },
+          {
+            "url": "https://github.com/polyakovin/bastionRequest",
+            "name": "Репозиторий проекта",
+            "icon": "github-alt"
+          }
+
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2016,
+    "name": "Упор на Frontend-разработке",
+    "works": [
+      {
+        "name": "3D в браузере",
+        "description": "Ознакомился с технологией WebGL и библиотекой three.js, решив простенькую задачку перетаскивания объектов по плоскости.",
+        "type": "web",
+        "img": "drag&drop.jpg",
+        "links": [
+          {
+            "url": "https://polyakovin.github.io/three/#/drag-n-drop",
+            "name": "Интерактивная 3D-сцена",
+            "icon": "globe"
+          },
+          {
+            "url": "https://github.com/polyakovin/three/blob/master/src/app/drag-n-drop/drag-n-drop.component.ts",
+            "name": "Код проекта",
+            "icon": "code"
+          }
+        ]
+      },
+      {
+        "name": "Интерактивные уроки для детей",
+        "description": "Принял участие в образовательном проекте UCHi.RU, создав несколько уроков, полезных функций и документацию по API компании.",
+        "type": "web",
+        "best": true,
+        "img": "uchi.jpg",
+        "video": "https://vk.com/video_ext.php?oid=-94792100&id=456239017&hash=3371d6e8fcab148c",
+        "links": [
+          {
+            "url": "https://uchi.ru",
+            "name": "Образовательный проект UCHi.RU",
+            "icon": "globe"
+          },
+          {
+            "url": "https://vk.com/ip.painter?w=wall-94792100_15",
+            "name": "Пост о реализации функции Drug'n'Drop",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Тестовое задание в UCHi.RU",
+        "description": "Задание показалось интересным. Выполнил.",
+        "type": "web",
+        "img": "uchi_test.jpg",
+        "links": [
+          {
+            "url": "https://polyakovin.github.io/test_uchi.ru/",
+            "name": "Реализация тестового задания",
+            "icon": "archive"
+          },
+          {
+            "url": "https://github.com/polyakovin/test_uchi.ru",
+            "name": "Репозиторий проекта",
+            "icon": "github-alt"
+          }
+        ]
+      },
+      {
+        "name": "Оформление учебника по ДЗЗ",
+        "description": "Конспект лекций перерос в книгу. И благодаря векторной графике удалось сократить размер файла в 50 раз, увеличив качество при этом.",
+        "type": "graphics",
+        "best": true,
+        "img": "dzz.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_396339028",
+            "name": "Пост о проекте",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Моё портфолио",
+        "description": "Реализована идея создания «продающего» web-CV в формате посадочной страницы. Ключевые навыки представлены инфографикой.",
+        "type": "web",
+        "best": true,
+        "img": "portfolio.jpg",
+        "links": [
+          {
+            "url": "http://polyakovin.ru",
+            "name": "Ссылка на текущий сайт",
+            "icon": "globe"
+          },
+          {
+            "url": "https://github.com/polyakovin/portfolio",
+            "name": "Рабочий репозиторий проекта",
+            "icon": "github-alt"
+          },
+          {
+            "url": "https://vk.com/ip.painter?w=wall-94792100_14",
+            "name": "Пост о проекте и других CV",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Веб-сайт компании «Ваш Выбор!»",
+        "description": "Сайт сменил формат презентации фирмы в соответствии с новым фирменным стилем и способствует увеличению продаж.",
+        "type": "web",
+        "best": true,
+        "img": "vashvyboNewSite.jpg",
+        "links": [
+          {
+            "url": "https://polyakovin.github.io/yourChoice2",
+            "name": "Демонстрационная копия проекта",
+            "icon": "archive"
+          },
+          {
+            "url": "https://github.com/polyakovin/yourChoice2",
+            "name": "Репозиторий проекта",
+            "icon": "github"
+          }
+        ]
+      },
+      {
+        "name": "Алгоритм наведения антенны на сигнал",
+        "description": "Разработан алгоритм поиска радиосигнала в космосе, а также математическая модель системы.",
+        "descriptionAdditional": "Разработка представлена на 58 конференции МФТИ в рамках научно-исследовательской работы.",
+        "type": "science",
+        "best": true,
+        "img": "afu.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/ip.painter?w=wall-94792100_11",
+            "name": "Анимация работы алгоритма",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Иллюстрации для научных изданий",
+        "description": "Построено более 500 математически точных векторных изображения к курсам физики и математики.",
+        "type": "graphics",
+        "best": true,
+        "img": "tikz.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/album-94792100_232713752",
+            "name": "Иллюстрации, выполненные в TikZ",
+            "icon": "vk"
+          },
+          {
+            "url": "https://vk.com/ip.painter?w=wall-94792100_13",
+            "name": "Пост о проекте",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Объявление о выездной чайной церемонии",
+        "description": "Оформлено объявление для расклейки на улицах города.",
+        "type": "graphics",
+        "img": "tea.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_399364103",
+            "name": "Пост о проекте",
+            "icon": "vk"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2015,
+    "name": "Углубление в типографику и дизайн",
+    "works": [
+      {
+        "name": "Видеовстреча с одноклассниками",
+        "description": "Захотелось увидеть всех их вместе. Решение реализовать идею с помощью видеокамеры оказалось идеальным!",
+        "type": "other",
+        "best": true,
+        "img": "classmates.jpg",
+        "video": "https://www.youtube.com/embed/FLF2kz0ozaY",
+        "links": [
+          {
+            "url": "https://vk.com/igor.polyakov?w=wall11722643_1637%2Fall",
+            "name": "Пост о проекте",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Картина «Фиби»",
+        "description": "Пообщавшись с художником, попытался применить некоторые техники настоящей живописи в этой картине.",
+        "type": "graphics",
+        "best": true,
+        "img": "paintingFibi.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_384787690",
+            "name": "Пост про рисунок",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Мой сайт",
+        "description": "Первая версия моего сайта. Как же мне тогда хотелось выпендриться!",
+        "type": "web",
+        "img": "portfolio_old.jpg",
+        "links": [
+          {
+            "url": "https://polyakovin.github.io/portfolio_old/",
+            "name": "Архивная копия сайта",
+            "icon": "archive"
+          },
+          {
+            "url": "https://github.com/polyakovin/portfolio_old",
+            "name": "Репозиторий проекта",
+            "icon": "github-alt"
+          }
+        ]
+      },
+      {
+        "name": "Веб-сайт экзамена по ТФКП",
+        "description": "Задача состояла в автоматизации процесса отбора достойных из желающих попасть на досрочную сдачу экзамена.",
+        "type": "web",
+        "img": "tfcv.jpg",
+        "links": [
+          {
+            "url": "https://polyakovin.github.io/tfkp",
+            "name": "Архивная копия проекта",
+            "icon": "archive"
+          },
+          {
+            "url": "https://github.com/polyakovin/tfkp",
+            "name": "Репозиторий проекта",
+            "icon": "github-alt"
+          },
+          {
+            "url": "https://vk.com/photo-94792100_418179029",
+            "name": "Пост о проекте",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Клип-арт для сайта компании «ALTER»",
+        "description": "Нужно было изобразить достоинства высотомера.",
+        "type": "graphics",
+        "img": "alter.jpg",
+        "links": [
+          {
+            "url": "http://www.altersky.net",
+            "name": "Сайт компании «ALTER»",
+            "icon": "globe"
+          },
+          {
+            "url": "https://vk.com/photo-94792100_392690731",
+            "name": "Пост о проекте",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Фирстиль компании «Ваш Выбор!»",
+        "description": "Стиль компании стал серьёзнее и привлекательнее.",
+        "type": "graphics",
+        "img": "vashvyboNew.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_392690147",
+            "name": "Пост о проекте",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Картина «Натюрморт с капустой»",
+        "description": "В этом рисунке старался применить как можно больше акварельных техник. Потом я отправил его на северный полюс.",
+        "type": "graphics",
+        "img": "paintingCabbage.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_377357072",
+            "name": "Пост про рисунок",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Упражнения по скорочтению",
+        "description": "Когда изучал скорочтение, решил реализовать упражнения в виде сайта, чтобы было интереснее и проще их выполнять.",
+        "type": "web",
+        "img": "speedreading.jpg",
+        "links": [
+          {
+            "url": "https://polyakovin.github.io/speedReading",
+            "name": "Демонстрация работы проекта",
+            "icon": "cog"
+          },
+          {
+            "url": "https://github.com/polyakovin/speedReading",
+            "name": "Репозиторий проекта",
+            "icon": "github-alt"
+          }
+        ]
+      },
+      {
+        "name": "Эскиз двери",
+        "description": "Цель: показать клиенту внешний вид его будущей двери.",
+        "type": "graphics",
+        "best": true,
+        "img": "door.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_383419740",
+            "name": "Пост о проекте",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Картина «Бутылки»",
+        "description": "Впервые попробовал масло. Нет-нет, не на вкус — в смысле, масляные краски. Даже бутылки добыл для первого знакомства!",
+        "type": "graphics",
+        "img": "paintingBottles.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_372562527",
+            "name": "Пост про рисунок",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Оформление конспектов лекций",
+        "description": "Производство конспектов к 400 видеолекциям образовательного интернет-ресурса на Физтехе.",
+        "type": "graphics",
+        "best": true,
+        "img": "lectoriy.jpg",
+        "links": [
+          {
+            "url": "http://lectoriy.mipt.ru",
+            "name": "Портал видеолекций Физтеха",
+            "icon": "globe"
+          },
+          {
+            "url": "http://lectoriy.mipt.ru/lecture/Maths-DiscreteAnalysis-L01-Raygorodskiy-150522.01/synopsis",
+            "name": "Курс «Дискретный анализ»",
+            "icon": "file-text-o"
+          },
+          {
+            "url": "http://lectoriy.mipt.ru/lecture/CompTech-InforSecur-L01-Vladim-140906.02/synopsis",
+            "name": "Курс «Защита информации»",
+            "icon": "file-text-o"
+          },
+          {
+            "url": "http://lectoriy.mipt.ru/lecture/TherPhys-QuanMec-L01-Gershtein-130903.03/synopsis",
+            "name": "Курс «Квантовая механика»",
+            "icon": "file-text-o"
+          },
+          {
+            "url": "http://lectoriy.mipt.ru/lecture/TherPhys-StatPhys-L01-Maksimov-140906.01/synopsis",
+            "name": "Курс «Статистическая физика»",
+            "icon": "file-text-o"
+          },
+          {
+            "url": "http://lectoriy.mipt.ru/lecture/TherPhys-FieldTh-L01-Gershtein-130213.01/synopsis",
+            "name": "Курс «Теория поля»",
+            "icon": "file-text-o"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2014,
+    "name": "Развитие нескольких проектов",
+    "works": [
+      {
+        "name": "Набор конспекта курса лекций",
+        "description": "Хотел разобраться в предмете, но литературы не было. Решил её сделать самостоятельно. С тех пор я умею красиво оформлять формулы.",
+        "type": "other",
+        "img": "latex.jpg"
+      },
+      {
+        "name": "Размещение рекламы на досках объявлений",
+        "description": "Умственной работы было слишком много, так что я начал бегать по кампусу и следить за порядком на досках объявлений.",
+        "type": "other",
+        "img": "ads.jpg"
+      },
+      {
+        "name": "Картина «Махаон»",
+        "description": "Захотелось нарисовать пушистую бабочку. Сухой пастелью удалось передать нужную фактуру.",
+        "type": "graphics",
+        "best": true,
+        "img": "paintingSwallowtail.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_367414391",
+            "name": "Пост про рисунок",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Картина «Черепашка»",
+        "description": "Ещё один рисунок по книжке про суперреалистичную графику простым карандашом.",
+        "type": "graphics",
+        "img": "paintingTurtle.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_367414471",
+            "name": "Пост про рисунок",
+            "icon": "vk"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2013,
+    "name": "Повышение личной продуктивности",
+    "works": [
+      {
+        "name": "Веб-сайт проекта «SMIDA»",
+        "description": "Сервис для научного проекта Университетского Центра Свальбарда. Реализованы: система пользователей, файлообменник, библиотека, мультиязычность.",
+        "type": "web",
+        "best": true,
+        "img": "smida.jpg",
+        "links": [
+          {
+            "url": "http://smida.mipt.ru",
+            "name": "Электронная комната участников проекта",
+            "icon": "globe"
+          },
+          {
+            "url": "https://github.com/polyakovin/smida",
+            "name": "Репозиторий проекта",
+            "icon": "github-alt"
+          },
+          {
+            "url": "https://vk.com/album-94792100_232721172",
+            "name": "Пост о проекте",
+            "icon": "vk"
+          }
+        ]
+      },
+      {
+        "name": "Картина «Дух Франции»",
+        "description": "Девушка с обложки одного из альбомов французского композитора Поля Мориа вдохновила написать эту картину.",
+        "type": "graphics",
+        "best": true,
+        "img": "paintingFrenchSpirit.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_367414305",
+            "name": "Пост про рисунок",
+            "icon": "picture-o"
+          }
+        ]
+      },
+      {
+        "name": "Картина «Настя»",
+        "description": "Решили с подругой-художницей нарисовать друг друга. Вот, как это получилось у меня.",
+        "type": "graphics",
+        "img": "paintingNastya.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_367414423",
+            "name": "Пост про рисунок",
+            "icon": "picture-o"
+          }
+        ]
+      },
+      {
+        "name": "Картина «Закат на Эльтигене»",
+        "description": "Очень давно мечал изобразить это место. Наконец дошли руки. Миссия выполнена!",
+        "type": "graphics",
+        "best": true,
+        "img": "paintingEltigen.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_367414312",
+            "name": "Пост про рисунок",
+            "icon": "picture-o"
+          }
+        ]
+      },
+      {
+        "name": "Картина «Double B-Day»",
+        "description": "Мои концертные друзья подарили мне на день рождения крутой набор пастели. С радостью нарисовал их всех за игрой в Имаджинариум.",
+        "type": "graphics",
+        "img": "paintingDoubleBDay.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_367414263",
+            "name": "Пост про рисунок",
+            "icon": "picture-o"
+          }
+        ]
+      },
+      {
+        "name": "Картина «Лисхен»",
+        "description": "Впервые заказали у меня портрет. Нашла девушка через ВКонтакте и попросила нарисовать её. Отнёсся к работе довольно серьёзно.",
+        "type": "graphics",
+        "best": true,
+        "img": "paintingLishen.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_367414335",
+            "name": "Пост про портрет",
+            "icon": "picture-o"
+          }
+        ]
+      },
+      {
+        "name": "Картина «Церковь Вознесения Господня»",
+        "description": "Первая работа на пленере. Не слишком удобно, но полезнее для здоровья, чем дома за компьютером!",
+        "type": "graphics",
+        "img": "paintingKolomenskoe.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_367414458",
+            "name": "Пост про рисунок",
+            "icon": "picture-o"
+          }
+        ]
+      },
+      {
+        "name": "Картина «Кот»",
+        "description": "Нашёл любопытную книженцию, в которой учат рисовать суперреалистичные картины простым карандашом. Попробовал. Прикольная техника.",
+        "type": "graphics",
+        "best": true,
+        "img": "paintingCat.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_367414321",
+            "name": "Пост про рисунок",
+            "icon": "picture-o"
+          }
+        ]
+      },
+      {
+        "name": "Открытка к Международному Женскому Дню",
+        "description": "Возникла вот такая идея поздравительной открытки для наших одногруппниц от имени одногруппников.",
+        "type": "graphics",
+        "img": "painting8March.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_367414405",
+            "name": "Пост про рисунок",
+            "icon": "picture-o"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2012,
+    "name": "Ближе к творчеству",
+    "works": [
+      {
+        "name": "Картина «Ольга»",
+        "description": "Стало интересно, получится ли нарисовать портрет той же пастелью...",
+        "type": "graphics",
+        "img": "paintingOlga.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_367414399",
+            "name": "Пост про рисунок",
+            "icon": "picture-o"
+          }
+        ]
+      },
+      {
+        "name": "Картина «Пиво и крабы»",
+        "description": "От нечего делать нарисовал купленных у моря крабов на фоне украинского пива.",
+        "type": "graphics",
+        "img": "paintingBeerAndCrabs.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_367414411",
+            "name": "Пост про рисунок",
+            "icon": "picture-o"
+          }
+        ]
+      },
+      {
+        "name": "Картина «Натюрморт»",
+        "description": "Вторая попытка нарисовать натюрморт пастелью.",
+        "type": "graphics",
+        "img": "paintingStillLife.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_367414393",
+            "name": "Пост про рисунок",
+            "icon": "picture-o"
+          }
+        ]
+      },
+      {
+        "name": "Картина «Фрукты»",
+        "description": "Впервые познакомился с пастелью и сразу же её полюбил.",
+        "type": "graphics",
+        "img": "paintingFruits.jpg",
+        "links": [
+          {
+            "url": "https://vk.com/photo-94792100_367414440",
+            "name": "Пост про рисунок",
+            "icon": "picture-o"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2011,
+    "name": "Первый коммерческий проект",
+    "works": [
+      {
+        "name": "Веб-сайт компании «Классика тренинга»",
+        "description": "Сайт-визитка с блоком администратора, который позволял добавлять новости и даты мероприятий фирмы.",
+        "type": "web",
+        "img": "trainingСlassics.jpg",
+        "links": [
+          {
+            "url": "https://polyakovin.github.io/trainingClassics",
+            "name": "Архивная копия проекта",
+            "icon": "archive"
+          },
+          {
+            "url": "https://github.com/polyakovin/trainingClassics",
+            "name": "Репозиторий проекта",
+            "icon": "github"
+          },
+          {
+            "url": "https://vk.com/photo-94792100_418180760",
+            "name": "Пост о проекте",
+            "icon": "vk"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2010,
+    "name": "Проба пера",
+    "works": [
+      {
+        "name": "Веб-сайт компании «Ваш Выбор!»",
+        "description": "В качестве основных страниц сайта выступили: конструктор металлической двери, каталог дверей, форма заказа, контакты, администраторский блок.",
+        "type": "web",
+        "best": true,
+        "img": "vashvybor.jpg",
+        "links": [
+          {
+            "url": "https://polyakovin.github.io/yourChoice",
+            "name": "Архивная копия проекта",
+            "icon": "archive"
+          },
+          {
+            "url": "https://polyakovin.github.io/yourChoice/constructor.html",
+            "name": "Конструктор стальных дверей",
+            "icon": "archive"
+          },
+          {
+            "url": "https://github.com/polyakovin/yourChoice",
+            "name": "Репозиторий проекта",
+            "icon": "github-alt"
+          },
+          {
+            "url": "https://vk.com/photo-94792100_418166890",
+            "name": "Пост о проекте",
+            "icon": "vk"
+          }
+        ]
+      }
+    ]
+  }
+]

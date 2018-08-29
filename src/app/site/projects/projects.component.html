@@ -1,46 +1,47 @@
-<div class="works-view" *ngIf="works.length > 0">
+<div class="works-view" *ngIf="projectsForBanner.length > 0">
   <div class="imac"></div>
   <div class="work">
-    <img [src]="'assets/images/projects/large/' + works[currentWorkIndex].img" [alt]="works[currentWorkIndex].name" (click)="showWorksList()">
+    <img [src]="'assets/images/projects/landings/' + projectsForBanner[currentWorkIndex].img" [alt]="projectsForBanner[currentWorkIndex].name" (click)="showWorksList()">
   </div>
   <div class="logo" (click)="toggleBest()"></div>
-  <!-- <div class="arrow arrow-left" (click)="prevWork()">&larr;</div>
-  <div class="arrow arrow-right" (click)="nextWork()">&rarr;</div> -->
 </div>
 
 <div class="works-list" *ngIf="worksListShown">
   <div class="bg" (click)="closeWorksList()"></div>
-  <div class="work" *ngFor="let work of works" (click)="openModal(work)" data-toggle="modal" data-target=".bd-example-modal-lg">
-    <img [src]="'assets/images/projects/large/' + work.img" [alt]="work.name">
+  <div class="work" *ngFor="let project of projects" (click)="openModal(project)" data-toggle="modal" data-target=".bd-example-modal-lg">
+    <img [src]="'assets/images/projects/landings/' + project.img" [alt]="project.name">
 
     <div class="description">
       <div class="bg"></div>
-      <div class="title">{{ work.name }}</div>
+      <div class="title">
+        {{ project.name }}<br>
+        <span class="year small">{{ project.year }}</span>
+      </div>
     </div>
   </div>
 </div>
 
-<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" *ngIf="selectedXP !== undefined">
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" *ngIf="openedProject !== undefined">
   <div class="modal-dialog modal-lg">
     <div class="modal-content text-center">
       <div class="modal-header">
-        <h5 class="modal-title">{{ selectedXP.name }}</h5>
+        <h5 class="modal-title">{{ openedProject.name }} ({{ openedProject.year }})</h5>
       </div>
       <div class="modal-body">
-        <img *ngIf="selectedXP.video === undefined" class="img-fluid" src="assets/images/projects/large/{{ selectedXP.imgLarge || selectedXP.img }}" alt="{{ selectedXP.name }}">
-        <div *ngIf="selectedXP.video !== undefined" class="embed-responsive embed-responsive-16by9">
+        <img *ngIf="openedProject.video === undefined" class="img-fluid" src="assets/images/projects/main-features/{{ openedProject.img }}" alt="{{ openedProject.name }}">
+        <div *ngIf="openedProject.video !== undefined" class="embed-responsive embed-responsive-16by9">
           <embed class="embed-responsive-item" [src]="videoUrl">
         </div>
       </div>
       <div class="modal-footer">
-        {{ selectedXP.description || '' }}
+        {{ openedProject.description || '' }}
         <ul class="list-unstyled mt-2 mb-0">
-          <li *ngFor="let link of selectedXP.links">
+          <li *ngFor="let link of openedProject.links">
             <a href="{{link.url}}" target="_blank">
               <fa-layers class="fa-fw">
                 <fa-icon [icon]="['fas', link.icon || 'link']"></fa-icon>
               </fa-layers>
-              {{link.name}}
+              {{ link.name }}
             </a>
           </li>
         </ul>
