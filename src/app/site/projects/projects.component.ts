@@ -13,10 +13,12 @@ export class ProjectsComponent implements OnInit {
   openedProject;
   videoUrl: any;
   currentWorkIndex = 0;
-  worksView;
   worksListShown = false;
-  divCV;
   selectedBest = false;
+  divCV;
+  worksView;
+  landingImage;
+  slideDuration = 5000;
 
   constructor(
     private http: HttpService,
@@ -30,12 +32,13 @@ export class ProjectsComponent implements OnInit {
         this.projects = projects;
         this.filterProjects();
       },
-      error => console.log(error)
+      error => console.error(error)
     );
 
     $(document).ready(() => {
-      this.worksView = $('.works-view');
       this.divCV = $('.cv');
+      this.worksView = $('.works-view');
+      this.landingImage = this.worksView.find('.work')[0];
 
       this.setWorksViewScale();
       $(window).resize(() => {this.setWorksViewScale()});
@@ -51,11 +54,15 @@ export class ProjectsComponent implements OnInit {
             break;
         }
       });
+
+      setTimeout(() => {
+        this.scrollTo(this.landingImage, this.slideDuration - 1000);
+      }, 100);
     });
 
     setInterval(() => {
       this.setNextProject();
-    }, 5000);
+    }, this.slideDuration);
   }
 
   setWorksViewScale() {
@@ -64,7 +71,6 @@ export class ProjectsComponent implements OnInit {
     const initialHeight = 666;
     const cvWidth = this.divCV.width();
     const windowWidth = $(window).width();
-    console.log(windowWidth);
     if (windowWidth > 1199) {
       scale = 1;
     } else if (windowWidth > 991) {
@@ -122,6 +128,10 @@ export class ProjectsComponent implements OnInit {
 
   setNextProject() {
     this.currentWorkIndex = this.currentWorkIndex < this.projectsForBanner.length - 1 ? this.currentWorkIndex + 1 : 0;
+    this.appRef.tick();
+    setTimeout(() => {
+      this.scrollTo(this.landingImage, this.slideDuration - 1000);
+    }, 100);
   }
 
   showWorksList() {
@@ -140,5 +150,42 @@ export class ProjectsComponent implements OnInit {
 
   enableScroll() {
     $("body").removeClass("modal-open");
+  }
+
+  intervals = [];
+  scrollTo(element, duration) {
+    element.scrollTop = 0;
+    const landingImage = $(element);
+    const containerHeight = landingImage.height();
+    const contentHeight = landingImage.find('img').height();
+    const endPosition = contentHeight - containerHeight;
+    const startPosition = 0;
+    const change = endPosition - startPosition;
+    let currentTime = 0;
+    const increment = 10;
+
+    let intervals = this.intervals;
+    for (let interval of intervals) {
+      if (interval) clearInterval(interval);
+    }
+    this.intervals = intervals = [];
+    animateScroll();
+
+    function animateScroll() {
+      currentTime += increment;
+      var val = easeInOutQuad(currentTime, startPosition, change, duration);
+      element.scrollTop = val;
+
+      if (currentTime < duration) {
+        intervals.push(setTimeout(animateScroll, increment));
+      }
+    };
+
+    function easeInOutQuad(t, b, c, d) {
+      t /= d/2;
+      if (t < 1) return c/2*t*t + b;
+      t--;
+      return -c/2 * (t*(t-2) - 1) + b;
+    }
   }
 }

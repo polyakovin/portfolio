@@ -172,7 +172,8 @@
         "icon": "vk"
       }
     ],
-    "best": true
+    "best": true,
+    "forBanner": true
   },
   {
     "year": 2016,
@@ -191,7 +192,8 @@
         "icon": "github"
       }
     ],
-    "best": true
+    "best": true,
+    "forBanner": true
   },
   {
     "year": 2015,

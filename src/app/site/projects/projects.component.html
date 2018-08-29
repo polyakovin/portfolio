@@ -1,8 +1,8 @@
 <div class="works-view" *ngIf="projectsForBanner.length > 0">
-  <div class="imac"></div>
   <div class="work">
-    <img [src]="'assets/images/projects/landings/' + projectsForBanner[currentWorkIndex].img" [alt]="projectsForBanner[currentWorkIndex].name" (click)="showWorksList()">
+    <img [src]="'assets/images/projects/landings/' + projectsForBanner[currentWorkIndex].img" [alt]="projectsForBanner[currentWorkIndex].name">
   </div>
+  <div class="imac" (click)="showWorksList()"></div>
   <div class="logo" (click)="toggleBest()"></div>
 </div>
 

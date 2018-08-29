@@ -13,6 +13,7 @@
     width: 800px;
     height: 666px;
     background: url("../../../assets/images/imac.png") no-repeat;
+    cursor: pointer;
   }
 
   .work {
@@ -22,31 +23,13 @@
     width: 736px;
     height: 417px;
     overflow-y: scroll;
+    &::-webkit-scrollbar {
+      display: none;
+    }
 
     img {
       width: 100%;
       min-height: 100%;
-      cursor: pointer;
-    }
-  }
-
-  .arrow {
-    position: absolute;
-    top: 480px;
-    font-weight: 900;
-    font-size: 3rem;
-    cursor: pointer;
-
-    &.arrow-left {
-      left: 28px;
-    }
-
-    &.arrow-right {
-      right: 28px;
-    }
-
-    &:hover {
-      opacity: 0.5;
     }
   }
 
