@@ -84,7 +84,7 @@
       },
       {
         "url": "http://neurodatalab.com",
-        "name": "Сайт клиента, сделавшего заказ",
+        "name": "Сайт клиента",
         "icon": "globe"
       },
       {
@@ -143,8 +143,8 @@
     "links": [
       {
         "url": "https://polyakovin.github.io/bastionRequest",
-        "name": "Демонстрация работы проекта",
-        "icon": "cog"
+        "name": "Архивная копия проекта",
+        "icon": "archive"
       },
       {
         "url": "https://github.com/polyakovin/bastionRequest",
@@ -172,7 +172,8 @@
         "icon": "vk"
       }
     ],
-    "best": true
+    "best": true,
+    "forBanner": true
   },
   {
     "year": 2016,
@@ -182,7 +183,7 @@
     "links": [
       {
         "url": "https://polyakovin.github.io/yourChoice2",
-        "name": "Демонстрационная копия проекта",
+        "name": "Архивная копия проекта",
         "icon": "archive"
       },
       {
@@ -191,7 +192,8 @@
         "icon": "github"
       }
     ],
-    "best": true
+    "best": true,
+    "forBanner": true
   },
   {
     "year": 2015,
