@@ -75,7 +75,7 @@ export class ProjectsComponent implements OnInit {
     if (windowWidth > 1199) {
       scale = 1;
     } else if (windowWidth > 991) {
-      scale = 0.87;
+      scale = 0.8;
     } else {
       scale = cvWidth/initialWidth;
     }
