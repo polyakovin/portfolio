@@ -15,6 +15,7 @@ export class ProjectsComponent implements OnInit {
   currentWorkIndex = 0;
   works = [];
   worksView;
+  worksListShown = false;
   divCV;
 
   filter = {
@@ -71,9 +72,12 @@ export class ProjectsComponent implements OnInit {
       $(window).resize(() => {this.setWorksViewScale()});
 
       $(document).keydown((event) => {
+        console.log(event.keyCode);
+
         const key = {
           left: 37,
-          right: 39
+          right: 39,
+          escape: 27
         };
 
         switch (event.keyCode) {
@@ -82,6 +86,9 @@ export class ProjectsComponent implements OnInit {
             break;
           case key.right:
             this.nextWork();
+            break;
+          case key.escape:
+            this.closeWorksList();
             break;
         }
       });
@@ -178,5 +185,23 @@ export class ProjectsComponent implements OnInit {
     } else {
       this.setRandomWork();
     }
+  }
+
+  showWorksList() {
+    this.worksListShown = true;
+    this.disableScroll();
+  }
+
+  closeWorksList() {
+    this.worksListShown = false;
+    this.enableScroll();
+  }
+
+  disableScroll() {
+    $("body").addClass("modal-open");
+  }
+
+  enableScroll() {
+    $("body").removeClass("modal-open");
   }
 }

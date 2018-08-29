@@ -1,11 +1,23 @@
 <div class="works-view" *ngIf="works.length > 0">
   <div class="imac"></div>
   <div class="work">
-    <img [src]="'assets/images/projects/large/' + works[currentWorkIndex].img" [alt]="works[currentWorkIndex].name" (click)="openModal(works[currentWorkIndex])" data-toggle="modal" data-target=".bd-example-modal-lg">
+    <img [src]="'assets/images/projects/large/' + works[currentWorkIndex].img" [alt]="works[currentWorkIndex].name" (click)="showWorksList()">
   </div>
   <div class="logo" (click)="toggleBest()"></div>
-  <div class="arrow arrow-left" (click)="prevWork()">&larr;</div>
-  <div class="arrow arrow-right" (click)="nextWork()">&rarr;</div>
+  <!-- <div class="arrow arrow-left" (click)="prevWork()">&larr;</div>
+  <div class="arrow arrow-right" (click)="nextWork()">&rarr;</div> -->
+</div>
+
+<div class="works-list" *ngIf="worksListShown">
+  <div class="bg" (click)="closeWorksList()"></div>
+  <div class="work" *ngFor="let work of works" (click)="openModal(work)" data-toggle="modal" data-target=".bd-example-modal-lg">
+    <img [src]="'assets/images/projects/large/' + work.img" [alt]="work.name">
+
+    <div class="description">
+      <div class="bg"></div>
+      <div class="title">{{ work.name }}</div>
+    </div>
+  </div>
 </div>
 
 <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" *ngIf="selectedXP !== undefined">
