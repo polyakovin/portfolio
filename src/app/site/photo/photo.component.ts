@@ -1,8 +1,5 @@
 import { CommonService } from '../../common.service';
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
-
-declare var $: any;
 
 @Component({
   selector: 'na-photo',
@@ -14,7 +11,6 @@ export class PhotoComponent implements OnInit {
   usp = {"ru": "Создаю веб-платформы любой сложности.", "en": "Creates web-platforms of any complexity."};
 
   constructor(
-    public router: Router,
     public common: CommonService
   ) {}
 

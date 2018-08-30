@@ -31,7 +31,7 @@ a {
     text-decoration: none;
   }
   &:hover {
-    color: darken(#ffe000, 7);
+    color: $color-link;
   }
 }
 

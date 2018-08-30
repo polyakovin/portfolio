@@ -14,12 +14,6 @@ export class HttpService {
       .map((response: Response) => response.json());
   }
 
-  // получение данных
-  getMarkdown(url) {
-    return this.http.get(url)
-      .map((response: Response) => markdown.toHTML(response.text()));
-  }
-
   // отправка данных
   post(data: any, url: string) {
     const body = JSON.stringify(data);

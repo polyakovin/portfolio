@@ -26,7 +26,7 @@ footer {
     color: darken(white, 10);
 
     &:hover {
-      color: darken(#ffe000, 7);
+      color: $color-link;
     }
   }
 

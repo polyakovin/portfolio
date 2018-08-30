@@ -17,7 +17,7 @@ export class HobbiesComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    this.http.get("assets/data/hobbies.json").subscribe(
+    if (this.hobbies.length === 0) this.http.get("assets/data/hobbies.json").subscribe(
       data => this.hobbies = data,
       error => console.log(error)
     );

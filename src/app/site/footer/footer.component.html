@@ -1,11 +1,7 @@
 <footer id="contacts">
-  <div class="container">
-    <div class="row text-center">
-      <div class="col col-xs-12">
-        <a *ngFor="let link of links" href="{{ link.href }}" class="links" target="{{ link.isSelf ? '_self' : '_blank' }}">
-          <fa-icon [icon]="['fas', link.icon]"></fa-icon>
-        </a>
-      </div>
-    </div>
+  <div class="container text-center">
+    <a *ngFor="let link of links" href="{{ link.href }}" class="links" target="{{ link.isSelf ? '_self' : '_blank' }}">
+      <fa-icon [icon]="['fas', link.icon]"></fa-icon>
+    </a>
   </div>
 </footer>

@@ -1,12 +1,11 @@
-import { IdeasComponent } from './ideas/ideas.component';
-import { SiteComponent } from './site/site.component';
 import { Routes, RouterModule } from "@angular/router";
+import { SiteComponent } from './site/site.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 const APP_ROUTES: Routes = [
   { path: '', component: SiteComponent },
-  { path: 'ideas', component: IdeasComponent },
+  { path: 'portfolio', component: PortfolioComponent },
   { path: '**', redirectTo: '/', pathMatch: 'full' }
 ];
 
-// передаём пути на экспорт
 export const routing = RouterModule.forRoot(APP_ROUTES);

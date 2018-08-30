@@ -8,19 +8,11 @@ import { AppComponent } from './app.component';
 import { HttpService } from './http.service';
 import { CommonService } from './common.service';
 
-// https://github.com/FortAwesome/angular-fontawesome
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-// import { far } from '@fortawesome/free-regular-svg-icons';
-// import { fal } from '@fortawesome/free-light-svg-icons';
-// Объединяем все нужные иконки в один объект
-let fa = {...fas, ...fab};
-for (const icon in fa) {
-  fa[icon].prefix = 'fas';
-}
-library.add(fa);
+mergeIcons();
 
 import { SiteComponent } from './site/site.component';
 import { SkillsComponent } from './site/skills/skills.component';
@@ -28,8 +20,8 @@ import { ProjectsComponent } from './site/projects/projects.component';
 import { HobbiesComponent } from './site/hobbies/hobbies.component';
 import { FooterComponent } from './site/footer/footer.component';
 import { PhotoComponent } from './site/photo/photo.component';
-
-import { IdeasComponent } from './ideas/ideas.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { FlagComponent } from './site/flag/flag.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +32,8 @@ import { IdeasComponent } from './ideas/ideas.component';
     HobbiesComponent,
     FooterComponent,
     PhotoComponent,
-    IdeasComponent
+    PortfolioComponent,
+    FlagComponent
   ],
   imports: [
     BrowserModule,
@@ -53,3 +46,11 @@ import { IdeasComponent } from './ideas/ideas.component';
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }
+
+function mergeIcons() {
+  let fa = {...fas, ...fab};
+  for (const icon in fa) {
+    fa[icon].prefix = 'fas';
+  }
+  library.add(fa);
+}

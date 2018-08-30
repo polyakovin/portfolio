@@ -1,0 +1,11 @@
+img.flag {
+  width: 50px;
+  cursor: pointer;
+  border-radius: 3px;
+  box-shadow: 0 0 10px #ccc;
+  position: absolute;
+  transform: rotate(3deg);
+  transform-origin: 0 0;
+  top: 5px;
+  right: 0px;
+}

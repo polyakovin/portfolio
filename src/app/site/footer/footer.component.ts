@@ -9,13 +9,14 @@ import { HttpService } from '../../http.service';
 export class FooterComponent implements OnInit {
   links = [];
 
-  constructor(private http: HttpService) { }
+  constructor(
+    private http: HttpService
+  ) { }
 
   ngOnInit() {
-    this.http.get("assets/data/links.json").subscribe(
+    if (this.links.length === 0) this.http.get("assets/data/links.json").subscribe(
       data => this.links = data,
       error => console.log(error)
     );
   }
-
 }
