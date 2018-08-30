@@ -69,7 +69,7 @@
 // }
 
 img.flag {
-  width: 100px;
+  width: 50px;
   cursor: pointer;
   border-radius: 3px;
   box-shadow: 0 0 10px #ccc;
@@ -77,11 +77,5 @@ img.flag {
   transform: rotate(3deg);
   transform-origin: 0 0;
   top: 5px;
-  right: 10px;
-
-  &.ru {
-    height: 54px;
-    width: 80px;
-    transform: scaleX(1.25) rotate(3deg);
-  }
+  right: 0px;
 }
