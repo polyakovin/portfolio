@@ -23,14 +23,11 @@ for (const icon in fa) {
 library.add(fa);
 
 import { SiteComponent } from './site/site.component';
-import { HeaderComponent } from './site/header/header.component';
 import { SkillsComponent } from './site/skills/skills.component';
 import { ProjectsComponent } from './site/projects/projects.component';
 import { HobbiesComponent } from './site/hobbies/hobbies.component';
-import { EducationComponent } from './site/education/education.component';
 import { FooterComponent } from './site/footer/footer.component';
 import { PhotoComponent } from './site/photo/photo.component';
-import { SelfPresentationComponent } from './site/self-presentation/self-presentation.component';
 
 import { IdeasComponent } from './ideas/ideas.component';
 
@@ -38,14 +35,11 @@ import { IdeasComponent } from './ideas/ideas.component';
   declarations: [
     AppComponent,
     SiteComponent,
-    HeaderComponent,
     SkillsComponent,
     ProjectsComponent,
     HobbiesComponent,
-    EducationComponent,
     FooterComponent,
     PhotoComponent,
-    SelfPresentationComponent,
     IdeasComponent
   ],
   imports: [
