@@ -1,5 +1,6 @@
 import { DomSanitizer } from '@angular/platform-browser';
 import { HttpService } from '../../http.service';
+import { CommonService } from '../../common.service';
 import { Component, OnInit, ApplicationRef } from '@angular/core';
 
 @Component({
@@ -8,6 +9,8 @@ import { Component, OnInit, ApplicationRef } from '@angular/core';
   styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent implements OnInit {
+  buttonText = {"ru": "Открыть список проектов", "en": "Open projects list"};
+  title = {"ru": "Проекты", "en": "Projects"};
   projects = [];
   projectsForBanner = [];
   openedProject;
@@ -22,6 +25,7 @@ export class ProjectsComponent implements OnInit {
 
   constructor(
     private http: HttpService,
+    public common: CommonService,
     private sanitizer: DomSanitizer,
     private appRef: ApplicationRef
   ) {}

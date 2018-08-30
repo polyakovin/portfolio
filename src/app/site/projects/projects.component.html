@@ -1,6 +1,6 @@
 <div class="works-view" *ngIf="projectsForBanner.length > 0">
   <div class="work">
-    <img [src]="'assets/images/projects/landings/' + projectsForBanner[currentWorkIndex].img" [alt]="projectsForBanner[currentWorkIndex].name">
+    <img [src]="'assets/images/projects/landings/' + projectsForBanner[currentWorkIndex].img" [alt]="projectsForBanner[currentWorkIndex].name[common.lang]">
   </div>
   <div class="imac"></div>
   <div class="button" (click)="showWorksList()">
@@ -8,7 +8,7 @@
     <div class="message">
       <div class="body">
         <div class="header"></div>
-        <button>Открыть список проектов</button>
+        <button>{{ buttonText[common.lang] }}</button>
       </div>
     </div>
   </div>
@@ -16,16 +16,16 @@
 </div>
 
 <div class="works-list" *ngIf="worksListShown">
-  <h1>Проекты</h1>
+  <h1>{{ title[common.lang] }}</h1>
   <fa-icon class="close" [icon]="['fas', 'times']" (click)="closeWorksList()"></fa-icon>
   <div class="bg" (click)="closeWorksList()"></div>
   <div class="work" *ngFor="let project of projects" (click)="openModal(project)" data-toggle="modal" data-target=".bd-example-modal-lg">
-    <img [src]="'assets/images/projects/landings/' + project.img" [alt]="project.name">
+    <img [src]="'assets/images/projects/landings/' + project.img" [alt]="project.name[common.lang]">
 
     <div class="description">
       <div class="bg"></div>
       <div class="title">
-        {{ project.name }}<br>
+        {{ project.name[common.lang] }}<br>
         <span class="year small">{{ project.year }}</span>
       </div>
     </div>
@@ -36,23 +36,23 @@
   <div class="modal-dialog modal-lg">
     <div class="modal-content text-center">
       <div class="modal-header">
-        <h5 class="modal-title">{{ openedProject.name }} ({{ openedProject.year }})</h5>
+        <h5 class="modal-title">{{ openedProject.name[common.lang] }} ({{ openedProject.year }})</h5>
       </div>
       <div class="modal-body">
-        <img *ngIf="openedProject.video === undefined" class="img-fluid" src="assets/images/projects/main-features/{{ openedProject.img }}" alt="{{ openedProject.name }}">
+        <img *ngIf="openedProject.video === undefined" class="img-fluid" src="assets/images/projects/main-features/{{ openedProject.img }}" alt="{{ openedProject.name[common.lang] }}">
         <div *ngIf="openedProject.video !== undefined" class="embed-responsive embed-responsive-16by9">
           <embed class="embed-responsive-item" [src]="videoUrl">
         </div>
       </div>
       <div class="modal-footer">
-        {{ openedProject.description || '' }}
+        {{ openedProject.description[common.lang] || '' }}
         <ul class="list-unstyled mt-2 mb-0">
           <li *ngFor="let link of openedProject.links">
             <a href="{{link.url}}" target="_blank">
               <fa-layers class="fa-fw">
                 <fa-icon [icon]="['fas', link.icon || 'link']"></fa-icon>
               </fa-layers>
-              {{ link.name }}
+              {{ link.name[common.lang] }}
             </a>
           </li>
         </ul>

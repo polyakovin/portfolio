@@ -2,5 +2,7 @@ import { Injectable, EventEmitter } from '@angular/core';
 
 @Injectable()
 export class CommonService {
-  constructor() { }
+  lang = "ru"; // ru, en
+
+  constructor() {}
 }

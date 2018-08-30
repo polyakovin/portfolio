@@ -1,12 +1,12 @@
 [
   {
     "year": 2018,
-    "name": "EdLabs",
+    "name": {"ru": "EdLabs", "en": "EdLabs"},
     "img": "edlabs.jpg",
     "links": [
       {
         "url": "http://edlabs.ru/",
-        "name": "Сайт проекта",
+        "name": {"ru": "Сайт проекта", "en": "English version"},
         "icon": "globe"
       }
     ],
@@ -15,23 +15,23 @@
   },
   {
     "year": 2018,
-    "name": "Моё портфолио",
-    "description": "Реализована идея создания «продающего» web-CV в формате посадочной страницы. Ключевые навыки представлены инфографикой.",
+    "name": {"ru": "Моё портфолио", "en": "English version"},
+    "description": {"ru": "Реализована идея создания «продающего» web-CV в формате посадочной страницы. Ключевые навыки представлены инфографикой.", "en": "English version"},
     "img": "portfolio.jpg",
     "links": [
       {
         "url": "http://polyakovin.ru",
-        "name": "Ссылка на текущий сайт",
+        "name": {"ru": "Ссылка на текущий сайт", "en": "English version"},
         "icon": "globe"
       },
       {
         "url": "https://github.com/polyakovin/portfolio",
-        "name": "Рабочий репозиторий проекта",
+        "name": {"ru": "Рабочий репозиторий проекта", "en": "English version"},
         "icon": "github-alt"
       },
       {
         "url": "https://vk.com/ip.painter?w=wall-94792100_14",
-        "name": "Пост о проекте и других CV",
+        "name": {"ru": "Пост о проекте и других CV", "en": "English version"},
         "icon": "vk"
       }
     ],
@@ -40,17 +40,17 @@
   },
   {
     "year": 2018,
-    "name": "Сайт фотографа Алёны Дёминой",
+    "name": {"ru": "Сайт фотографа Алёны Дёминой", "en": "English version"},
     "img": "demina.jpg",
     "links": [
       {
         "url": "https://polyakovin.github.io/demina",
-        "name": "Сайт проекта",
+        "name": {"ru": "Сайт проекта", "en": "English version"},
         "icon": "globe"
       },
       {
         "url": "https://github.com/polyakovin/demina",
-        "name": "Рабочий репозиторий проекта",
+        "name": {"ru": "Рабочий репозиторий проекта", "en": "English version"},
         "icon": "github-alt"
       }
     ],
@@ -59,13 +59,13 @@
   },
   {
     "year": 2018,
-    "name": "Emotion Miner. Mobile",
-    "description": "Техническая демонстрация мобильного приложения для платформы Emotion Miner.",
+    "name": {"ru": "Emotion Miner. Mobile", "en": "English version"},
+    "description": {"ru": "Техническая демонстрация мобильного приложения для платформы Emotion Miner.", "en": "English version"},
     "img": "emotionminer_m.jpg",
     "links": [
       {
         "url": "https://emotion-miner-ionic-test.herokuapp.com/",
-        "name": "Тестовый сайт проекта",
+        "name": {"ru": "Тестовый сайт проекта", "en": "English version"},
         "icon": "cog"
       }
     ],
@@ -73,23 +73,23 @@
   },
   {
     "year": 2017,
-    "name": "Emotion Miner",
-    "description": "Сервис для сбора датасетов эмоций людей по видео.",
+    "name": {"ru": "Emotion Miner", "en": "Emotion Miner"},
+    "description": {"ru": "Сервис для сбора датасетов эмоций людей по видео.", "en": "English version"},
     "img": "emotionminer.jpg",
     "links": [
       {
         "url": "https://emotionminer.com",
-        "name": "Сайт проекта",
+        "name": {"ru": "Сайт проекта", "en": "English version"},
         "icon": "globe"
       },
       {
         "url": "http://neurodatalab.com",
-        "name": "Сайт клиента",
+        "name": {"ru": "Сайт клиента", "en": "English version"},
         "icon": "globe"
       },
       {
         "url": "https://youtu.be/dTLLGIVRFj8",
-        "name": "Обзор на платформу от филиппинского видеоблоггера",
+        "name": {"ru": "Обзор на платформу от филиппинского видеоблоггера", "en": "English version"},
         "icon": "youtube"
       }
     ],
@@ -98,18 +98,18 @@
   },
   {
     "year": 2017,
-    "name": "OYWO",
-    "description": "Оптимальная и мотивационная система контроля своего времени и занятости.",
+    "name": {"ru": "OYWO", "en": "OYWO"},
+    "description": {"ru": "Оптимальная и мотивационная система контроля своего времени и занятости.", "en": "English version"},
     "img": "oywo.jpg",
     "links": [
       {
         "url": "http://oywo.ru",
-        "name": "Сайт проекта",
+        "name": {"ru": "Сайт проекта", "en": "English version"},
         "icon": "globe"
       },
       {
         "url": "https://vk.com/useoywo",
-        "name": "Группа поддержки проекта ВКонтакте",
+        "name": {"ru": "Группа поддержки проекта ВКонтакте", "en": "English version"},
         "icon": "vk"
       }
     ],
@@ -118,18 +118,18 @@
   },
   {
     "year": 2017,
-    "name": "Мой блог",
-    "description": "Так давно хотел завести себе платформу, в которой смогу записывать свои впечатления и открытия и чтобы ничего не терять. И завёл.",
+    "name": {"ru": "Мой блог", "en": "English version"},
+    "description": {"ru": "Так давно хотел завести себе платформу, в которой смогу записывать свои впечатления и открытия и чтобы ничего не терять. И завёл.", "en": "English version"},
     "img": "blog.jpg",
     "links": [
       {
         "url": "https://polyakovin.github.io",
-        "name": "Сайт проекта",
+        "name": {"ru": "Сайт проекта", "en": "English version"},
         "icon": "globe"
       },
       {
         "url": "https://github.com/polyakovin/polyakovin.github.io",
-        "name": "Репозиторий проекта",
+        "name": {"ru": "Репозиторий проекта", "en": "English version"},
         "icon": "github-alt"
       }
     ],
@@ -137,18 +137,18 @@
   },
   {
     "year": 2017,
-    "name": "Конструктор документов для заказа",
-    "description": "Упрощено делопроизводство в компании по изготовлению стальных дверей «Бастион».",
+    "name": {"ru": "Конструктор документов для заказа", "en": "English version"},
+    "description": {"ru": "Упрощено делопроизводство в компании по изготовлению стальных дверей «Бастион».", "en": "English version"},
     "img": "bastion.jpg",
     "links": [
       {
         "url": "https://polyakovin.github.io/bastionRequest",
-        "name": "Архивная копия проекта",
+        "name": {"ru": "Архивная копия проекта", "en": "English version"},
         "icon": "archive"
       },
       {
         "url": "https://github.com/polyakovin/bastionRequest",
-        "name": "Репозиторий проекта",
+        "name": {"ru": "Репозиторий проекта", "en": "English version"},
         "icon": "github-alt"
       }
     ],
@@ -156,19 +156,19 @@
   },
   {
     "year": 2016,
-    "name": "Интерактивные уроки для детей",
-    "description": "Принял участие в образовательном проекте UCHi.RU, создав несколько уроков, полезных функций и документацию по API компании.",
+    "name": {"ru": "Интерактивные уроки для детей", "en": "English version"},
+    "description": {"ru": "Принял участие в образовательном проекте UCHi.RU, создав несколько уроков, полезных функций и документацию по API компании.", "en": "English version"},
     "img": "uchi.jpg",
     "video": "https://vk.com/video_ext.php?oid=-94792100&id=456239017&hash=3371d6e8fcab148c",
     "links": [
       {
         "url": "https://uchi.ru",
-        "name": "Образовательный проект UCHi.RU",
+        "name": {"ru": "Образовательный проект UCHi.RU", "en": "English version"},
         "icon": "globe"
       },
       {
         "url": "https://vk.com/ip.painter?w=wall-94792100_15",
-        "name": "Пост о реализации функции Drug'n'Drop",
+        "name": {"ru": "Пост о реализации функции Drug'n'Drop", "en": "English version"},
         "icon": "vk"
       }
     ],
@@ -177,18 +177,18 @@
   },
   {
     "year": 2016,
-    "name": "Веб-сайт компании «Ваш Выбор!»",
-    "description": "Сайт сменил формат презентации фирмы в соответствии с новым фирменным стилем и способствует увеличению продаж.",
+    "name": {"ru": "Веб-сайт компании «Ваш Выбор!»", "en": "English version"},
+    "description": {"ru": "Сайт сменил формат презентации фирмы в соответствии с новым фирменным стилем и способствует увеличению продаж.", "en": "English version"},
     "img": "vashvyboNewSite.jpg",
     "links": [
       {
         "url": "https://polyakovin.github.io/yourChoice2",
-        "name": "Архивная копия проекта",
+        "name": {"ru": "Архивная копия проекта", "en": "English version"},
         "icon": "archive"
       },
       {
         "url": "https://github.com/polyakovin/yourChoice2",
-        "name": "Репозиторий проекта",
+        "name": {"ru": "Репозиторий проекта", "en": "English version"},
         "icon": "github"
       }
     ],
@@ -197,18 +197,18 @@
   },
   {
     "year": 2015,
-    "name": "Мой первый личный сайт",
-    "description": "Первая версия моего сайта. Как же мне тогда хотелось выпендриться!",
+    "name": {"ru": "Мой первый личный сайт", "en": "English version"},
+    "description": {"ru": "Первая версия моего сайта. Как же мне тогда хотелось выпендриться!", "en": "English version"},
     "img": "portfolio_old.jpg",
     "links": [
       {
         "url": "https://polyakovin.github.io/portfolio_old/",
-        "name": "Архивная копия сайта",
+        "name": {"ru": "Архивная копия сайта", "en": "English version"},
         "icon": "archive"
       },
       {
         "url": "https://github.com/polyakovin/portfolio_old",
-        "name": "Репозиторий проекта",
+        "name": {"ru": "Репозиторий проекта", "en": "English version"},
         "icon": "github-alt"
       }
     ],
@@ -216,46 +216,46 @@
   },
   {
     "year": 2015,
-    "name": "Веб-сайт экзамена по ТФКП",
-    "description": "Задача состояла в автоматизации процесса отбора достойных из желающих попасть на досрочную сдачу экзамена.",
+    "name": {"ru": "Веб-сайт экзамена по ТФКП", "en": "English version"},
+    "description": {"ru": "Задача состояла в автоматизации процесса отбора достойных из желающих попасть на досрочную сдачу экзамена.", "en": "English version"},
     "img": "tfcv.jpg",
     "links": [
       {
         "url": "https://polyakovin.github.io/tfkp",
-        "name": "Архивная копия проекта",
+        "name": {"ru": "Архивная копия проекта", "en": "English version"},
         "icon": "archive"
       },
       {
         "url": "https://github.com/polyakovin/tfkp",
-        "name": "Репозиторий проекта",
+        "name": {"ru": "Репозиторий проекта", "en": "English version"},
         "icon": "github-alt"
       },
       {
         "url": "https://vk.com/photo-94792100_418179029",
-        "name": "Пост о проекте",
+        "name": {"ru": "Пост о проекте", "en": "English version"},
         "icon": "vk"
       }
     ]
   },
   {
     "year": 2013,
-    "name": "Веб-сайт проекта «SMIDA»",
-    "description": "Сервис для научного проекта Университетского Центра Свальбарда. Реализованы: система пользователей, файлообменник, библиотека, мультиязычность.",
+    "name": {"ru": "Веб-сайт проекта «SMIDA»", "en": "English version"},
+    "description": {"ru": "Сервис для научного проекта Университетского Центра Свальбарда. Реализованы: система пользователей, файлообменник, библиотека, мультиязычность.", "en": "English version"},
     "img": "smida.jpg",
     "links": [
       {
         "url": "http://smida.mipt.ru",
-        "name": "Электронная комната участников проекта",
+        "name": {"ru": "Электронная комната участников проекта", "en": "English version"},
         "icon": "globe"
       },
       {
         "url": "https://github.com/polyakovin/smida",
-        "name": "Репозиторий проекта",
+        "name": {"ru": "Репозиторий проекта", "en": "English version"},
         "icon": "github-alt"
       },
       {
         "url": "https://vk.com/album-94792100_232721172",
-        "name": "Пост о проекте",
+        "name": {"ru": "Пост о проекте", "en": "English version"},
         "icon": "vk"
       }
     ],
@@ -264,51 +264,51 @@
   },
   {
     "year": 2011,
-    "name": "Веб-сайт компании «Классика тренинга»",
-    "description": "Сайт-визитка с блоком администратора, который позволял добавлять новости и даты мероприятий фирмы.",
+    "name": {"ru": "Веб-сайт компании «Классика тренинга»", "en": "English version"},
+    "description": {"ru": "Сайт-визитка с блоком администратора, который позволял добавлять новости и даты мероприятий фирмы.", "en": "English version"},
     "img": "trainingСlassics.jpg",
     "links": [
       {
         "url": "https://polyakovin.github.io/trainingClassics",
-        "name": "Архивная копия проекта",
+        "name": {"ru": "Архивная копия проекта", "en": "English version"},
         "icon": "archive"
       },
       {
         "url": "https://github.com/polyakovin/trainingClassics",
-        "name": "Репозиторий проекта",
+        "name": {"ru": "Репозиторий проекта", "en": "English version"},
         "icon": "github"
       },
       {
         "url": "https://vk.com/photo-94792100_418180760",
-        "name": "Пост о проекте",
+        "name": {"ru": "Пост о проекте", "en": "English version"},
         "icon": "vk"
       }
     ]
   },
   {
     "year": 2010,
-    "name": "Веб-сайт компании «Ваш Выбор!»",
-    "description": "В качестве основных страниц сайта выступили: конструктор металлической двери, каталог дверей, форма заказа, контакты, администраторский блок.",
+    "name": {"ru": "Веб-сайт компании «Ваш Выбор!»", "en": "English version"},
+    "description": {"ru": "В качестве основных страниц сайта выступили: конструктор металлической двери, каталог дверей, форма заказа, контакты, администраторский блок.", "en": "English version"},
     "img": "vashvybor.jpg",
     "links": [
       {
         "url": "https://polyakovin.github.io/yourChoice",
-        "name": "Архивная копия проекта",
+        "name": {"ru": "Архивная копия проекта", "en": "English version"},
         "icon": "archive"
       },
       {
         "url": "https://polyakovin.github.io/yourChoice/constructor.html",
-        "name": "Конструктор стальных дверей",
+        "name": {"ru": "Конструктор стальных дверей", "en": "English version"},
         "icon": "archive"
       },
       {
         "url": "https://github.com/polyakovin/yourChoice",
-        "name": "Репозиторий проекта",
+        "name": {"ru": "Репозиторий проекта", "en": "English version"},
         "icon": "github-alt"
       },
       {
         "url": "https://vk.com/photo-94792100_418166890",
-        "name": "Пост о проекте",
+        "name": {"ru": "Пост о проекте", "en": "English version"},
         "icon": "vk"
       }
     ]

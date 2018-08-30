@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CommonService } from '../../common.service';
 
 declare let $: any;
 declare let d3: any;
@@ -10,8 +11,11 @@ declare let d3: any;
 })
 export class SkillsComponent implements OnInit {
   label: any;
+  title = {"ru": "Любимые инструменты", "en": "Favourite tools"};
 
-  constructor() { }
+  constructor(
+    public common: CommonService
+  ) {}
 
   ngOnInit() {
     this.label = $("#label");

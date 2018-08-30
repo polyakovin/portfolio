@@ -1,5 +1,6 @@
-import { HttpService } from '../../http.service';
 import { Component, OnInit } from '@angular/core';
+import { HttpService } from '../../http.service';
+import { CommonService } from '../../common.service';
 
 @Component({
   selector: 'na-hobbies',
@@ -8,8 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HobbiesComponent implements OnInit {
   hobbies = [];
+  title = {"ru": "Увлечения", "en": "Hobbies"};
 
-  constructor(private http: HttpService) {}
+  constructor(
+    private http: HttpService,
+    public common: CommonService
+  ) {}
 
   ngOnInit() {
     this.http.get("assets/data/hobbies.json").subscribe(

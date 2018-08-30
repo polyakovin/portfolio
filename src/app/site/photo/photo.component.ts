@@ -10,8 +10,13 @@ declare var $: any;
   styleUrls: ['./photo.component.scss']
 })
 export class PhotoComponent implements OnInit {
+  name = {"ru": "Игорь Поляков", "en": "Igor Polyakov"};
+  usp = {"ru": "Создаю веб-платформы любой сложности.", "en": "Creates web-platforms of any complexity."};
 
-  constructor(public router: Router) {}
+  constructor(
+    public router: Router,
+    public common: CommonService
+  ) {}
 
   ngOnInit() {
   }

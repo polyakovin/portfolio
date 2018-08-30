@@ -1,18 +1,6 @@
-<!-- <na-header></na-header> -->
 <div class="container cv">
+  <img [src]="'assets/images/flags/' + common.lang + '.svg'" [class]="'flag ' + common.lang" [alt]="common.lang" (click)="toggleLanguage()">
   <na-photo></na-photo>
-  <!-- <div class="contacts" (mouseover)="isContactsCardShown = true" (mouseleave)="isContactsCardShown = false">
-    <div class="address-card" [ngClass]="{shown: !isContactsCardShown}">
-      <fa-icon [icon]="['fas', 'address-card']"></fa-icon>
-    </div>
-    <div class="links" [ngClass]="{shown: isContactsCardShown}">
-      <div class="links-list" [ngClass]="{shown: isContactsCardShown}">
-        <a *ngFor="let link of links" href="{{ link.href }}" class="links" target="{{ link.isSelf ? '_self' : '_blank' }}">
-          <fa-icon [icon]="['fas', link.icon]"></fa-icon>
-        </a>
-      </div>
-    </div>
-  </div> -->
   <na-projects></na-projects>
   <na-skills class="hidden-xs"></na-skills>
   <na-hobbies></na-hobbies>
