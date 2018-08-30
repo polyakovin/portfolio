@@ -1,8 +1,8 @@
 [
   {
     "href": "mailto:igor_polyakov@phystech.edu",
-    "isSelf": true,
-    "icon": "envelope"
+    "icon": "envelope",
+    "isSelf": true
   },
   {
     "href": "https://t.me/polyakovin",

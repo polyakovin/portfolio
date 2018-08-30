@@ -21,6 +21,8 @@ export class SiteComponent implements OnInit {
       data => this.links = data,
       error => console.log(error)
     );
+
+    // console.log();
   }
 
   toggleLanguage() {
