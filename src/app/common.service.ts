@@ -4,13 +4,57 @@ import { HttpService } from './http.service';
 @Injectable()
 export class CommonService {
   lang = "en"; // ru, en
+  projects = [];
+  projectsForBanner = [];
+  selectedBest = false;
 
   constructor(
     private http: HttpService
   ) {
+    this.getCountryCode();
+    this.getProjects();
+  }
+
+  getCountryCode() {
     this.http.get("http://ip-api.com/json").subscribe(
       res => this.lang = res.countryCode.toLowerCase() === 'ru' ? 'ru' : 'en',
       error => console.error(error)
     );
+  }
+
+  getProjects() {
+    this.http.get("assets/data/projects.json").subscribe(
+      projects => {
+        this.projects = projects;
+        console.log(projects);
+
+        this.filterProjects();
+      },
+      error => console.error(error)
+    );
+  }
+
+  filterProjects() {
+    const projectsEditable = this.copyObject(this.projects);
+    this.projects = [];
+    this.projectsForBanner = [];
+    for (let project of projectsEditable) {
+      if (!project.ohNo && (!this.selectedBest || project.best)) {
+        this.projects.push(project);
+
+        if (project.forBanner) {
+          this.projectsForBanner.push(project);
+        }
+      }
+    }
+  }
+
+  copyObject(object) { // https://scotch.io/bar-talk/copying-objects-in-javascript
+    return JSON.parse(JSON.stringify(object));
+  }
+
+  toggleBest() {
+    this.selectedBest = !this.selectedBest;
+    this.filterProjects();
   }
 }

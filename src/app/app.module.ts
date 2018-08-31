@@ -16,24 +16,24 @@ mergeIcons();
 
 import { SiteComponent } from './site/site.component';
 import { SkillsComponent } from './site/skills/skills.component';
-import { ProjectsComponent } from './site/projects/projects.component';
 import { HobbiesComponent } from './site/hobbies/hobbies.component';
 import { FooterComponent } from './site/footer/footer.component';
 import { PhotoComponent } from './site/photo/photo.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { FlagComponent } from './site/flag/flag.component';
+import { BannerComponent } from './site/banner/banner.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SiteComponent,
     SkillsComponent,
-    ProjectsComponent,
     HobbiesComponent,
     FooterComponent,
     PhotoComponent,
     PortfolioComponent,
-    FlagComponent
+    FlagComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,
