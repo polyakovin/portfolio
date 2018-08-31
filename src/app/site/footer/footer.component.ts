@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpService } from '../../http.service';
+import { CommonService } from '../../common.service';
 
 @Component({
   selector: 'na-footer',
@@ -7,15 +8,14 @@ import { HttpService } from '../../http.service';
   styleUrls: ['./footer.component.scss']
 })
 export class FooterComponent implements OnInit {
-  links = [];
-
   constructor(
-    private http: HttpService
-  ) { }
+    private http: HttpService,
+    public common: CommonService
+  ) {}
 
   ngOnInit() {
-    if (this.links.length === 0) this.http.get("assets/data/links.json").subscribe(
-      data => this.links = data,
+    if (this.common.links.length === 0) this.http.get("assets/data/links.json").subscribe(
+      data => this.common.links = data,
       error => console.error(error)
     );
   }

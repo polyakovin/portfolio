@@ -4,9 +4,12 @@ import { HttpService } from './http.service';
 @Injectable()
 export class CommonService {
   lang;
-  projects = [];
-  projectsForBanner = [];
   selectedBest = false;
+  projectsForBanner = [];
+  projects = [];
+  skills = [];
+  hobbies = [];
+  links = [];
 
   constructor(
     private http: HttpService

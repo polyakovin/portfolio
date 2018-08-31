@@ -22,9 +22,17 @@ export class SkillsComponent implements OnInit {
     let svg = d3.select("#mindmap").append("svg");
     let force = d3.layout.force();
 
-    d3.json("assets/data/skills.json", (error, json) => {
-      if (error) throw error;
+    if (this.common.skills.length > 0) {
+      makeForceDiagram(this.common.skills);
+    } else {
+      d3.json("assets/data/skills.json", (error, skills) => {
+        if (error) throw error;
+        this.common.skills = skills;
+        makeForceDiagram(skills);
+      });
+    }
 
+    function makeForceDiagram(skills) {
       const [nodes, links] = createNodesAndLinks();
       setupForceDiagram();
       watchGraphSize();
@@ -40,7 +48,7 @@ export class SkillsComponent implements OnInit {
         const links = [];
         let backendIndex, nodejsIndex;
 
-        parseSkillsToNodesAndLinks(json, null);
+        parseSkillsToNodesAndLinks(skills, null);
         linkNodeJSAndBackend();
 
         return [nodes, links];
@@ -154,7 +162,7 @@ export class SkillsComponent implements OnInit {
           node.attr("transform", d => "translate(" + d.x + ", " + d.y + ")");
         });
       }
-    });
+    }
   }
 
   changeLabelPosition(event) {

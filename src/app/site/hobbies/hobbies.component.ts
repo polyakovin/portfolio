@@ -8,7 +8,6 @@ import { CommonService } from '../../common.service';
   styleUrls: ['./hobbies.component.scss']
 })
 export class HobbiesComponent implements OnInit {
-  hobbies = [];
   title = {"ru": "Увлечения", "en": "Hobbies"};
 
   constructor(
@@ -17,8 +16,8 @@ export class HobbiesComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    if (this.hobbies.length === 0) this.http.get("assets/data/hobbies.json").subscribe(
-      data => this.hobbies = data,
+    if (this.common.hobbies.length === 0) this.http.get("assets/data/hobbies.json").subscribe(
+      data => this.common.hobbies = data,
       error => console.error(error)
     );
   }

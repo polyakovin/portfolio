@@ -14,7 +14,7 @@
       </div>
 
       <div class="modal-footer">
-        <p>{{ project.description[common.lang] || '' }}</p>
+        <p *ngIf="project.description">{{ project.description[common.lang] || '' }}</p>
 
         <ul class="list-unstyled mt-2 mb-0">
           <li *ngFor="let link of project.links">
