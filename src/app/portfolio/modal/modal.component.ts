@@ -13,6 +13,5 @@ export class ModalComponent implements OnInit {
     public common: CommonService
   ) {}
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 }

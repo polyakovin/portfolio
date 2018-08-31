@@ -1,7 +1,6 @@
 @import "./../../styles/variables";
 @import "./../../styles/mixins";
 
-
 .projects-list {
   position: fixed;
   top: 0;
@@ -19,15 +18,14 @@
     width: 100%;
     height: 100%;
     background: #fff;
-    // opacity: 0.9;
     z-index: -1;
   }
 
   .close {
     position: absolute;
-    top: 20px;
-    right: 30px;
-    font-size: 3rem;
+    top: 40px;
+    left: 35px;
+    font-size: 2.5rem;
   }
 
   .project {
@@ -97,7 +95,6 @@
 
     &:hover {
       .description {
-        // opacity: 1;
         height: 32%;
       }
     }

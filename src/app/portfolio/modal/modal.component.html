@@ -1,17 +1,21 @@
-<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" *ngIf="project !== undefined">
+<div id="projects-modal" class="modal fade" tabindex="-1" role="dialog" *ngIf="project">
   <div class="modal-dialog modal-lg">
     <div class="modal-content text-center">
       <div class="modal-header">
-        <h5 class="modal-title">{{ project.name[common.lang] }} ({{ project.year }})</h5>
+        <h5 class="modal-title">{{ project.name[common.lang] }}</h5>
       </div>
+
       <div class="modal-body">
         <img *ngIf="project.video === undefined" class="img-fluid" src="assets/images/projects/main-features/{{ project.img }}" alt="{{ project.name[common.lang] }}">
+
         <div *ngIf="project.video !== undefined" class="embed-responsive embed-responsive-16by9">
           <embed class="embed-responsive-item" [src]="project.videoUrl">
         </div>
       </div>
+
       <div class="modal-footer">
-        {{ project.description[common.lang] || '' }}
+        <p>{{ project.description[common.lang] || '' }}</p>
+
         <ul class="list-unstyled mt-2 mb-0">
           <li *ngFor="let link of project.links">
             <a href="{{link.url}}" target="_blank">

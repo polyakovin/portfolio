@@ -10,6 +10,7 @@ import { CommonService } from '../common.service';
 })
 export class PortfolioComponent implements OnInit {
   title = {"ru": "Проекты", "en": "Projects"};
+  projects;
   openedProject;
 
   constructor(
@@ -19,6 +20,14 @@ export class PortfolioComponent implements OnInit {
   ) {}
 
   ngOnInit() {
+    $(document).ready(() => {
+      this.projects = $('.projects-list .project');
+      this.setHotkeys();
+      this.watchProjectSize();
+    })
+  }
+
+  setHotkeys() {
     $(document).keydown((event) => {
       const key = {
         escape: 27
@@ -33,17 +42,23 @@ export class PortfolioComponent implements OnInit {
   }
 
   openModal(project) {
-    // Разрешаем ангуляру пользоваться ссылкой на видео с видеохостинга
-    if (project.video !== undefined) {
-      project.videoUrl = this.sanitizer.bypassSecurityTrustResourceUrl(project.video);
-    }
-
-    this.openedProject = project
+    this.cureVideoLink(project);
+    this.openedProject = project;
   }
 
-  setProjectSize() {
-    const projects = $('.projects-list .project');
-    projects.height(projects.width()*.625);
+  cureVideoLink(project) {
+    if (project.video) {
+      project.videoUrl = this.sanitizer.bypassSecurityTrustResourceUrl(project.video);
+    }
+  }
+
+  watchProjectSize() {
+    setProjectSize(this);
+    $(window).resize(() => {setProjectSize(this)});
+
+    function setProjectSize(that) {
+      that.projects.height(that.projects.width()*.625);
+    }
   }
 
   backToSite() {

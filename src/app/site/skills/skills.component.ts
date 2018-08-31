@@ -103,7 +103,7 @@ export class SkillsComponent implements OnInit {
       function watchGraphSize() {
         setGraphSize();
         d3.select(window).on('resize', () => {
-          setGraphSize();
+          if (location.pathname === "/") setGraphSize();
         });
 
         function setGraphSize() {
