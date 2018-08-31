@@ -9,10 +9,10 @@ import { CommonService } from '../../common.service';
 })
 export class BannerComponent implements OnInit {
   buttonText = {"ru": "Открыть список проектов", "en": "Open projects list"};
-  currentWorkIndex = 0;
+  currentProjectIndex = 0;
   slideDuration = 5000;
   divCV;
-  worksView;
+  projectsView;
   landingImage;
   intervals = [];
 
@@ -24,83 +24,76 @@ export class BannerComponent implements OnInit {
 
   ngOnInit() {
     $(document).ready(() => {
-      this.divCV = $('.cv');
-      this.worksView = $('.works-view');
-      this.landingImage = this.worksView.find('.work')[0];
-
-      this.setWorksViewScale();
-      $(window).resize(() => {this.setWorksViewScale()});
-
-      setTimeout(() => {
-        this.scrollTo(this.landingImage, this.slideDuration - 1000);
-      }, 100);
+      this.setHTMLElements();
+      this.watchProjectsViewSize();
+      this.animateLanding();
+      this.activateBanner();
     });
-
-    setInterval(() => {
-      this.setNextProject();
-    }, this.slideDuration);
   }
 
-  setWorksViewScale() {
-    let scale = 1;
-    const initialWidth = 800;
-    const initialHeight = 666;
-    const cvWidth = this.divCV.width();
-    const windowWidth = $(window).width();
-
-    if (windowWidth > 1199) {
-      scale = 1;
-    } else if (windowWidth > 991) {
-      scale = 0.8;
-    } else {
-      scale = cvWidth/initialWidth;
-    }
-
-    this.worksView.height(initialHeight*scale);
-    this.worksView.css({transform: `scale(${scale})`});
+  setHTMLElements() {
+    this.divCV = $('.cv');
+    this.projectsView = $('.projects-view');
+    this.landingImage = this.projectsView.find('.project')[0];
   }
 
-  setRandomWork() {
-    const newWorkIndex = Math.round(Math.random()*(this.common.projectsForBanner.length - 1));
-    if (this.currentWorkIndex !== newWorkIndex) {
-      this.currentWorkIndex = newWorkIndex;
-      this.appRef.tick();
-    } else {
-      this.setRandomWork();
-    }
+  watchProjectsViewSize() {
+    this.setProjectsViewScale();
+    $(window).resize(() => {this.setProjectsViewScale()});
   }
 
-  setNextProject() {
-    this.currentWorkIndex = this.currentWorkIndex < this.common.projectsForBanner.length - 1 ? this.currentWorkIndex + 1 : 0;
-    this.appRef.tick();
+  animateLanding() {
     setTimeout(() => {
       this.scrollTo(this.landingImage, this.slideDuration - 1000);
     }, 100);
   }
 
+  activateBanner() {
+    setInterval(() => {
+      this.setNextProject();
+    }, this.slideDuration);
+  }
+
+  setProjectsViewScale() {
+    const initialWidth = 800;
+    const initialHeight = 666;
+    const cvWidth = this.divCV.width();
+    const windowWidth = $(window).width();
+    const scale = windowWidth > 1199 ? 1 : windowWidth > 991 ? 0.8 : cvWidth/initialWidth;
+
+    this.projectsView.height(initialHeight*scale);
+    this.projectsView.css({transform: `scale(${scale})`});
+  }
+
   scrollTo(element, duration) {
-    element.scrollTop = 0;
     const landingImage = $(element);
     const containerHeight = landingImage.height();
     const contentHeight = landingImage.find('img').height();
     const endPosition = contentHeight - containerHeight;
     const startPosition = 0;
     const change = endPosition - startPosition;
-    let currentTime = 0;
     const increment = 10;
-
+    let currentTime = 0;
     let intervals = this.intervals;
-    for (let interval of intervals) {
-      if (interval) clearInterval(interval);
-    }
-    this.intervals = intervals = [];
+
+    showLandingTop();
+    clearOldIntervals(this);
     animateScroll();
+
+    function showLandingTop() {
+      element.scrollTop = 0;
+    }
+
+    function clearOldIntervals(that) {
+      for (let interval of intervals) {
+        if (interval) clearInterval(interval);
+      }
+      that.intervals = intervals = [];
+    }
 
     function animateScroll() {
       currentTime += increment;
-      var val = easeInOutQuad(currentTime, startPosition, change, duration);
-      element.scrollTop = val;
-
+      element.scrollTop = easeInOutQuad(currentTime, startPosition, change, duration);;
       if (currentTime < duration) {
         intervals.push(setTimeout(animateScroll, increment));
       }
@@ -114,7 +107,24 @@ export class BannerComponent implements OnInit {
     }
   }
 
-  showWorksList() {
+  setNextProject() {
+    this.currentProjectIndex = this.currentProjectIndex < this.common.projectsForBanner.length - 1 ? this.currentProjectIndex + 1 : 0;
+    this.appRef.tick();
+    this.animateLanding();
+  }
+
+  setRandomProject() {
+    const newProjectIndex = Math.round(Math.random()*(this.common.projectsForBanner.length - 1));
+    if (this.currentProjectIndex !== newProjectIndex) {
+      this.currentProjectIndex = newProjectIndex;
+      this.appRef.tick();
+      this.animateLanding();
+    } else {
+      this.setRandomProject();
+    }
+  }
+
+  showProjectsList() {
     this.router.navigate(['portfolio']);
   }
 }

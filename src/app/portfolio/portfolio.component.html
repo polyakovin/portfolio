@@ -1,7 +1,7 @@
-<div class="works-list">
+<div class="projects-list">
   <h1>{{ title[common.lang] }}</h1>
   <fa-icon class="close" [icon]="['fas', 'times']" (click)="backToSite()"></fa-icon>
-  <div class="work" *ngFor="let project of common.projects" (click)="openModal(project)" data-toggle="modal" data-target=".bd-example-modal-lg">
+  <div class="project" *ngFor="let project of common.projects" (click)="openModal(project)" data-toggle="modal" data-target=".bd-example-modal-lg">
     <img [src]="'assets/images/projects/landings/' + project.img" [alt]="project.name[common.lang]">
     <div class="description">
       <div class="bg"></div>

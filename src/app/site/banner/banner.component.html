@@ -1,9 +1,11 @@
-<div class="works-view" *ngIf="common.projectsForBanner.length > 0">
-  <div class="work">
-    <img [src]="'assets/images/projects/landings/' + common.projectsForBanner[currentWorkIndex].img" alt="banner">
+<div class="projects-view" *ngIf="common.projectsForBanner.length > 0">
+  <div class="project">
+    <img [src]="'assets/images/projects/landings/' + common.projectsForBanner[currentProjectIndex].img" alt="banner">
   </div>
+
   <div class="imac"></div>
-  <div class="button" (click)="showWorksList()">
+
+  <div class="button" (click)="showProjectsList()">
     <div class="bg"></div>
     <div class="message">
       <div class="body">
@@ -12,5 +14,6 @@
       </div>
     </div>
   </div>
-  <div class="logo" (click)="common.toggleBest()"></div>
+
+  <!-- <div class="logo" (click)="common.toggleBest()"></div> -->
 </div>

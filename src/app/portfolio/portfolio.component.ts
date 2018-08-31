@@ -42,8 +42,8 @@ export class PortfolioComponent implements OnInit {
   }
 
   setProjectSize() {
-    const works = $('.works-list .work');
-    works.height(works.width()*.625);
+    const projects = $('.projects-list .project');
+    projects.height(projects.width()*.625);
   }
 
   backToSite() {
