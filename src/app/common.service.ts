@@ -3,7 +3,7 @@ import { HttpService } from './http.service';
 
 @Injectable()
 export class CommonService {
-  lang = "ru"; // ru, en
+  lang;
   projects = [];
   projectsForBanner = [];
   selectedBest = false;
@@ -16,10 +16,13 @@ export class CommonService {
   }
 
   getCountryCode() {
-    this.http.get("http://ip-api.com/json").subscribe(
-      res => this.lang = res.countryCode.toLowerCase() === 'ru' ? 'ru' : 'en',
-      () => this.lang = "ru"
-    );
+    if (!this.lang) {
+      this.lang = "ru"; // ru, en
+      this.http.get("http://ip-api.com/json").subscribe(
+        res => this.lang = res.countryCode.toLowerCase() === 'ru' ? 'ru' : 'en',
+        () => this.lang = "ru"
+      );
+    }
   }
 
   getProjects() {
