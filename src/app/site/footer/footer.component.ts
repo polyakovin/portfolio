@@ -16,7 +16,7 @@ export class FooterComponent implements OnInit {
   ngOnInit() {
     if (this.links.length === 0) this.http.get("assets/data/links.json").subscribe(
       data => this.links = data,
-      error => console.log(error)
+      error => console.error(error)
     );
   }
 }

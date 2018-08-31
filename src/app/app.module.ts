@@ -22,6 +22,7 @@ import { PhotoComponent } from './site/photo/photo.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { FlagComponent } from './site/flag/flag.component';
 import { BannerComponent } from './site/banner/banner.component';
+import { ModalComponent } from './portfolio/modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { BannerComponent } from './site/banner/banner.component';
     PhotoComponent,
     PortfolioComponent,
     FlagComponent,
-    BannerComponent
+    BannerComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,

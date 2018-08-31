@@ -3,7 +3,7 @@ import { HttpService } from './http.service';
 
 @Injectable()
 export class CommonService {
-  lang = "en"; // ru, en
+  lang = "ru"; // ru, en
   projects = [];
   projectsForBanner = [];
   selectedBest = false;
@@ -18,7 +18,7 @@ export class CommonService {
   getCountryCode() {
     this.http.get("http://ip-api.com/json").subscribe(
       res => this.lang = res.countryCode.toLowerCase() === 'ru' ? 'ru' : 'en',
-      error => console.error(error)
+      () => this.lang = "ru"
     );
   }
 
@@ -26,8 +26,6 @@ export class CommonService {
     this.http.get("assets/data/projects.json").subscribe(
       projects => {
         this.projects = projects;
-        console.log(projects);
-
         this.filterProjects();
       },
       error => console.error(error)

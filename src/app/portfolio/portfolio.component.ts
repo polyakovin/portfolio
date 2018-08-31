@@ -11,12 +11,11 @@ import { CommonService } from '../common.service';
 export class PortfolioComponent implements OnInit {
   title = {"ru": "Проекты", "en": "Projects"};
   openedProject;
-  videoUrl: any;
 
   constructor(
     public common: CommonService,
-    private sanitizer: DomSanitizer,
-    private router: Router
+    private router: Router,
+    private sanitizer: DomSanitizer
   ) {}
 
   ngOnInit() {
@@ -34,12 +33,12 @@ export class PortfolioComponent implements OnInit {
   }
 
   openModal(project) {
-    this.openedProject = project;
-
     // Разрешаем ангуляру пользоваться ссылкой на видео с видеохостинга
-    if (this.openedProject.video !== undefined) {
-      this.videoUrl = this.sanitizer.bypassSecurityTrustResourceUrl(this.openedProject.video);
+    if (project.video !== undefined) {
+      project.videoUrl = this.sanitizer.bypassSecurityTrustResourceUrl(project.video);
     }
+
+    this.openedProject = project
   }
 
   setProjectSize() {
