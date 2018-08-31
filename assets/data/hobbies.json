@@ -1,42 +1,47 @@
 [
   {
-    "title": "Порядок",
+    "title": {"ru": "Порядок", "en": "Order"},
     "icon": "sort-amount-down",
     "href": "https://vk.com/ip.collections"
   },
   {
-    "title": "Музыка",
+    "title": {"ru": "Музыка", "en": "Music"},
     "icon": "headphones",
     "href": "https://vk.com/ip.musician"
   },
   {
-    "title": "Писательство",
+    "title": {"ru": "Писательство", "en": "Writing"},
     "icon": "pen-nib",
     "href": "https://vk.com/@igor.polyakov-moi-posty"
   },
   {
-    "title": "Автоматизация",
+    "title": {"ru": "Автоматизация", "en": "Automatization"},
     "icon": "cog",
     "href": "https://vk.com/@igor.polyakov-avtomatizaciya"
   },
   {
-    "title": "Живопись",
+    "title": {"ru": "Живопись", "en": "Painting"},
     "icon": "palette",
     "href": "https://vk.com/ip.painter"
   },
   {
-    "title": "Дизайн",
+    "title": {"ru": "Дизайн", "en": "Design"},
     "icon": "quote-right",
     "href": "https://vk.com/ip.collections?w=wall-167597241_15"
   },
   {
-    "title": "Путешествия",
+    "title": {"ru": "Путешествия", "en": "Travelling"},
     "icon": "map-signs",
     "href": "https://vk.com/ip.journeys"
   },
   {
-    "title": "Книги",
+    "title": {"ru": "Книги", "en": "Books"},
     "icon": "book",
     "href": "https://vk.com/ip.biblioworm"
+  },
+  {
+    "title": {"ru": "Наука", "en": "Science"},
+    "icon": "atom",
+    "href": "vk.com/@igor.polyakov-nauchnye-proekty"
   }
 ]
