@@ -56,6 +56,7 @@
         "icon": "github-alt"
       }
     ],
+    "feedback": true,
     "best": true,
     "forBanner": true
   },
@@ -115,6 +116,7 @@
         "icon": "vk"
       }
     ],
+    "feedback": true,
     "best": true,
     "forBanner": true
   },
@@ -154,6 +156,7 @@
         "icon": "github-alt"
       }
     ],
+    "feedback": true,
     "best": true
   },
   {
@@ -174,6 +177,7 @@
         "icon": "vk"
       }
     ],
+    "feedback": true,
     "best": true,
     "forBanner": true
   },
@@ -181,7 +185,7 @@
     "year": 2016,
     "name": {"ru": "Веб-сайт компании «Ваш Выбор!»", "en": "\"Your Choice!\" company website"},
     "description": {"ru": "Ребрендинг веб-сайта фирмы в соответствии с новым фирменным стилем. Количество элементов на сайте сокращено до необходимого минимума. Выделены ключевые достоинства компании и продукции перед конкурентами.", "en": "Rebranding the company's website in accordance with the new corporate style guide. The number of elements on the site has been reduced to the required minimum. There are the key advantages of the company and products in compare to competitors highlighted."},
-    "img": "vashvyboNewSite.jpg",
+    "img": "yourChoice2.jpg",
     "links": [
       {
         "url": "https://polyakovin.github.io/yourChoice2",
@@ -194,6 +198,7 @@
         "icon": "github"
       }
     ],
+    "feedback": true,
     "best": true,
     "forBanner": true
   },
@@ -232,7 +237,8 @@
         "name": {"ru": "Рабочий репозиторий проекта", "en": "Project's working repository"},
         "icon": "github-alt"
       }
-    ]
+    ],
+    "feedback": true
   },
   {
     "year": 2013,
@@ -276,7 +282,7 @@
     "year": 2010,
     "name": {"ru": "Веб-сайт компании «Ваш Выбор!»", "en": "\"Your Choice!\" company web-site"},
     "description": {"ru": "Сайта предназначался главным образом в качестве платформы для размещения конструктора металлической двери. Помимо основного продукта на сайте реализован каталог дверей в виде буклета, форма заказа двери, контактная информация, а также администраторский блок для наполнения сайта содержимым.", "en": "The site was intended primarily as a platform for placing the metal door builder. In addition to the main product there is a catalog of doors in the form of a booklet, a door order form, contact information, and an administrator's block for filling the site with content on the site."},
-    "img": "vashvybor.jpg",
+    "img": "yourChoice.jpg",
     "links": [
       {
         "url": "https://polyakovin.github.io/yourChoice",
@@ -293,6 +299,7 @@
         "name": {"ru": "Рабочий репозиторий проекта", "en": "Project's working repository"},
         "icon": "github-alt"
       }
-    ]
+    ],
+    "feedback": true
   }
 ]

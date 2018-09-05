@@ -6,7 +6,7 @@
       </div>
 
       <div class="modal-body">
-        <img *ngIf="project.video === undefined" class="img-fluid" src="assets/images/projects/main-features/{{ project.img }}" alt="{{ project.name[common.lang] }}">
+        <img *ngIf="project.video === undefined" class="img-fluid" [src]="'assets/images/projects/main-features/' + project.img" [alt]="project.name[common.lang]">
 
         <div *ngIf="project.video !== undefined" class="embed-responsive embed-responsive-16by9">
           <embed class="embed-responsive-item" [src]="project.videoUrl">
@@ -14,11 +14,9 @@
       </div>
 
       <div class="modal-footer">
-        <p *ngIf="project.description">{{ project.description[common.lang] || '' }}</p>
-
-        <ul class="list-unstyled mt-2 mb-0">
+        <ul class="list-unstyled mb-0">
           <li *ngFor="let link of project.links">
-            <a href="{{link.url}}" target="_blank">
+            <a [href]="link.url" target="_blank">
               <fa-layers class="fa-fw">
                 <fa-icon [icon]="['fas', link.icon || 'link']"></fa-icon>
               </fa-layers>
@@ -26,6 +24,13 @@
             </a>
           </li>
         </ul>
+
+        <p *ngIf="project.description">{{ project.description[common.lang] || '' }}</p>
+
+        <div class="feedback" *ngIf="project.feedback">
+          <h6>Отзыв о проекте</h6>
+          <img [src]="'assets/images/projects/feedback/' + project.img" [alt]="project.img">
+        </div>
       </div>
     </div>
   </div>
