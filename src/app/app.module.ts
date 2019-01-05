@@ -23,6 +23,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { FlagComponent } from './site/flag/flag.component';
 import { BannerComponent } from './site/banner/banner.component';
 import { ModalComponent } from './portfolio/modal/modal.component';
+import { LettersComponent } from './site/letters/letters.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { ModalComponent } from './portfolio/modal/modal.component';
     PortfolioComponent,
     FlagComponent,
     BannerComponent,
-    ModalComponent
+    ModalComponent,
+    LettersComponent
   ],
   imports: [
     BrowserModule,

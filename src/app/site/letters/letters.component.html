@@ -1,0 +1,11 @@
+<div class="letters">
+  <img
+    *ngFor="let letter of letters; let i = index"
+    [src]="'assets/images/projects/feedback/' + letter + '.jpg'"
+    [alt]="letter"
+    [ngClass]="{
+      active: activeLetter === i
+    }"
+    (click)="showPicture(i)">
+  <!-- <h4>Letters of Support</h4> -->
+</div>

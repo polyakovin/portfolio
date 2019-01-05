@@ -21,6 +21,7 @@
         "icon": "globe"
       }
     ],
+    "feedback": true,
     "best": true,
     "forBanner": true
   },
@@ -84,7 +85,8 @@
         "name": {"ru": "Тестовый сайт проекта", "en": "Project's test website"},
         "icon": "cog"
       }
-    ]
+    ],
+    "feedback": true
   },
   {
     "year": 2017,
@@ -108,6 +110,7 @@
         "icon": "youtube"
       }
     ],
+    "feedback": true,
     "best": true,
     "forBanner": true
   },
@@ -269,6 +272,7 @@
         "icon": "github-alt"
       }
     ],
+    "feedback": true,
     "best": true,
     "forBanner": true
   },
