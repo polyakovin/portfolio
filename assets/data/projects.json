@@ -1,6 +1,32 @@
 [
   {
     "year": 2018,
+    "name": {"ru": "Мобильное приложение Hello TV", "en": "Hello TV mobile app"},
+    "description": {"ru": "Мобильное приложение для iOS и Android. Реализован личный кабинет учеников, которые могут видеть свои достижения и доступные награды. Зайти в него можно по логину «brunya@cat.ru» и паролю «123456».", "en": "Mobile application for iOS and Android. There is a personal account of students who can see their achievements and available awards. You can sign in via login “brunya@cat.ru” and password “123456”."},
+    "img": "hellotv.jpg",
+    "links": [
+      {
+        "url": "https://itunes.apple.com/gb/app/hello-tv/id1438232244",
+        "name": {"ru": "Приложение на iOS", "en": "iOS app"},
+        "icon": "apple"
+      },
+      {
+        "url": "https://play.google.com/store/apps/details?id=io.ionic.polyakovintvhello",
+        "name": {"ru": "Приложение на Android", "en": "Android app"},
+        "icon": "android"
+      },
+      {
+        "url": "http://tvhello.ru/",
+        "name": {"ru": "Сайт заказчика", "en": "Customer's website"},
+        "icon": "globe"
+      }
+    ],
+    "feedback": true,
+    "best": true,
+    "forBanner": true
+  },
+  {
+    "year": 2018,
     "name": {"ru": "EdLabs", "en": "EdLabs"},
     "description": {"ru": "Простой сайт, приглашающий принять участие в новой образовательной платформе. Реализована система регистрация новых пользователей.", "en": "A simple website inviting the visiton to participate in a new educational platform. There is a system for registering new users implemented."},
     "img": "edlabs.jpg",
@@ -44,25 +70,13 @@
     "name": {"ru": "Сайт фотографа Алёны Дёминой", "en": "Alena Demina photographer website"},
     "description": {"ru": "Сайт фотографа, отображающий лучшие его работы и содержащий тематические ссылки на соцсети с расширенным набором фотографий из портфолио.", "en": "The site of the photographer, displaying her best works and containing thematic links to social networks with an expanded set of photos from the portfolio."},
     "img": "demina.jpg",
-    "links": [
-      {
-        "url": "https://polyakovin.github.io/demina",
-        "name": {"ru": "Сайт проекта", "en": "Project's website"},
-        "icon": "globe"
-      },
-      {
-        "url": "https://github.com/polyakovin/demina",
-        "name": {"ru": "Рабочий репозиторий проекта", "en": "Project's working repository"},
-        "icon": "github-alt"
-      }
-    ],
     "feedback": true,
     "best": true,
     "forBanner": true
   },
   {
     "year": 2018,
-    "name": {"ru": "Emotion Miner. Mobile", "en": "Emotion Miner. Mobile"},
+    "name": {"ru": "Мобильное приложение Emotion Miner", "en": "Emotion Miner mobile app"},
     "description": {"ru": "Техническая демонстрация мобильного приложения для платформы Emotion Miner. Реализованы ключевые элементы управления приложением, заточенные под мобильные устройства. Проект подготовлен для загрузки на iOS, Android и Windows Phone.", "en": "Technical demonstration of the mobile application for the Emotion Miner platform. Implemented key application control elements  designed for mobile devices. The project is prepared for download on iOS, Android and Windows Phone."},
     "img": "emotionminer_m.jpg",
     "links": [
@@ -72,7 +86,7 @@
         "icon": "cog"
       }
     ],
-    "ohNo": true
+    "feedback": true
   },
   {
     "year": 2017,
@@ -96,6 +110,7 @@
         "icon": "youtube"
       }
     ],
+    "feedback": true,
     "best": true,
     "forBanner": true
   },
@@ -142,7 +157,7 @@
   {
     "year": 2017,
     "name": {"ru": "Конструктор документов для заказа", "en": "The document builder for the order"},
-    "description": {"ru": "Упрощено делопроизводство в компании «Бастион», изготавливающей стальные двери. Программа принимает на вход все необоходимые параметры заказа и выдаёт документ, пригодный для печати.", "en": "Оffice work in the producing steel doors company \"Bastion\" has been simplified. The program accepts all required parameters of the order for input and produces a document suitable for printing."},
+    "description": {"ru": "Упрощено делопроизводство в компании «Бастион», изготавливающей стальные двери. Программа принимает на вход все необоходимые параметры заказа и выдаёт документ, пригодный для печати.", "en": "Оffice work in the producing steel doors company “Bastion” has been simplified. The program accepts all required parameters of the order for input and produces a document suitable for printing."},
     "img": "bastion.jpg",
     "links": [
       {
@@ -183,7 +198,7 @@
   },
   {
     "year": 2016,
-    "name": {"ru": "Веб-сайт компании «Ваш Выбор!»", "en": "\"Your Choice!\" company website"},
+    "name": {"ru": "Веб-сайт компании «Ваш Выбор!»", "en": "“Your Choice!” company website"},
     "description": {"ru": "Ребрендинг веб-сайта фирмы в соответствии с новым фирменным стилем. Количество элементов на сайте сокращено до необходимого минимума. Выделены ключевые достоинства компании и продукции перед конкурентами.", "en": "Rebranding the company's website in accordance with the new corporate style guide. The number of elements on the site has been reduced to the required minimum. There are the key advantages of the company and products in compare to competitors highlighted."},
     "img": "yourChoice2.jpg",
     "links": [
@@ -242,7 +257,7 @@
   },
   {
     "year": 2013,
-    "name": {"ru": "Электронная комната проекта «SMIDA»", "en": "\"SMIDA\" project e-room"},
+    "name": {"ru": "Электронная комната проекта «SMIDA»", "en": "“SMIDA” project e-room"},
     "description": {"ru": "Сервис для совместной работы участников научного проекта Университетского Центра Свальбарда. В рамках проекта реализована система пользователей, файлообменник, библиотека, поддержка двух языков, система полезных ссылок по проекту.", "en": "Service for the joint work of the participants of the University Center of Svalbard scientific project. There are a users system, file sharing, library, support for two languages, a system of useful links for the project have been implemented."},
     "img": "smida.jpg",
     "links": [
@@ -257,12 +272,13 @@
         "icon": "github-alt"
       }
     ],
+    "feedback": true,
     "best": true,
     "forBanner": true
   },
   {
-    "year": 2011,
-    "name": {"ru": "Веб-сайт компании «Классика тренинга»", "en": "\"Training Classics\" company website"},
+    "year": 2012,
+    "name": {"ru": "Веб-сайт компании «Классика тренинга»", "en": "“Training Classics” company website"},
     "description": {"ru": "Сайт-визитка с администивным блоком, позволяющим изменять основную информацию на сайте, а также добавлять новости и даты мероприятий фирмы.", "en": "A simple website with an administrator's cabinet that allows to change the basic information on the site, as well as adding news and dates for company events."},
     "img": "trainingСlassics.jpg",
     "links": [
@@ -279,8 +295,8 @@
     ]
   },
   {
-    "year": 2010,
-    "name": {"ru": "Веб-сайт компании «Ваш Выбор!»", "en": "\"Your Choice!\" company web-site"},
+    "year": 2011,
+    "name": {"ru": "Веб-сайт компании «Ваш Выбор!»", "en": "“Your Choice!” company web-site"},
     "description": {"ru": "Сайта предназначался главным образом в качестве платформы для размещения конструктора металлической двери. Помимо основного продукта на сайте реализован каталог дверей в виде буклета, форма заказа двери, контактная информация, а также администраторский блок для наполнения сайта содержимым.", "en": "The site was intended primarily as a platform for placing the metal door builder. In addition to the main product there is a catalog of doors in the form of a booklet, a door order form, contact information, and an administrator's block for filling the site with content on the site."},
     "img": "yourChoice.jpg",
     "links": [

@@ -10,6 +10,11 @@
     "href": "https://vk.com/ip.musician"
   },
   {
+    "title": {"ru": "Саксофон", "en": "Sax"},
+    "icon": "music",
+    "href": "https://instagram.com/polyakovin.sax"
+  },
+  {
     "title": {"ru": "Писательство", "en": "Writing"},
     "icon": "pen-nib",
     "href": "https://vk.com/@igor.polyakov-moi-posty"
@@ -37,7 +42,7 @@
   {
     "title": {"ru": "Книги", "en": "Books"},
     "icon": "book",
-    "href": "https://vk.com/ip.biblioworm"
+    "href": "https://vk.com/@ip.biblioworm"
   },
   {
     "title": {"ru": "Наука", "en": "Science"},
