@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PhotoComponent implements OnInit {
   name = {"ru": "Игорь Поляков", "en": "Igor Polyakov"};
-  usp = {"ru": "Создаю веб-платформы любой сложности.", "en": "Creates web-platforms of any complexity."};
+  usp = {"ru": "Создаю веб и мобильные платформы любой сложности", "en": "I create web and mobile apps of any complexity"};
 
   constructor(
     public common: CommonService

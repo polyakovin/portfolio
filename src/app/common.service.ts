@@ -20,10 +20,9 @@ export class CommonService {
 
   getCountryCode() {
     if (!this.lang) {
-      this.lang = "ru"; // ru, en
+      this.lang = "en"; // ru, en
       this.http.get("http://ip-api.com/json").subscribe(
-        res => this.lang = res.countryCode.toLowerCase() === 'ru' ? 'ru' : 'en',
-        () => this.lang = "ru"
+        res => this.lang = res.countryCode.toLowerCase() === 'ru' ? 'ru' : 'en'
       );
     }
   }

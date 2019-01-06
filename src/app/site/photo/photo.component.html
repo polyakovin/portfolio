@@ -2,8 +2,8 @@
   <div class="me"></div>
   <a href="#contacts" class="hidden-xs"><fa-icon [icon]="['fas', 'mobile-alt']"></fa-icon></a>
 
-  <figcaption class="figure-caption">
+  <figcaption>
     <h1>{{ name[common.lang] }}</h1>
-    {{ usp[common.lang] }}
+    <span [ngClass]="{ru: common.lang === 'ru'}">{{ usp[common.lang] }}</span>
   </figcaption>
 </figure>
