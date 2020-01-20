@@ -1,28 +1,32 @@
 import { Injectable } from '@angular/core';
-import { Http, Response, Headers } from '@angular/http';
-import 'rxjs/Rx';
+import { HttpClient, HttpHeaders, HttpResponse } from '@angular/common/http';
+import { map } from 'rxjs/operators';
 
-declare var markdown: any;
+interface IIpResponse {
+  countryCode: string;
+}
 
 @Injectable()
 export class HttpService {
-  constructor(private http: Http) {}
+  constructor(private http: HttpClient) {}
 
-  // получение данных
   get(url) {
-    return this.http.get(url)
-      .map((response: Response) => response.json());
+    return this.http.get<any>(url);
   }
 
-  // отправка данных
   post(data: any, url: string) {
     const body = JSON.stringify(data);
-    const headers = new Headers();
+    const headers = new HttpHeaders();
     headers.append('Content-Type', 'application/json');
 
-    // отправка информации в файл на сервере
     return this.http.post(url, body, {
       headers: headers
     });
   }
+
+  // getL11N() {
+  //   const ipAPIurl = 'http://ip-api.com/json';
+  //   return this.http.get(ipAPIurl)
+  //     .pipe(map((response: HttpResponse<IIpResponse>) => response.countryCode === 'ru' ? 'ru' : 'en'));
+  // }
 }

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
 import { DomSanitizer } from '@angular/platform-browser';
 import { CommonService } from '../common.service';
@@ -9,9 +9,10 @@ import { CommonService } from '../common.service';
   styleUrls: ['./portfolio.component.scss']
 })
 export class PortfolioComponent implements OnInit {
-  title = {"ru": "Проекты", "en": "Projects"};
-  projects;
+  title = {'ru': 'Проекты', 'en': 'Projects'};
+  // projects;
   openedProject;
+  // @ViewChild('project') project;
 
   constructor(
     public common: CommonService,
@@ -20,26 +21,35 @@ export class PortfolioComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    $(document).ready(() => {
-      this.projects = $('.projects-list .project');
-      this.setHotkeys();
-      this.watchProjectSize();
-    })
+    console.log(this.common.projects);
+
+    // this.setProjectSize();
+    // $(document).ready(() => {
+    //   this.projects = $('.projects-list .project');
+    // })
   }
 
-  setHotkeys() {
-    $(document).keydown((event) => {
-      const key = {
-        escape: 27
-      };
+  @HostListener('document:keydown', ['$event'])
+  handleKeyboardEvent(event: KeyboardEvent) {
+    const key = {
+      escape: 27
+    };
 
-      switch (event.keyCode) {
-        case key.escape:
-          this.backToSite();
-          break;
-      }
-    });
+    switch (event.keyCode) {
+      case key.escape:
+        this.backToSite();
+        break;
+    }
   }
+
+  // @HostListener('window:resize', ['$event'])
+  // watchProjectSize(event: Event) {
+  //   this.setProjectSize();
+  // }
+
+  // setProjectSize() {
+  //   this.project.height(this.project.width() * .625);
+  // }
 
   openModal(project) {
     this.cureVideoLink(project);
@@ -49,15 +59,6 @@ export class PortfolioComponent implements OnInit {
   cureVideoLink(project) {
     if (project.video) {
       project.videoUrl = this.sanitizer.bypassSecurityTrustResourceUrl(project.video);
-    }
-  }
-
-  watchProjectSize() {
-    setProjectSize(this);
-    $(window).resize(() => {setProjectSize(this)});
-
-    function setProjectSize(that) {
-      that.projects.height(that.projects.width()*.625);
     }
   }
 

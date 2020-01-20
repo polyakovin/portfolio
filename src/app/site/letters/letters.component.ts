@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'na-letters',
+  selector: 'app-letters',
   templateUrl: './letters.component.html',
   styleUrls: ['./letters.component.scss']
 })

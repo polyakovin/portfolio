@@ -3,12 +3,12 @@ import { HttpService } from '../../http.service';
 import { CommonService } from '../../common.service';
 
 @Component({
-  selector: 'na-hobbies',
+  selector: 'app-hobbies',
   templateUrl: './hobbies.component.html',
   styleUrls: ['./hobbies.component.scss']
 })
 export class HobbiesComponent implements OnInit {
-  title = {"ru": "Увлечения", "en": "Hobbies"};
+  title = {'ru': 'Увлечения', 'en': 'Hobbies'};
 
   constructor(
     private http: HttpService,
@@ -16,9 +16,11 @@ export class HobbiesComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    if (this.common.hobbies.length === 0) this.http.get("assets/data/hobbies.json").subscribe(
-      data => this.common.hobbies = data,
-      error => console.error(error)
-    );
+    if (this.common.hobbies.length === 0) {
+      this.http.get('assets/data/hobbies.json').subscribe(
+        data => this.common.hobbies = data,
+        error => console.error(error)
+      );
+    }
   }
 }

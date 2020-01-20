@@ -1,12 +1,13 @@
-import { Injectable, EventEmitter } from '@angular/core';
+import { Injectable } from '@angular/core';
 import { HttpService } from './http.service';
+import projects from '../assets/data/projects.json';
 
 @Injectable()
 export class CommonService {
   lang;
   selectedBest = false;
   projectsForBanner = [];
-  projects = [];
+  projects = projects;
   skills = [];
   hobbies = [];
   links = [];
@@ -15,33 +16,23 @@ export class CommonService {
     private http: HttpService
   ) {
     this.getCountryCode();
-    this.getProjects();
+    this.filterProjects();
   }
 
   getCountryCode() {
     if (!this.lang) {
-      this.lang = "en"; // ru, en
-      this.http.get("http://ip-api.com/json").subscribe(
+      this.lang = 'en'; // ru, en
+      this.http.get('http://ip-api.com/json').subscribe(
         res => this.lang = res.countryCode.toLowerCase() === 'ru' ? 'ru' : 'en'
       );
     }
   }
 
-  getProjects() {
-    this.http.get("assets/data/projects.json").subscribe(
-      projects => {
-        this.projects = projects;
-        this.filterProjects();
-      },
-      error => console.error(error)
-    );
-  }
-
   filterProjects() {
-    const projectsEditable = this.copyObject(this.projects);
+    const projectsEditable = [...this.projects];
     this.projects = [];
     this.projectsForBanner = [];
-    for (let project of projectsEditable) {
+    for (const project of projectsEditable) {
       if (!project.ohNo && (!this.selectedBest || project.best)) {
         this.projects.push(project);
 
@@ -50,10 +41,6 @@ export class CommonService {
         }
       }
     }
-  }
-
-  copyObject(object) { // https://scotch.io/bar-talk/copying-objects-in-javascript
-    return JSON.parse(JSON.stringify(object));
   }
 
   toggleBest() {

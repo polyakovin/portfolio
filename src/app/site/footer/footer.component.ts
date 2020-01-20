@@ -3,7 +3,7 @@ import { HttpService } from '../../http.service';
 import { CommonService } from '../../common.service';
 
 @Component({
-  selector: 'na-footer',
+  selector: 'app-footer',
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.scss']
 })
@@ -14,9 +14,11 @@ export class FooterComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    if (this.common.links.length === 0) this.http.get("assets/data/links.json").subscribe(
-      data => this.common.links = data,
-      error => console.error(error)
-    );
+    if (this.common.links.length === 0) {
+      this.http.get('assets/data/links.json').subscribe(
+        data => this.common.links = data,
+        error => console.error(error)
+      );
+    }
   }
 }

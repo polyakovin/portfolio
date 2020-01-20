@@ -3,7 +3,7 @@
 
   <fa-icon class="close" [icon]="['fas', 'chevron-left']" (click)="backToSite()"></fa-icon>
 
-  <div class="project" *ngFor="let project of common.projects" (click)="openModal(project)" data-toggle="modal" data-target="#projects-modal">
+  <div #projectElement class="project" *ngFor="let project of common.projects" (click)="openModal(project)" data-toggle="modal" data-target="#projects-modal">
     <img [src]="'assets/images/projects/landings/' + project.img" [alt]="project.name[common.lang]">
 
     <div class="description">

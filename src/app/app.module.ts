@@ -1,8 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
-import { routing } from "./app.routing";
+import { HttpClientModule } from '@angular/common/http';
+import { routing } from './app.routing';
 
 import { AppComponent } from './app.component';
 import { HttpService } from './http.service';
@@ -44,7 +44,7 @@ import { MentoringComponent } from './mentoring/mentoring.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule,
+    HttpClientModule,
     routing,
     FontAwesomeModule
   ],
@@ -54,8 +54,8 @@ import { MentoringComponent } from './mentoring/mentoring.component';
 export class AppModule { }
 
 function mergeIcons() {
-  let fa = {...fas, ...fab};
-  for (const icon in fa) {
+  const fa = {...fas, ...fab};
+  for (const icon of Object.keys(fa)) {
     fa[icon].prefix = 'fas';
   }
   library.add(fa);

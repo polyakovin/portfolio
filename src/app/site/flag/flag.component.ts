@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CommonService } from '../../common.service';
 
 @Component({
-  selector: 'na-flag',
+  selector: 'app-flag',
   templateUrl: './flag.component.html',
   styleUrls: ['./flag.component.scss']
 })

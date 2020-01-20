@@ -1,4 +1,4 @@
-import { Routes, RouterModule } from "@angular/router";
+import { Routes, RouterModule } from '@angular/router';
 import { SiteComponent } from './site/site.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 
