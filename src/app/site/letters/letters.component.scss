@@ -30,8 +30,12 @@
       transform: rotate(-2deg);
     }
 
-    &:last-child {
+    &:nth-child(2) {
       transform: rotate(2deg);
+    }
+
+    &:nth-child(3) {
+      transform: rotate(6deg);
     }
 
     &:hover {
@@ -40,9 +44,8 @@
 
     &.active {
       transform: rotate(0) translate(0px, 150px) scale(4.9);
-      box-shadow: 0 0 40px;
+      box-shadow: 0 0 40px #666;
       z-index: 11;
-
 
       @media (min-width: 1200px) {
         transform: rotate(0) translate(-594px, 40px) scale(5.7);      } // md
@@ -62,8 +65,19 @@
         transform: rotate(5deg) scale(1.1) translate(20px);
       }
 
-      &:last-child {
+      &:nth-child(2) {
+        transform: rotate(1deg) scale(1.1) translate(0px);
+      }
+
+      &:nth-child(3) {
         transform: rotate(-3deg) scale(1.1) translate(-20px);
+      }
+      &:first-child {
+
+      }
+
+      &:last-child {
+
       }
     }
   }

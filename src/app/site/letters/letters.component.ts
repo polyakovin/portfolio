@@ -9,7 +9,8 @@ export class LettersComponent implements OnInit {
   imgs = [];
   letters = [
     'smida',
-    'emotionminer'
+    'emotionminer',
+    'yandex'
   ];
   activeLetter = -1;
 
