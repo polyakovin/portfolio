@@ -13,6 +13,6 @@ export class MentoringComponent implements OnInit {
   };
   constructor (
     public common: CommonService,
-  ) { }
+  ) {}
   ngOnInit() {}
 }

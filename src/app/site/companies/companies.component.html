@@ -1,7 +1,6 @@
 <h2 id="companies">{{ title[common.lang] }}</h2>
 <div class="companies">
-  <a
-    *ngFor="let company of companies"
+  <a *ngFor="let company of companies"
     [href]="company.href"
     [class]="'sprite sprite-' + company.img"
     [ngStyle]="{
