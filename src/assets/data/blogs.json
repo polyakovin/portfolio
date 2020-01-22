@@ -1,0 +1,135 @@
+[
+  {
+    "title": "Blog",
+    "platform": "markdown",
+    "link": "https://polyakovin.ru/",
+    "color": "black",
+    "icon": "comment"
+  },
+  {
+    "title": "Coding Tweets",
+    "platform": "twitter",
+    "link": "https://twitter.com/polyakovin",
+    "color": "#1ea1f2",
+    "icon": "code"
+  },
+  {
+    "title": "Code Pens",
+    "platform": "codepen",
+    "link": "https://codepen.io/polyakovin/pens/public",
+    "color": "#1e1e26",
+    "icon": "code"
+  },
+  {
+    "title": "Code Videos",
+    "platform": "youtube",
+    "link": "https://www.youtube.com/channel/UC5SwgyeDZWtSDTX4iGozjmA/videos",
+    "color": "#ff0100",
+    "icon": "code"
+  },
+  {
+    "title": "Common",
+    "platform": "vk",
+    "link": "https://vk.com/igor.polyakov",
+    "color": "#4a76a8",
+    "icon": "comment"
+  },
+  {
+    "title": "Design",
+    "platform": "vk",
+    "link": "https://vk.com/ip.painter",
+    "color": "#4a76a8",
+    "icon": "paint-roller"
+  },
+  {
+    "title": "Books",
+    "platform": "vk",
+    "link": "https://vk.com/ip.biblioworm",
+    "color": "#4a76a8",
+    "icon": "book"
+  },
+  {
+    "title": "Music",
+    "platform": "vk",
+    "link": "https://vk.com/ip.musician",
+    "color": "#4a76a8",
+    "icon": "record-vinyl"
+  },
+  {
+    "title": "Collections",
+    "platform": "vk",
+    "link": "https://vk.com/ip.collections",
+    "color": "#4a76a8",
+    "icon": "icons"
+  },
+  {
+    "title": "Travelling",
+    "platform": "vk",
+    "link": "https://vk.com/ip.journeys",
+    "color": "#4a76a8",
+    "icon": "car-side"
+  },
+  {
+    "title": "Common",
+    "platform": "instagram",
+    "link": "https://www.instagram.com/polyakovin/",
+    "color": "#813cca",
+    "icon": "code"
+  },
+  {
+    "title": "Funny&Stupid Things",
+    "platform": "instagram",
+    "link": "https://www.instagram.com/polyakovin.haha/",
+    "color": "#813cca",
+    "icon": "hand-point-up"
+  },
+  {
+    "title": "Sax",
+    "platform": "instagram",
+    "link": "https://www.instagram.com/polyakovin.sax/",
+    "color": "#813cca",
+    "icon": "music"
+  },
+  {
+    "title": "Beautiful World",
+    "platform": "instagram",
+    "link": "https://www.instagram.com/polyakovin.joy/",
+    "color": "#813cca",
+    "icon": "gem"
+  },
+  {
+    "title": "Code",
+    "platform": "telegram-plane",
+    "link": "https://t.me/polyakovinews",
+    "color": "#2ea6da",
+    "icon": "code"
+  },
+  {
+    "title": "Common",
+    "platform": "telegram-plane",
+    "link": "https://t.me/polyakovindiary",
+    "color": "#2ea6da",
+    "icon": "comment"
+  },
+  {
+    "title": "Jokes",
+    "platform": "telegram-plane",
+    "link": "https://t.me/polyakovinhaha",
+    "color": "#2ea6da",
+    "icon": "smile-wink"
+  },
+  {
+    "title": "Insights",
+    "platform": "telegram-plane",
+    "link": "https://t.me/polyakovinsights",
+    "color": "#2ea6da",
+    "icon": "lightbulb"
+  },
+  {
+    "title": "Citations",
+    "platform": "telegram-plane",
+    "link": "https://t.me/polyakovincite",
+    "color": "#2ea6da",
+    "icon": "heart"
+  }
+]

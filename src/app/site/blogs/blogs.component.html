@@ -1,0 +1,22 @@
+<h2 id="blogs">{{ title[common.lang] }}</h2>
+<ul>
+  <li *ngFor="let blog of blogs">
+    <a [href]="blog.link" target="_blank" [ngStyle]="{
+      'background-image': 'url(' + blog.img + ')'
+    }">
+      <span class="image">
+        <fa-layers class="fa-fw">
+          <fa-icon [icon]="['fas', blog.icon]"></fa-icon>
+        </fa-layers>
+      </span>
+      <span class="icon" [ngStyle]="{
+        'background-color': blog.color
+      }">
+        <fa-layers class="fa-fw">
+          <fa-icon [icon]="['fas', blog.platform]"></fa-icon>
+        </fa-layers>
+      </span>
+      <span class="title">{{ blog.title }}</span>
+    </a>
+  </li>
+</ul>

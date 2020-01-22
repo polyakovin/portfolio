@@ -26,6 +26,7 @@ import { ModalComponent } from './portfolio/modal/modal.component';
 import { LettersComponent } from './site/letters/letters.component';
 import { MentoringComponent } from './site/mentoring/mentoring.component';
 import { CompaniesComponent } from './site/companies/companies.component';
+import { BlogsComponent } from './site/blogs/blogs.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { CompaniesComponent } from './site/companies/companies.component';
     ModalComponent,
     LettersComponent,
     MentoringComponent,
-    CompaniesComponent
+    CompaniesComponent,
+    BlogsComponent
   ],
   imports: [
     BrowserModule,
