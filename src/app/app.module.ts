@@ -24,7 +24,8 @@ import { FlagComponent } from './site/flag/flag.component';
 import { BannerComponent } from './site/banner/banner.component';
 import { ModalComponent } from './portfolio/modal/modal.component';
 import { LettersComponent } from './site/letters/letters.component';
-import { MentoringComponent } from './mentoring/mentoring.component';
+import { MentoringComponent } from './site/mentoring/mentoring.component';
+import { CompaniesComponent } from './site/companies/companies.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { MentoringComponent } from './mentoring/mentoring.component';
     BannerComponent,
     ModalComponent,
     LettersComponent,
-    MentoringComponent
+    MentoringComponent,
+    CompaniesComponent
   ],
   imports: [
     BrowserModule,

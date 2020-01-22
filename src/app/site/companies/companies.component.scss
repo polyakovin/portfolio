@@ -1,0 +1,20 @@
+.companies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  .sprite {
+    background-image: url(../../../assets/images/company_logos.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    filter: grayscale(.7);
+    transition: filter .2s;
+
+    &:hover {
+      filter: grayscale(0);
+    }
+  }
+}
+

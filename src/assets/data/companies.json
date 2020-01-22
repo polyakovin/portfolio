@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Yandex",
+    "img": "yandex",
+    "href": "https://yandex.com/",
+    "x": 400,
+    "y": 450
+  },
+  {
+    "title": "Société Générale",
+    "img": "societe_generale",
+    "href": "https://www.societegenerale.fr/",
+    "x": 400,
+    "y": 0
+  },
+  {
+    "title": "Inkitt",
+    "img": "inkitt",
+    "href": "https://www.inkitt.com/",
+    "x": 205,
+    "y": 155
+  },
+  {
+    "title": "UCHi.RU",
+    "img": "uchiru",
+    "href": "https://uchi.ru/",
+    "x": 410,
+    "y": 150
+  },
+  {
+    "title": "Hello TV",
+    "img": "hellotv",
+    "href": "https://tvhello.ru/",
+    "x": 0,
+    "y": 150
+  },
+  {
+    "title": "The University Centre in Svalbard",
+    "img": "unis",
+    "href": "https://www.unis.no/",
+    "x": 410,
+    "y": 300
+  },
+  {
+    "title": "Moscow Institute of Physics and Technology",
+    "img": "mipt",
+    "href": "https://mipt.ru/english/",
+    "x": 0,
+    "y": 310
+  },
+  {
+    "title": "NeuroData Lab",
+    "img": "ndl",
+    "href": "https://neurodatalab.com/",
+    "x": 200,
+    "y": 310
+  },
+  {
+    "title": "S.P. Korolev RSC \"Energia\"",
+    "img": "energia",
+    "href": "https://www.energia.ru/english/",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "title": "Geofizika-Kosmos",
+    "img": "geophysics",
+    "href": "http://eng.geofizika-cosmos.ru/",
+    "x": 200,
+    "y": 0
+  }
+]
