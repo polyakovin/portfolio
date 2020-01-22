@@ -1,4 +1,11 @@
 <h2 id="skills">{{ title[common.lang] }}</h2>
-<div id="mindmap" (mousemove)="changeLabelPosition($event)">
-  <div id="label"></div>
+<div #mindmapElement class="mindmap" (mousemove)="changeLabelPosition($event)">
+  <div #labelElement class="label"
+    [ngClass]="{
+      shown: isLabelShown
+    }"
+    [ngStyle]="{
+      top: labelPostion.top + 'px',
+      left: labelPostion.left + 'px'
+    }"></div>
 </div>

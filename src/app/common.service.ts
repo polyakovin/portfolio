@@ -8,7 +8,6 @@ export class CommonService {
   selectedBest = false;
   projectsForBanner = [];
   projects = projects;
-  skills = [];
   hobbies = [];
   links = [];
 

@@ -1,11 +1,11 @@
 @import "variables";
 @import "mixins";
-@import "../../node_modules/bootstrap/scss/bootstrap";
 
 body {
   font-family: $font-primary;
   background: $color-bg;
   color: $color-primary;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -35,31 +35,18 @@ a {
   }
 }
 
-pre {
-  display: inline-block;
-  background-color: #ccc;
-  padding: 10px;
-  border-radius: 5px;
-}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 
-blockquote {
-  border-left: 7px solid #ccc;
-  padding-left: 10px;
-  color: #ccc;
+  @media (min-width: 576px) {max-width: 540px;}
+  @media (min-width: 768px) {max-width: 720px;}
+  @media (min-width: 992px) {max-width: 960px;}
+  @media (min-width: 1200px) {max-width: 1140px;}
 }
-
-#idea {
-  a {
-    text-decoration: underline;
-  }
-}
-
-// Запросы для адаптивной вёрстки
-@media (max-width: 575px) {} // xxs
-@media (min-width: 576px) and (max-width: 767px) {} // xs
-@media (min-width: 768px) and (max-width: 991px) {} // sm
-@media (min-width: 992px) and (max-width: 1199px) {} // md
-@media (min-width: 1200px) {} // lg
 
 @media (max-width: 767px) {
   .hidden-xs {
@@ -67,23 +54,9 @@ blockquote {
   }
 }
 
-// Для D3
-.link {
-  stroke: #ccc;
-}
-
-.node {
-  cursor: move;
-}
-
-.form-check {
-  cursor: pointer;
-
-  .form-check-input {
-    cursor: pointer;
-  }
-
-  .form-check-label {
-    cursor: pointer;
-  }
-}
+// Запросы для адаптивной вёрстки
+// @media (max-width: 575px) {} // xxs
+// @media (min-width: 576px) and (max-width: 767px) {} // xs
+// @media (min-width: 768px) and (max-width: 991px) {} // sm
+// @media (min-width: 992px) and (max-width: 1199px) {} // md
+// @media (min-width: 1200px) {} // lg

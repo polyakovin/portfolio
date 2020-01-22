@@ -32,9 +32,9 @@ export class BannerComponent implements OnInit {
   }
 
   setHTMLElements() {
-    this.divCV = $('.cv');
-    this.projectsView = $('.projects-view');
-    this.landingImage = this.projectsView.find('.project')[0];
+    // this.divCV = $('.cv');
+    // this.projectsView = $('.projects-view');
+    // this.landingImage = this.projectsView.find('.project')[0];
   }
 
   watchProjectsViewSize() {
@@ -58,57 +58,57 @@ export class BannerComponent implements OnInit {
     const initialWidth = 800;
     const initialHeight = 666;
     const cvWidth = this.divCV.width();
-    const windowWidth = $(window).width();
-    const scale = windowWidth > 1199 ? 1 : windowWidth > 991 ? 0.8 : cvWidth / initialWidth;
+    // const windowWidth = $(window).width();
+    // const scale = windowWidth > 1199 ? 1 : windowWidth > 991 ? 0.8 : cvWidth / initialWidth;
 
-    this.projectsView.height(initialHeight * scale);
-    this.projectsView.css({transform: `scale(${scale})`});
+    // this.projectsView.height(initialHeight * scale);
+    // this.projectsView.css({transform: `scale(${scale})`});
   }
 
   scrollTo(element, duration) {
-    const landingImage = $(element);
-    const containerHeight = landingImage.height();
-    const contentHeight = landingImage.find('img').height();
-    const endPosition = contentHeight - containerHeight;
-    const startPosition = 0;
-    const change = endPosition - startPosition;
-    const increment = 10;
-    let currentTime = 0;
-    let intervals = this.intervals;
+    // const landingImage = $(element);
+    // const containerHeight = landingImage.height();
+    // const contentHeight = landingImage.find('img').height();
+    // const endPosition = contentHeight - containerHeight;
+    // const startPosition = 0;
+    // const change = endPosition - startPosition;
+    // const increment = 10;
+    // let currentTime = 0;
+    // let intervals = this.intervals;
 
-    showLandingTop();
-    clearOldIntervals(this);
-    animateScroll();
+    // showLandingTop();
+    // clearOldIntervals(this);
+    // animateScroll();
 
-    function showLandingTop() {
-      element.scrollTop = 0;
-    }
+    // function showLandingTop() {
+    //   element.scrollTop = 0;
+    // }
 
-    function clearOldIntervals(that) {
-      for (const interval of intervals) {
-        if (interval) {
-          clearInterval(interval);
-        }
-      }
-      that.intervals = intervals = [];
-    }
+    // function clearOldIntervals(that) {
+    //   for (const interval of intervals) {
+    //     if (interval) {
+    //       clearInterval(interval);
+    //     }
+    //   }
+    //   that.intervals = intervals = [];
+    // }
 
-    function animateScroll() {
-      currentTime += increment;
-      element.scrollTop = easeInOutQuad(currentTime, startPosition, change, duration);
-      if (currentTime < duration) {
-        intervals.push(setTimeout(animateScroll, increment));
-      }
-    }
+    // function animateScroll() {
+    //   currentTime += increment;
+    //   element.scrollTop = easeInOutQuad(currentTime, startPosition, change, duration);
+    //   if (currentTime < duration) {
+    //     intervals.push(setTimeout(animateScroll, increment));
+    //   }
+    // }
 
-    function easeInOutQuad(t, b, c, d) {
-      t /= d / 2;
-      if (t < 1) {
-        return c / 2 * t * t + b;
-      }
-      t--;
-      return -c / 2 * (t * (t - 2) - 1) + b;
-    }
+    // function easeInOutQuad(t, b, c, d) {
+    //   t /= d / 2;
+    //   if (t < 1) {
+    //     return c / 2 * t * t + b;
+    //   }
+    //   t--;
+    //   return -c / 2 * (t * (t - 2) - 1) + b;
+    // }
   }
 
   setNextProject() {

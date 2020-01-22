@@ -1,8 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { select, layout } from 'd3';
 import { CommonService } from '../../common.service';
-
-declare let $: any;
-declare let d3: any;
+import skillsData from '../../../assets/data/skills.json';
 
 @Component({
   selector: 'app-skills',
@@ -10,40 +9,37 @@ declare let d3: any;
   styleUrls: ['./skills.component.scss']
 })
 export class SkillsComponent implements OnInit {
-  label: any;
   title = {'ru': 'Любимые инструменты', 'en': 'Favourite tools'};
+  @ViewChild('mindmapElement') mindmapElement;
+  @ViewChild('labelElement') labelElement;
+  label;
   mindmap;
+  isLabelShown = false;
+  labelPostion = {
+    top: 0,
+    left: 0,
+  };
 
   constructor(
     public common: CommonService
   ) {}
 
   ngOnInit() {
-    if (this.common.skills.length > 0) {
-      this.makeForceDiagram(this.common.skills);
-    } else {
-      d3.json('assets/data/skills.json', (error, skills) => {
-        if (error) {
-          throw error;
-        }
-        this.common.skills = skills;
-        this.makeForceDiagram(skills);
-      });
-    }
+    this.label = this.labelElement.nativeElement;
+    this.makeForceDiagram(skillsData);
   }
 
   makeForceDiagram(skills) {
-    this.mindmap = d3.select('#mindmap');
-    const label = this.label = $('#label');
+    this.mindmap = select(this.mindmapElement.nativeElement);
     const svg = this.mindmap.append('svg');
-    const force = d3.layout.force();
+    const force = layout.force();
     const [nodes, links] = this.createNodesAndLinks(skills);
     this.setupForceDiagram(force, nodes, links);
     this.watchGraphSize(svg, force);
     const link = this.drawLinks(svg, links);
     const node = this.drawNodes(svg, nodes, force);
     this.appendIconsToNodes(node);
-    this.addTooltips(node, label);
+    this.addTooltips(node);
     this.animateForceDiagramOnTick(force, link, node);
   }
 
@@ -119,7 +115,7 @@ export class SkillsComponent implements OnInit {
 
   watchGraphSize(svg, force) {
     this.setGraphSize(svg, force);
-    d3.select(window).on('resize', () => {
+    select(window).on('resize', () => {
       if (location.pathname === '/') {
         this.setGraphSize(svg, force);
       }
@@ -143,14 +139,14 @@ export class SkillsComponent implements OnInit {
     return svg.selectAll('.link')
       .data(links)
       .enter().append('line')
-        .attr('class', 'link');
+        .attr('style', 'stroke: #ccc');
   }
 
   drawNodes(svg, nodes, force) {
     return svg.selectAll('.node')
       .data(nodes)
       .enter().append('g')
-        .attr('class', 'node')
+        .attr('style', 'cursor: move')
         .call(force.drag);
   }
 
@@ -163,10 +159,15 @@ export class SkillsComponent implements OnInit {
       .attr('height', d => d.h);
   }
 
-  addTooltips(node, label) {
+  addTooltips(node) {
     node
-      .on('mouseover', d => label.text(d.name).stop().fadeIn(100))
-      .on('mouseleave', () => label.stop().fadeOut(100).text());
+      .on('mouseover', d => {
+        this.label.innerHTML = d.name;
+        this.isLabelShown = true;
+      })
+      .on('mouseleave', () => {
+        this.isLabelShown = false;
+      });
   }
 
   animateForceDiagramOnTick(force, link, node) {
@@ -180,10 +181,8 @@ export class SkillsComponent implements OnInit {
     });
   }
 
-  changeLabelPosition(event) {
-    this.label.css({
-      left: event.offsetX + 20,
-      top: event.offsetY - this.label.innerHeight() / 2,
-    });
+  changeLabelPosition({offsetX: x, offsetY: y}) {
+    this.labelPostion.left = x + 20;
+    this.labelPostion.top = y - this.label.offsetHeight / 2;
   }
 }
