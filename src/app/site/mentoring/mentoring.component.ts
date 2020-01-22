@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CommonService } from '../../common.service';
 
 @Component({
   selector: 'app-mentoring',
@@ -6,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./mentoring.component.scss']
 })
 export class MentoringComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  title = {
+    ru: 'Менторство',
+    en: 'Mentoring',
+  };
+  constructor (
+    public common: CommonService,
+  ) { }
+  ngOnInit() {}
 }
