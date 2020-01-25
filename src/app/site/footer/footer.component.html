@@ -1,5 +1,5 @@
 <footer id="contacts">
-  <div class="container text-center">
+  <div class="container">
     <a *ngFor="let link of common.links" href="{{ link.href }}" class="links" target="{{ link.isSelf ? '_self' : '_blank' }}">
       <fa-icon [icon]="['fas', link.icon]"></fa-icon>
     </a>
