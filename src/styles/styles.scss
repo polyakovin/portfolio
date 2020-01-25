@@ -1,5 +1,8 @@
+@import "../../node_modules/normalize-scss/sass/normalize";
 @import "variables";
 @import "mixins";
+
+@include normalize();
 
 body {
   font-family: $font-primary;
