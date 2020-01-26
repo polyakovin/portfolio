@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpService } from '../../http.service';
-import { CommonService } from '../../common.service';
+import links from '../../../assets/data/links.json';
 
 @Component({
   selector: 'app-footer',
@@ -8,17 +7,7 @@ import { CommonService } from '../../common.service';
   styleUrls: ['./footer.component.scss']
 })
 export class FooterComponent implements OnInit {
-  constructor(
-    private http: HttpService,
-    public common: CommonService
-  ) {}
-
-  ngOnInit() {
-    if (this.common.links.length === 0) {
-      this.http.get('assets/data/links.json').subscribe(
-        data => this.common.links = data,
-        error => console.error(error)
-      );
-    }
-  }
+  links = links;
+  constructor() {}
+  ngOnInit() {}
 }

@@ -10,7 +10,7 @@ import blogs from '../../../assets/data/blogs.json';
 export class BlogsComponent implements OnInit {
   title = {
     ru: 'Блог-площадки',
-    en: 'Blogs',
+    en: 'Blog topics',
   };
   blogs = blogs;
   constructor(

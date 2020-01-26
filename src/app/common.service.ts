@@ -8,8 +8,6 @@ export class CommonService {
   selectedBest = false;
   projectsForBanner = [];
   projects = projects;
-  hobbies = [];
-  links = [];
 
   constructor(
     private http: HttpService
