@@ -28,6 +28,7 @@ h2 {
 a {
   color: $color-primary;
   transition: color 100ms ease-in-out;
+  text-decoration: none;
 
   &:hover, &:focus, &:active, &:visited {
     color: black;
@@ -49,6 +50,27 @@ a {
   @media (min-width: 768px) {max-width: 720px;}
   @media (min-width: 992px) {max-width: 960px;}
   @media (min-width: 1200px) {max-width: 1140px;}
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+
+    & > * {
+      @media (max-width: 767px) {width: 100%}
+    }
+
+    .col-xl-3 {
+      @media (min-width: 1200px) {width: 25%}
+    }
+
+    .col-lg-4 {
+      @media (min-width: 992px) and (max-width: 1199px) {width: 33%;}
+    }
+
+    .col-md-6 {
+      @media (min-width: 768px) and (max-width: 991px) {width: 50%;}
+    }
+  }
 }
 
 @media (max-width: 767px) {
@@ -58,8 +80,8 @@ a {
 }
 
 // Запросы для адаптивной вёрстки
-// @media (max-width: 575px) {} // xxs
-// @media (min-width: 576px) and (max-width: 767px) {} // xs
-// @media (min-width: 768px) and (max-width: 991px) {} // sm
-// @media (min-width: 992px) and (max-width: 1199px) {} // md
-// @media (min-width: 1200px) {} // lg
+// @media (max-width: 575px) {} // xs
+// @media (min-width: 576px) and (max-width: 767px) {} // sm
+// @media (min-width: 768px) and (max-width: 991px) {} // md
+// @media (min-width: 992px) and (max-width: 1199px) {} // lg
+// @media (min-width: 1200px) {} // xl
