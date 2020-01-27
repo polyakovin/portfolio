@@ -2,6 +2,7 @@
 @import "./../../styles/mixins";
 
 .projects-list {
+  box-sizing: border-box;
   position: fixed;
   top: 0;
   left: 0;
@@ -26,13 +27,26 @@
     top: 40px;
     left: 35px;
     font-size: 2.5rem;
+    cursor: pointer;
+  }
+
+  .projects-grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &:after {
+      content: "";
+      width: 32%;
+    }
   }
 
   .project {
     display: inline-block;
     width: 32%;
-    margin: 0.6%;
     height: 200px;
+    margin-bottom: 20px;
     overflow: hidden;
     cursor: pointer;
     position: relative;

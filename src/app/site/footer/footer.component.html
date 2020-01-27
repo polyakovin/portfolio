@@ -1,4 +1,5 @@
 <footer id="contacts">
+  <h2>Get in Touch with Me!</h2>
   <div class="container">
     <a *ngFor="let link of links" href="{{ link.href }}" class="links" target="{{ link.isSelf ? '_self' : '_blank' }}">
       <fa-icon [icon]="['fas', link.icon]"></fa-icon>

@@ -3,15 +3,17 @@
 
   <fa-icon class="close" [icon]="['fas', 'chevron-left']" (click)="backToSite()"></fa-icon>
 
-  <div #projectElement class="project" *ngFor="let project of common.projects" (click)="openModal(project)" data-toggle="modal" data-target="#projects-modal">
-    <img [src]="'assets/images/projects/landings/' + project.img" [alt]="project.name[common.lang]">
+  <div class="projects-grid">
+    <div #projectElement class="project" *ngFor="let project of common.projects" (click)="openModal(project)" data-toggle="modal" data-target="#projects-modal">
+      <img [src]="'assets/images/projects/landings/' + project.img" [alt]="project.name[common.lang]">
 
-    <div class="description">
-      <div class="bg"></div>
+      <div class="description">
+        <div class="bg"></div>
 
-      <div class="title">
-        {{ project.name[common.lang] }}<br>
-        <span class="year small">{{ project.year }}</span>
+        <div class="title">
+          {{ project.name[common.lang] }}<br>
+          <span class="year small">{{ project.year }}</span>
+        </div>
       </div>
     </div>
   </div>
