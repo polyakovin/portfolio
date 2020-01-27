@@ -27,6 +27,7 @@ import { LettersComponent } from './site/letters/letters.component';
 import { MentoringComponent } from './site/mentoring/mentoring.component';
 import { CompaniesComponent } from './site/companies/companies.component';
 import { BlogsComponent } from './site/blogs/blogs.component';
+import { ProjectsComponent } from './site/projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { BlogsComponent } from './site/blogs/blogs.component';
     LettersComponent,
     MentoringComponent,
     CompaniesComponent,
-    BlogsComponent
+    BlogsComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,

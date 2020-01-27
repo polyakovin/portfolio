@@ -8,7 +8,10 @@ import hobbies from '../../../assets/data/hobbies.json';
   styleUrls: ['./hobbies.component.scss']
 })
 export class HobbiesComponent implements OnInit {
-  title = {'ru': 'Увлечения', 'en': 'Hobbies'};
+  title = {
+    ru: 'Увлечения',
+    en: 'Hobbies',
+  };
   hobbies = hobbies;
   constructor(
     public common: CommonService
