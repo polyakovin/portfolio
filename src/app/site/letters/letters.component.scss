@@ -3,7 +3,7 @@
   height: 200px;
   position: absolute;
   right: 30px;
-  top: 430px;
+  top: 270px;
 
   @media (max-width: 991px) {
     position: relative;
@@ -44,7 +44,7 @@
 
     &.active {
       transform: rotate(0) translate(0px, 150px) scale(4.9);
-      box-shadow: 0 0 40px #666;
+      box-shadow: 0 0 20px #6666;
       z-index: 11;
 
       @media (min-width: 1200px) {
