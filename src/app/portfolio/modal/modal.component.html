@@ -1,4 +1,4 @@
-<div id="projects-modal" class="modal fade" tabindex="-1" role="dialog" *ngIf="project">
+<div id="projects-modal" class="modal fade" [ngClass]="{show: isShown}" tabindex="-1" role="dialog" *ngIf="project">
   <div class="modal-dialog modal-lg">
     <div class="modal-content text-center">
       <div class="modal-header">
@@ -35,3 +35,7 @@
     </div>
   </div>
 </div>
+
+<div class="modal-backdrop fade"
+  [ngClass]="{show: isShown}"
+  (click)="closeModal()"></div>

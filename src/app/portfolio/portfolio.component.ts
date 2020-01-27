@@ -12,6 +12,7 @@ export class PortfolioComponent implements OnInit {
   title = {'ru': 'Проекты', 'en': 'Projects'};
   // projects;
   openedProject;
+  isModalShown = false;
   // @ViewChild('project') project;
 
   constructor(
@@ -54,6 +55,7 @@ export class PortfolioComponent implements OnInit {
   openModal(project) {
     this.cureVideoLink(project);
     this.openedProject = project;
+    this.isModalShown = true;
   }
 
   cureVideoLink(project) {

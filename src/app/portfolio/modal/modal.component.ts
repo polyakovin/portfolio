@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { CommonService } from '../../common.service';
 
 @Component({
@@ -8,10 +8,16 @@ import { CommonService } from '../../common.service';
 })
 export class ModalComponent implements OnInit {
   @Input() project: any = {};
+  @Input() isShown = false;
+  @Output() modalClosed = new EventEmitter();
 
   constructor(
     public common: CommonService
   ) {}
 
   ngOnInit() {}
+
+  closeModal() {
+    this.modalClosed.emit();
+  }
 }
