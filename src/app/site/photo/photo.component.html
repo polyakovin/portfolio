@@ -1,9 +1,21 @@
-<figure class="polaroid figure mx-auto d-block">
-  <div class="me"></div>
-  <a href="#contacts" class="hidden-xs"><fa-icon [icon]="['fas', 'mobile-alt']"></fa-icon></a>
-
-  <figcaption>
+<app-flag></app-flag>
+<div class="bio">
+  <div class="photo">
+    <figure class="polaroid figure"></figure>
+  </div>
+  <div class="navigation">
+    <ul class="list-unstyled">
+      <li>
+        <a href="#contacts" class="hidden-xs">
+          <fa-layers class="fa-fw">
+            <fa-icon [icon]="['fas', 'mobile-alt']"></fa-icon>
+          </fa-layers>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="presentation">
     <h1>{{ name[common.lang] }}</h1>
     <span [ngClass]="{ru: common.lang === 'ru'}">{{ usp[common.lang] }}</span>
-  </figcaption>
-</figure>
+  </div>
+</div>
