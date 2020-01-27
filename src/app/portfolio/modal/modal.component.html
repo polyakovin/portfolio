@@ -1,8 +1,8 @@
-<div id="projects-modal" class="modal fade" [ngClass]="{show: isShown}" tabindex="-1" role="dialog" *ngIf="project">
+<div id="projects-modal" class="modal fade" [ngClass]="{show: isShown}" tabindex="-1" role="dialog">
   <div class="modal-dialog modal-lg">
-    <div class="modal-content text-center">
+    <div class="modal-content text-center" *ngIf="project">
       <div class="modal-header">
-        <h5 class="modal-title">{{ project.name[common.lang] }} ({{ project.year }})</h5>
+        <h3 class="modal-title">{{ project.name[common.lang] }} ({{ project.year }})</h3>
       </div>
 
       <div class="modal-body">
@@ -28,14 +28,14 @@
         <p *ngIf="project.description">{{ project.description[common.lang] || '' }}</p>
 
         <div class="feedback" *ngIf="project.feedback">
-          <h6>Отзыв о проекте</h6>
+          <h4>Отзыв о проекте</h4>
           <img [src]="'assets/images/projects/feedback/' + project.img" [alt]="project.img">
         </div>
       </div>
     </div>
   </div>
-</div>
 
-<div class="modal-backdrop fade"
+  <div class="modal-backdrop fade"
   [ngClass]="{show: isShown}"
   (click)="closeModal()"></div>
+</div>

@@ -9,7 +9,10 @@ import { CommonService } from '../common.service';
   styleUrls: ['./portfolio.component.scss']
 })
 export class PortfolioComponent implements OnInit {
-  title = {'ru': 'Проекты', 'en': 'Projects'};
+  title = {
+    ru: 'Проекты',
+    en: 'Projects',
+  };
   // projects;
   openedProject;
   isModalShown = false;
@@ -22,8 +25,6 @@ export class PortfolioComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    console.log(this.common.projects);
-
     // this.setProjectSize();
     // $(document).ready(() => {
     //   this.projects = $('.projects-list .project');
