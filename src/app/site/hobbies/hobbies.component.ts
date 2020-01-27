@@ -13,8 +13,10 @@ export class HobbiesComponent implements OnInit {
     en: 'Hobbies',
   };
   hobbies = hobbies;
+
   constructor(
-    public common: CommonService
+    public common: CommonService,
   ) {}
+
   ngOnInit() {}
 }
