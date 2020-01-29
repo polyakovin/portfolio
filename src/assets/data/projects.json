@@ -2,7 +2,7 @@
   {
     "year": 2018,
     "name": {"ru": "Мобильное приложение Hello TV", "en": "Hello TV mobile app"},
-    "description": {"ru": "Мобильное приложение для iOS и Android. Реализован личный кабинет учеников, которые могут видеть свои достижения и доступные награды. Зайти в него можно по логину «brunya@cat.ru» и паролю «123456».", "en": "Mobile application for iOS and Android. There is a personal account of students who can see their achievements and available awards. You can sign in via login “brunya@cat.ru” and password “123456”."},
+    "description": {"ru": "Мобильное приложение для iOS и Android. Реализован личный кабинет учеников, которые могут видеть свои достижения и доступные награды. Зайти в него можно по логину <code>brunya@cat.ru</code> и паролю <code>123456</code>.", "en": "Mobile application for iOS and Android. There is a personal account of students who can see their achievements and available awards. You can sign in via login <code>brunya@cat.ru</code> and password <code>123456</code>."},
     "img": "hellotv.jpg",
     "links": [
       {
