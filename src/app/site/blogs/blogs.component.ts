@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { shuffle } from 'lodash';
 import { CommonService } from '../../common.service';
 import blogs from '../../../assets/data/blogs.json';
 
@@ -12,7 +13,7 @@ export class BlogsComponent implements OnInit {
     ru: 'Блог-площадки',
     en: 'Blog topics',
   };
-  blogs = blogs;
+  blogs = shuffle(blogs);
   constructor(
     public common: CommonService,
   ) {}
