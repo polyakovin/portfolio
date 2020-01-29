@@ -48,14 +48,15 @@
       z-index: 11;
 
       @media (min-width: 1200px) {
-        transform: rotate(0) translate(-594px, 40px) scale(5.7);      } // md
+        transform: rotate(0) translate(-594px, 40px) scale(5.7);
+      } // xl
       @media (min-width: 992px) and (max-width: 1199px) {
-        transform: rotate(0) translate(-494px, -70px) scale(4.6);
-      } // md
+        transform: rotate(0) translate(-491px, -50px) scale(4.8);
+      } // lg
+      // @media (min-width: 576px) and (max-width: 767px) {} // md
       @media (max-width: 575px) {
         transform: rotate(0) translate(0px, 150px) scale(3);
-      } // xxs
-      // @media (min-width: 576px) and (max-width: 767px) {} // xs
+      } // xs
     }
   }
 

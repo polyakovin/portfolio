@@ -10,6 +10,10 @@ iframe {
   .left {
     iframe {
       margin-right: 3px;
+
+      @media (min-width: 992px) and (max-width: 1199px) {width: 650px;} // lg
+      // @media (min-width: 576px) and (max-width: 767px) {} // md
+      @media (max-width: 575px) {} // xs
     }
   }
 
