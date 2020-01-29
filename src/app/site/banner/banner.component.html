@@ -1,6 +1,6 @@
 <div #projectsViewElement class="projects-view" (window:resize)="onWindowResize($event)">
   <div #projectElement class="project">
-    <img [src]="'assets/images/projects/landings/' + common.projectsForBanner[currentProjectIndex].img" alt="banner">
+    <img #projectImgElement [src]="'assets/images/projects/landings/' + common.projectsForBanner[currentProjectIndex].img" alt="banner">
   </div>
 
   <div class="imac"></div>

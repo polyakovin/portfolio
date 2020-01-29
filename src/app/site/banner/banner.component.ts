@@ -14,12 +14,17 @@ export class BannerComponent implements OnInit {
   };
   @ViewChild('projectsViewElement') projectsViewElement;
   @ViewChild('projectElement') projectElement;
+  @ViewChild('projectImgElement') projectImgElement;
   projectsView;
   landingImage;
+  projectImg;
 
   currentProjectIndex = 0;
   slideDuration = 5000;
+  animationDuration = 4000;
   intervals = [];
+  increment = 10;
+  endPosition;
 
   constructor(
     public common: CommonService,
@@ -30,10 +35,8 @@ export class BannerComponent implements OnInit {
   ngOnInit() {
     this.setHTMLElements();
     this.setProjectsViewScale();
-    // $(document).ready(() => {
-      // this.animateLanding();
-      // this.activateBanner();
-    // });
+    this.animateLanding();
+    this.activateBanner();
   }
 
   onWindowResize(event) {
@@ -43,6 +46,7 @@ export class BannerComponent implements OnInit {
   setHTMLElements() {
     this.projectsView = this.projectsViewElement.nativeElement;
     this.landingImage = this.projectElement.nativeElement;
+    this.projectImg = this.projectImgElement.nativeElement;
   }
 
   setProjectsViewScale(windowWidth = window.innerWidth) {
@@ -60,61 +64,51 @@ export class BannerComponent implements OnInit {
   }
 
   animateLanding() {
-    setTimeout(() => {
-      this.scrollTo(this.landingImage, this.slideDuration - 1000);
-    }, 100);
+    setTimeout(() => this.scrollTo(), 100);
   }
 
   activateBanner() {
-    setInterval(() => {
-      this.setNextProject();
-    }, this.slideDuration);
+    setInterval(() => this.setNextProject(), this.slideDuration);
   }
 
-  scrollTo(element, duration) {
-    // const landingImage = $(element);
-    // const containerHeight = landingImage.height();
-    // const contentHeight = landingImage.find('img').height();
-    // const endPosition = contentHeight - containerHeight;
-    // const startPosition = 0;
-    // const change = endPosition - startPosition;
-    // const increment = 10;
-    // let currentTime = 0;
-    // let intervals = this.intervals;
+  scrollTo() {
+    const containerHeight = this.landingImage.offsetHeight;
+    const contentHeight = this.projectImg.offsetHeight;
+    this.endPosition = contentHeight - containerHeight;
 
-    // showLandingTop();
-    // clearOldIntervals(this);
-    // animateScroll();
+    this.showLandingTop();
+    this.clearOldIntervals();
+    this.animateScroll();
+  }
 
-    // function showLandingTop() {
-    //   element.scrollTop = 0;
-    // }
+  showLandingTop() {
+    this.landingImage.scrollTop = 0;
+  }
 
-    // function clearOldIntervals(that) {
-    //   for (const interval of intervals) {
-    //     if (interval) {
-    //       clearInterval(interval);
-    //     }
-    //   }
-    //   that.intervals = intervals = [];
-    // }
+  clearOldIntervals() {
+    for (const interval of this.intervals) {
+      if (interval) {
+        clearInterval(interval);
+      }
+    }
+    this.intervals = [];
+  }
 
-    // function animateScroll() {
-    //   currentTime += increment;
-    //   element.scrollTop = easeInOutQuad(currentTime, startPosition, change, duration);
-    //   if (currentTime < duration) {
-    //     intervals.push(setTimeout(animateScroll, increment));
-    //   }
-    // }
+  animateScroll(currentTime = 0) {
+    currentTime += this.increment;
+    this.landingImage.scrollTop = this.easeInOutQuad(currentTime);
+    if (currentTime < this.animationDuration) {
+      this.intervals.push(setTimeout(this.animateScroll.bind(this, currentTime), this.increment));
+    }
+  }
 
-    // function easeInOutQuad(t, b, c, d) {
-    //   t /= d / 2;
-    //   if (t < 1) {
-    //     return c / 2 * t * t + b;
-    //   }
-    //   t--;
-    //   return -c / 2 * (t * (t - 2) - 1) + b;
-    // }
+  easeInOutQuad(t) {
+    t /= this.animationDuration / 2;
+    if (t < 1) {
+      return this.endPosition / 2 * t * t;
+    }
+    t--;
+    return -this.endPosition / 2 * (t * (t - 2) - 1);
   }
 
   setNextProject() {
