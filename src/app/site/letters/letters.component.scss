@@ -9,7 +9,7 @@
     position: relative;
     right: initial;
     top: initial;
-    margin-top: 30px;
+    margin-top: 120px;
     width: initial;
   } // sm
 
@@ -53,10 +53,13 @@
       @media (min-width: 992px) and (max-width: 1199px) {
         transform: rotate(0) translate(-491px, -50px) scale(4.8);
       } // lg
-      // @media (min-width: 576px) and (max-width: 767px) {} // md
+      @media (min-width: 768px) and (max-width: 991px) {
+        transform: rotate(0) translate(0px, -230px) scale(5.2);
+      } // md
+      // @media (min-width: 576px) and (max-width: 767px) {} // xs
       @media (max-width: 575px) {
         transform: rotate(0) translate(0px, 150px) scale(3);
-      } // xs
+      } // xxs
     }
   }
 
