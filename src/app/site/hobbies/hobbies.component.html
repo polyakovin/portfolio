@@ -5,6 +5,7 @@
       <fa-icon [icon]="['fas', hobby.icon]"></fa-icon>
     </fa-layers>
     <span class="title" *ngIf="!hobby.href">{{ hobby.title[common.lang] }}</span>
-    <a *ngIf="hobby.href" href="{{ hobby.href }}" target="_blank">{{ hobby.title[common.lang] }}</a>
+    <a *ngIf="hobby.href && !hobby.localLink" href="{{ hobby.href }}" target="_blank">{{ hobby.title[common.lang] }}</a>
+    <a *ngIf="hobby.localLink" href="#" (click)="navigate($event, hobby.localLink)">{{ hobby.title[common.lang] }}</a>
   </div>
 </div>

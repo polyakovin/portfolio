@@ -14,6 +14,10 @@ export class HttpService {
     return this.http.get<any>(url);
   }
 
+  getText(url) {
+    return this.http.get<string>(url, { responseType: 'text' as 'json' });
+  }
+
   post(data: any, url: string) {
     const body = JSON.stringify(data);
     const headers = new HttpHeaders();

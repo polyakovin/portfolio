@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { shuffle } from 'lodash';
 import { CommonService } from '../../common.service';
 import hobbies from '../../../assets/data/hobbies.json';
@@ -17,7 +18,13 @@ export class HobbiesComponent implements OnInit {
 
   constructor(
     public common: CommonService,
+    private router: Router,
   ) {}
 
   ngOnInit() {}
+
+  navigate(event, route) {
+    event.preventDefault();
+    this.router.navigate([route]);
+  }
 }

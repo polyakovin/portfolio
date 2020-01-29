@@ -33,6 +33,7 @@
     "normalize-scss": "^7.0.1",
     "rxjs": "^6.2.2",
     "rxjs-compat": "^6.2.2",
+    "showdown": "^1.9.1",
     "yarn": "^1.7.0",
     "zone.js": "^0.8.26"
   },

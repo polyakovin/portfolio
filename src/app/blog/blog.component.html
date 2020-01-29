@@ -1,0 +1,16 @@
+<app-flag></app-flag>
+
+<fa-icon class="close" [icon]="['fas', 'chevron-left']" (click)="backToSite()"></fa-icon>
+
+<div class="container">
+  <h1>Blog</h1>
+  <ul class="article-list">
+    <li *ngFor="let article of articles"><a href="#" (click)="openArticle($event, article)">{{ article.title }}</a> (vk) (inst) (vc)</li>
+  </ul>
+
+  <app-blogs></app-blogs>
+</div>
+
+<app-modal [isShown]="isModalShown" (modalClosed)="isModalShown = false">
+  <app-article *ngIf="article !== ''" [article]="article"></app-article>
+</app-modal>

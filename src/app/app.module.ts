@@ -22,12 +22,14 @@ import { PhotoComponent } from './site/photo/photo.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { FlagComponent } from './site/flag/flag.component';
 import { BannerComponent } from './site/banner/banner.component';
-import { ModalComponent } from './portfolio/modal/modal.component';
+import { ModalComponent } from './modal/modal.component';
 import { LettersComponent } from './site/letters/letters.component';
 import { MentoringComponent } from './site/mentoring/mentoring.component';
 import { CompaniesComponent } from './site/companies/companies.component';
 import { BlogsComponent } from './site/blogs/blogs.component';
 import { ProjectsComponent } from './site/projects/projects.component';
+import { BlogComponent } from './blog/blog.component';
+import { ArticleComponent } from './blog/article/article.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +47,9 @@ import { ProjectsComponent } from './site/projects/projects.component';
     MentoringComponent,
     CompaniesComponent,
     BlogsComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    BlogComponent,
+    ArticleComponent
   ],
   imports: [
     BrowserModule,

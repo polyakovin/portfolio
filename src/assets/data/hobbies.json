@@ -15,9 +15,10 @@
     "href": "https://instagram.com/polyakovin.sax"
   },
   {
-    "title": {"ru": "Писательство", "en": "Writing"},
+    "title": {"ru": "Постинг", "en": "Posting"},
     "icon": "pen-nib",
-    "href": "https://vk.com/@igor.polyakov-moi-posty"
+    "href": "https://vk.com/@igor.polyakov-moi-posty",
+    "localLink": "blog"
   },
   {
     "title": {"ru": "Автоматизация", "en": "Automatization"},
