@@ -25,13 +25,5 @@ export class LettersComponent implements OnInit {
     } else {
       this.activeLetter = i;
     }
-    // console.log(i);
-
-    // if (this.imgs.length === 0) {
-    //   this.imgs = event.path[1].querySelector('img');
-    // }
-    // console.log(this.imgs);
-    // for ()
-    // event.target.classList.add('active');
   }
 }

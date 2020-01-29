@@ -1,4 +1,4 @@
-import { Component, OnInit, ApplicationRef } from '@angular/core';
+import { Component, OnInit, ApplicationRef, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
 import { CommonService } from '../../common.service';
 
@@ -8,12 +8,17 @@ import { CommonService } from '../../common.service';
   styleUrls: ['./banner.component.scss']
 })
 export class BannerComponent implements OnInit {
-  buttonText = {'ru': 'Открыть список проектов', 'en': 'Open projects list'};
-  currentProjectIndex = 0;
-  slideDuration = 5000;
-  divCV;
+  buttonText = {
+    ru: 'Открыть список проектов',
+    en: 'Open projects list',
+  };
+  @ViewChild('projectsViewElement') projectsViewElement;
+  @ViewChild('projectElement') projectElement;
   projectsView;
   landingImage;
+
+  currentProjectIndex = 0;
+  slideDuration = 5000;
   intervals = [];
 
   constructor(
@@ -23,23 +28,35 @@ export class BannerComponent implements OnInit {
   ) {}
 
   ngOnInit() {
+    this.setHTMLElements();
+    this.setProjectsViewScale();
     // $(document).ready(() => {
-      // this.setHTMLElements();
-      // this.watchProjectsViewSize();
       // this.animateLanding();
       // this.activateBanner();
     // });
   }
 
-  setHTMLElements() {
-    // this.divCV = $('.cv');
-    // this.projectsView = $('.projects-view');
-    // this.landingImage = this.projectsView.find('.project')[0];
+  onWindowResize(event) {
+    this.setProjectsViewScale(event.target.innerWidth);
   }
 
-  watchProjectsViewSize() {
-    this.setProjectsViewScale();
-    // $(window).resize(() => {this.setProjectsViewScale()});
+  setHTMLElements() {
+    this.projectsView = this.projectsViewElement.nativeElement;
+    this.landingImage = this.projectElement.nativeElement;
+  }
+
+  setProjectsViewScale(windowWidth = window.innerWidth) {
+    const maxSmallWidth = 767;
+    if (windowWidth > maxSmallWidth) {
+      this.projectsView.style = {};
+      return;
+    }
+    const initialWidth = 800;
+    const initialHeight = 666;
+    const cvPadding = 15;
+    const scale = (windowWidth - cvPadding * 2) / initialWidth;
+    this.projectsView.style.height = `${initialHeight * scale}px`;
+    this.projectsView.style.transform = `scale(${scale})`;
   }
 
   animateLanding() {
@@ -52,17 +69,6 @@ export class BannerComponent implements OnInit {
     setInterval(() => {
       this.setNextProject();
     }, this.slideDuration);
-  }
-
-  setProjectsViewScale() {
-    const initialWidth = 800;
-    const initialHeight = 666;
-    const cvWidth = this.divCV.width();
-    // const windowWidth = $(window).width();
-    // const scale = windowWidth > 1199 ? 1 : windowWidth > 991 ? 0.8 : cvWidth / initialWidth;
-
-    // this.projectsView.height(initialHeight * scale);
-    // this.projectsView.css({transform: `scale(${scale})`});
   }
 
   scrollTo(element, duration) {

@@ -9,7 +9,10 @@ import skillsData from '../../../assets/data/skills.json';
   styleUrls: ['./skills.component.scss']
 })
 export class SkillsComponent implements OnInit {
-  title = {'ru': 'Любимые инструменты', 'en': 'Favourite tools'};
+  title = {
+    ru: 'Любимые инструменты',
+    en: 'Favourite tools',
+  };
   @ViewChild('mindmapElement') mindmapElement;
   @ViewChild('labelElement') labelElement;
   label;
