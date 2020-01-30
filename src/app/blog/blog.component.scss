@@ -5,3 +5,32 @@
   font-size: 2.5rem;
   cursor: pointer;
 }
+
+a {
+  text-decoration: underline;
+}
+
+h2 {
+  text-align: left;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+}
+
+ul {
+  margin-top: 0;
+
+  li {
+    margin-top: 10px;
+  }
+}
+
+.article-date {
+  font-size: .8em;
+  color: #ccc;
+}
+
+.publication-link {
+  margin-left: 10px;
+}

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import articles from '../../assets/data/articles.json';
+import categories from '../../assets/data/articles.json';
 
 @Component({
   selector: 'app-blog',
@@ -8,9 +8,10 @@ import articles from '../../assets/data/articles.json';
   styleUrls: ['./blog.component.scss']
 })
 export class BlogComponent implements OnInit {
-  articles = articles;
+  categories = categories;
   article = '';
   isModalShown = false;
+  knownPlatforms = ['vk', 'github'];
 
   constructor(
     private router: Router,
@@ -26,5 +27,9 @@ export class BlogComponent implements OnInit {
 
   backToSite() {
     this.router.navigate(['/']);
+  }
+
+  isKnownPlatform(platform) {
+    return this.knownPlatforms.indexOf(platform) !== -1;
   }
 }

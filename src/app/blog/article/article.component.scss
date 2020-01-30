@@ -1,5 +1,5 @@
 :host::ng-deep {
-  *:not(#mkdbuttons) {
+  *:not(#mkdbuttons, fa-layers) {
     margin: 0;
     padding: 0;
   }
@@ -678,4 +678,20 @@
   //     content: '☑';
   //   }
   // }
+}
+
+.loader {
+  position: relative;
+  width: 100%;
+  min-height: 500px;
+
+  fa-layers {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    font-size: 5rem;
+  }
 }

@@ -1,2 +1,6 @@
-<div *ngIf="articleHTML === ''">Loading</div>
+<div *ngIf="articleHTML === ''" class="loader">
+  <fa-layers class="fa-spin">
+    <fa-icon [icon]="['fas', currentSpinner]"></fa-icon>
+  </fa-layers>
+</div>
 <article *ngIf="articleHTML !== ''" id="wrapper" [innerHTML]="articleHTML"></article>

@@ -4,9 +4,21 @@
 
 <div class="container">
   <h1>Blog</h1>
-  <ul class="article-list">
-    <li *ngFor="let article of articles"><a href="#" (click)="openArticle($event, article)">{{ article.title }}</a> (vk) (inst) (vc)</li>
-  </ul>
+  <div *ngFor="let category of categories">
+    <h2>{{ category.category }}</h2>
+    <ul class="article-list">
+      <li *ngFor="let article of category.articles">
+        <a *ngIf="article.href" href="#" (click)="openArticle($event, article)">{{ article.title }}</a>
+        <span *ngIf="!article.href">{{ article.title }}</span>
+        <span *ngIf="article.date" class="article-date"> ({{ article.date }})</span>
+        <a *ngFor="let publication of article.publications" class="publication-link" [href]="publication.href" target="_blank">
+          <fa-layers class="fa-fw">
+            <fa-icon [icon]="['fas', isKnownPlatform(publication.platform) ? publication.platform : 'globe']"></fa-icon>
+          </fa-layers>
+        </a>
+      </li>
+    </ul>
+  </div>
 
   <app-blogs></app-blogs>
 </div>
