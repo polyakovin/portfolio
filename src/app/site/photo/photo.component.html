@@ -15,7 +15,7 @@
     </ul>
   </div>
   <div class="presentation">
-    <h1>{{ name[common.lang] }}</h1>
-    <span [ngClass]="{ru: common.lang === 'ru'}">{{ usp[common.lang] }}</span>
+    <h1>{{ title[common.lang] }}</h1>
+    <div [ngClass]="{ru: common.lang === 'ru'}" [innerHTML]="usp[common.lang]"></div>
   </div>
 </div>
