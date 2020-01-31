@@ -37,13 +37,14 @@
         "icon": "globe"
       }
     ],
+    "feedback": true,
     "best": true,
     "forBanner": true
   },
   {
     "year": 2018,
     "name": {"ru": "Моё портфолио", "en": "My portfolio"},
-    "description": {"ru": "Возникла идея создать CV в формате посадочной страницы для лучшей демонстации своих возможностей в качестве веб-разработчика. Добавлены превьюшки и ссылки на основные и второстепенные проекты и средства коммуникации со мной. Ключевые навыки представлены в виде интерактивной инфографики.", "en": "There was an idea to create a CV in the format of the landing page for the best demonstration of my opportunities as a web-developer. Added preview images and links to basic and secondary projects and communication links. Key skills are presented as an interactive infographics."},
+    "description": {"ru": "Возникла идея создать CV в формате посадочной страницы для лучшей демонстации своих возможностей в качестве веб-разработчика. Добавлены превьюшки и ссылки на основные и второстепенные проекты и средства коммуникации со мной. Ключевые навыки представлены в виде интерактивной инфографики.", "en": "There was an idea to create a CV in the format of the landing page for the best demonstration of my opportunities as a web-developer. I've added preview images and links to basic and secondary projects and communication links. Key skills are presented as an interactive infographics."},
     "img": "portfolio.jpg",
     "links": [
       {
@@ -121,7 +122,7 @@
     "img": "oywo.jpg",
     "links": [
       {
-        "url": "http://oywo.ru",
+        "url": "https://oywo.herokuapp.com/",
         "name": {"ru": "Сайт проекта", "en": "Project's website"},
         "icon": "globe"
       },

@@ -8,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class LettersComponent implements OnInit {
   imgs = [];
   letters = [
+    'edlabs',
     'smida',
     'emotionminer',
-    'yandex'
+    'yandex',
   ];
   activeLetter = -1;
 

@@ -13,10 +13,12 @@ export class PortfolioComponent implements OnInit {
     ru: 'Проекты',
     en: 'Projects',
   };
-  // projects;
+  feedbackTitle = {
+    ru: 'Отзыв клиента о проекте',
+    en: 'Client\'s feedback',
+  };
   openedProject;
   isModalShown = false;
-  // @ViewChild('project') project;
 
   constructor(
     public common: CommonService,
@@ -24,17 +26,12 @@ export class PortfolioComponent implements OnInit {
     private sanitizer: DomSanitizer
   ) {}
 
-  ngOnInit() {
-    // this.setProjectSize();
-    // $(document).ready(() => {
-    //   this.projects = $('.projects-list .project');
-    // })
-  }
+  ngOnInit() {}
 
   @HostListener('document:keydown', ['$event'])
   handleKeyboardEvent(event: KeyboardEvent) {
     const key = {
-      escape: 27
+      escape: 27,
     };
 
     switch (event.keyCode) {
@@ -43,15 +40,6 @@ export class PortfolioComponent implements OnInit {
         break;
     }
   }
-
-  // @HostListener('window:resize', ['$event'])
-  // watchProjectSize(event: Event) {
-  //   this.setProjectSize();
-  // }
-
-  // setProjectSize() {
-  //   this.project.height(this.project.width() * .625);
-  // }
 
   openModal(project) {
     this.cureVideoLink(project);

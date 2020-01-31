@@ -19,21 +19,29 @@
 			],
 			["JavaScript",
 				{"name": "jQuery", "w": 57, "h": 16},
+				{"name": "Ramda", "w": 30, "h": 36},
+				{"name": "lodash", "w": 32, "h": 28},
+				"Rx",
 				"CoffeeScript",
+				"Redux",
 				{"name": "Babel", "w": 62, "h": 24},
 				["TypeScript",
 					["Angular 2",
 						"Ionic 2"
 					]
 				],
-				{"name": "react", "w": 32, "h": 29},
+				[{"name": "React", "w": 32, "h": 29},
+					{"name": "ReactNative", "w": 32, "h": 29}
+				],
 				"D3",
 				{"name": "three.js", "w": 60, "h": 16},
 				"Canvas",
 				[{"name": "Node.js", "w": 52, "h": 32},
-					{"name": "npm", "w": 41, "h": 16},
-					"Grunt",
-					{"name": "Gulp", "w": 24, "h": 53},
+					[{"name": "npm", "w": 41, "h": 16},
+						"Grunt",
+						{"name": "Gulp", "w": 24, "h": 53},
+						{"name": "Webpack", "w": 32, "h": 36}
+					],
 					[{"name": "express", "w": 64, "h": 14},
 						"Sails"
 					]
@@ -41,7 +49,9 @@
 			]
 		],
 		[{"name": "Backend", "w": 44, "h": 32},
-			{"name": "PHP", "w": 46, "h": 24},
+			[{"name": "PHP", "w": 46, "h": 24},
+				{"name": "Laravel", "w": 40, "h": 27}
+			],
 			["Python",
 				{"name": "OpenCV", "w": 32, "h": 30}
 			],
@@ -51,6 +61,7 @@
 		],
 		[{"name": "DB", "w": 32, "h": 34},
 			{"name": "MongoDB", "w": 22, "h": 48},
+			{"name": "GraphQL", "w": 32, "h": 36},
 			{"name": "MySQL", "w": 48, "h": 47}
 		]
 	],

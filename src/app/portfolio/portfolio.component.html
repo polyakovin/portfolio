@@ -24,7 +24,7 @@
 <app-modal [isShown]="isModalShown" (modalClosed)="isModalShown = false">
   <div *ngIf="openedProject as project">
     <div class="modal-header">
-      <h3>{{ project.name[common.lang] }} ({{ project.year }})</h3>
+      <h3>{{ project.name[common.lang] }}<small>, {{ project.year }}</small></h3>
     </div>
 
     <div class="modal-body">
@@ -53,7 +53,7 @@
       <p *ngIf="project.description" [innerHTML]="project.description[common.lang] || ''"></p>
 
       <div class="feedback" *ngIf="project.feedback">
-        <h4>Отзыв о проекте</h4>
+        <h4>{{ feedbackTitle[common.lang] }}</h4>
         <img [src]="'assets/images/projects/feedback/' + project.img" [alt]="project.img">
       </div>
     </div>
