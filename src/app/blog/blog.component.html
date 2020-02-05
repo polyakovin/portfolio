@@ -1,8 +1,7 @@
-<app-flag></app-flag>
-
-<fa-icon class="close" [icon]="['fas', 'chevron-left']" (click)="backToSite()"></fa-icon>
-
 <div class="container">
+  <app-flag></app-flag>
+  <fa-icon class="close" [icon]="['fas', 'chevron-left']" (click)="backToSite()"></fa-icon>
+
   <h1>Blog</h1>
   <div *ngFor="let category of categories">
     <h2>{{ category.category }}</h2>

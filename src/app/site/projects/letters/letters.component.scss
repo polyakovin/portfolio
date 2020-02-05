@@ -12,6 +12,9 @@
     margin-top: 120px;
     width: initial;
   } // sm
+  @media (max-width: 767px) {
+    margin-top: 70px;
+  }
 
   img {
     height: 100%;
@@ -60,6 +63,9 @@
       @media (min-width: 768px) and (max-width: 991px) {
         transform: rotate(0) translate(0px, -230px) scale(5.2);
       } // md
+      @media (max-width: 575px) {
+        transform: rotate(0) translate(0px, 150px) scale(2.5);
+      }
     }
   }
 

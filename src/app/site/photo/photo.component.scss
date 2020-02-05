@@ -20,6 +20,34 @@ $plaroid_p: $p * $basic_w + px;
 
   .photo {
 		width: 200px;
+
+		figure {
+			width: 200px;
+			box-shadow: inset 0 0 20px #6669;
+			background-color: #fff;
+			position: relative;
+			height: $plaroid_h;
+			background: url("../../../assets/images/me.jpg") no-repeat;
+			background-position: 50% 50%;
+			background-size: cover;
+			transform: scaleX(-1);
+			margin: 0;
+		}
+
+		@media (max-width: 767px) {
+			width: 100%;
+			text-align: center;
+
+			figure {
+				display: inline-block;
+			}
+		}
+
+		@media (min-width: 992px) {
+			figure {
+				z-index: 10;
+			}
+		}
 	}
 
 	.navigation {
@@ -31,28 +59,18 @@ $plaroid_p: $p * $basic_w + px;
 		padding-left: 30px;
 		max-width: 700px;
 
+		@media (max-width: 767px) {
+			padding-top: 20px;
+			padding-left: 0;
+		}
+
 		h1 {
 			text-align: left;
 			margin-top: 0;
 		}
 	}
-}
 
-figure {
-	width: 200px;
-	box-shadow: inset 0 0 20px #6669;
-	background-color: #fff;
-	position: relative;
-	height: $plaroid_h;
-	background: url("../../../assets/images/me.jpg") no-repeat;
-	background-position: 50% 50%;
-	background-size: cover;
-	transform: scaleX(-1);
-	margin: 0;
-}
-
-@media (min-width: 992px) {
-	figure {
-		z-index: 10;
+	@media (max-width: 767px) {
+		flex-direction: column;
 	}
 }

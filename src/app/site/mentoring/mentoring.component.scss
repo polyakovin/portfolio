@@ -12,10 +12,15 @@ iframe {
     iframe {
       @media (min-width: 992px) and (max-width: 1199px) {width: 650px;} // lg
       @media (max-width: 991px) {
-        width: 100%;
+        width: 100vw;
         height: 400px;
       } // sm
-      @media (max-width: 575px) {margin: 0 -15px;} // xs
+      @media (max-width: 575px) {
+        position: relative;
+        left: -15px;
+        height: 300px;
+        margin-bottom: 10px;
+      } // xs
     }
   }
 

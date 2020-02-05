@@ -1,6 +1,6 @@
 import { Component, OnInit, ApplicationRef, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
-import { CommonService } from '../../common.service';
+import { CommonService } from '../../../common.service';
 
 @Component({
   selector: 'app-banner',
