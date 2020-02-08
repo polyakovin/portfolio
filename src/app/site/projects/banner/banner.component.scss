@@ -31,8 +31,12 @@
     }
 
     img {
-      width: 100%;
-      min-height: 100%;
+      width: 100%;;
+
+      &.scrolledDown {
+        transition: transform 4s ease-in-out;
+        transform: translateY(calc(-100% + 417px));
+      }
     }
   }
 
