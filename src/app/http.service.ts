@@ -27,10 +27,4 @@ export class HttpService {
       headers: headers
     });
   }
-
-  // getL11N() {
-  //   const ipAPIurl = 'http://ip-api.com/json';
-  //   return this.http.get(ipAPIurl)
-  //     .pipe(map((response: HttpResponse<IIpResponse>) => response.countryCode === 'ru' ? 'ru' : 'en'));
-  // }
 }
