@@ -1,0 +1,9 @@
+<h2 id="mentions">{{ title[common.lang] }}</h2>
+<ul>
+  <li *ngFor="let mention of mentions">
+    <a [href]="mention.url" target="_blank" rel="noopener noreferrer">
+      <span class="date">{{ mention.date }}</span><span class="source"> {{ mention.source }}</span><br>
+      <span class="title">{{ mention.title[common.lang] }}</span>
+    </a>
+  </li>
+</ul>

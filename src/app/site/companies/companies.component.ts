@@ -9,7 +9,7 @@ import companies from '../../../assets/data/companies.json';
 })
 export class CompaniesComponent implements OnInit {
   title = {
-    ru: 'Компании с которыми я работал',
+    ru: 'Компании, с которыми работал',
     en: 'Companies I worked with',
   };
   companies = companies;

@@ -1,0 +1,23 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li  {
+    margin-top: 20px;
+
+    a span {
+      &.date {
+        opacity: .5;
+      }
+
+      &.source {
+        font-weight: 600;
+      }
+
+      &.title {
+        font-size: 1.3rem;
+      }
+    }
+  }
+}

@@ -14,20 +14,24 @@ import { fas } from '@fortawesome/free-solid-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 mergeIcons();
 
+import { PortfolioComponent } from './portfolio/portfolio.component';
+
 import { SiteComponent } from './site/site.component';
 import { SkillsComponent } from './site/skills/skills.component';
 import { HobbiesComponent } from './site/hobbies/hobbies.component';
 import { FooterComponent } from './site/footer/footer.component';
 import { PhotoComponent } from './site/photo/photo.component';
-import { PortfolioComponent } from './portfolio/portfolio.component';
 import { FlagComponent } from './site/flag/flag.component';
 import { BannerComponent } from './site/projects/banner/banner.component';
-import { ModalComponent } from './modal/modal.component';
 import { LettersComponent } from './site/projects/letters/letters.component';
 import { MentoringComponent } from './site/mentoring/mentoring.component';
 import { CompaniesComponent } from './site/companies/companies.component';
 import { BlogsComponent } from './site/blogs/blogs.component';
 import { ProjectsComponent } from './site/projects/projects.component';
+import { MentionsComponent } from './site/mentions/mentions.component';
+
+import { ModalComponent } from './modal/modal.component';
+
 import { BlogComponent } from './blog/blog.component';
 import { ArticleComponent } from './blog/article/article.component';
 
@@ -49,7 +53,8 @@ import { ArticleComponent } from './blog/article/article.component';
     BlogsComponent,
     ProjectsComponent,
     BlogComponent,
-    ArticleComponent
+    ArticleComponent,
+    MentionsComponent,
   ],
   imports: [
     BrowserModule,
