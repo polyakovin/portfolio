@@ -1,0 +1,106 @@
+.letters {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  right: 30px;
+  bottom: -90px;
+
+  @media (max-width: 991px) {
+    position: relative;
+    right: initial;
+    top: initial;
+    margin-top: 120px;
+    width: initial;
+    bottom: 0;
+  } // sm
+  @media (max-width: 767px) {
+    margin-top: 70px;
+  }
+
+  img {
+    height: 100%;
+    // border: 1px solid black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: 0 0 1px #666;
+    transition: all .2s;
+    cursor: pointer;
+    z-index: 10;
+
+    &:first-child {
+      transform: rotate(-2deg);
+    }
+
+    &:nth-child(2) {
+      transform: rotate(2deg);
+    }
+
+    &:nth-child(3) {
+      transform: rotate(6deg);
+    }
+
+    &:nth-child(4) {
+      transform: rotate(10deg);
+    }
+
+    &:hover {
+      filter: brightness(0.95);
+    }
+
+    &.active {
+      transform: rotate(0) translate(0px, 150px) scale(4);
+      box-shadow: 0 0 20px #6666;
+      z-index: 11;
+
+      @media (min-width: 1200px) {
+        transform: rotate(0) translate(-598px, 210px) scale(5.7);
+      } // xl
+      @media (min-width: 992px) and (max-width: 1199px) {
+        transform: rotate(0) translate(-481px, 120px) scale(4.8);
+      } // lg
+      @media (min-width: 768px) and (max-width: 991px) {
+        transform: rotate(0) translate(0px, -230px) scale(5.2);
+      } // md
+      @media (max-width: 575px) {
+        transform: rotate(0) translate(0px, 150px) scale(2.5);
+      }
+    }
+  }
+
+  &:hover {
+    img:not(.active) {
+      &:first-child {
+        transform: rotate(6deg) scale(1.1) translate(40px);
+      }
+
+      &:nth-child(2) {
+        transform: rotate(5deg) scale(1.1) translate(20px);
+      }
+
+      &:nth-child(3) {
+        transform: rotate(1deg) scale(1.1) translate(0px);
+      }
+
+      &:nth-child(4) {
+        transform: rotate(-3deg) scale(1.1) translate(-20px);
+      }
+    }
+  }
+
+  h4 {
+    position: absolute;
+    bottom: -40px;
+    font-size: 1.2rem;
+    width: 200px;
+    text-align: center;
+  }
+}
+
+
+@keyframes selectCard {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}

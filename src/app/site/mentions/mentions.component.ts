@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonService } from '../../common.service';
-import mentions from '../../../assets/data/mentions';
+import mentions from './mentions';
 
 @Component({
   selector: 'app-mentions',

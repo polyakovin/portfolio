@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { shuffle } from 'lodash';
 import { CommonService } from '../../common.service';
-import hobbies from '../../../assets/data/hobbies.json';
+import hobbies from './hobbies';
 
 @Component({
   selector: 'app-hobbies',

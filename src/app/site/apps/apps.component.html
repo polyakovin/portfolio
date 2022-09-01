@@ -1,0 +1,12 @@
+<h2 id="mentions">{{ title[common.lang] }}</h2>
+<ul>
+  <li *ngFor="let app of apps">
+    <a [href]="app.url" target="_blank" rel="noopener noreferrer">
+      <div class="icon"></div>
+      <div>
+        <strong>{{ app.title }}</strong>
+        {{ app.description }}
+      </div>
+    </a>
+  </li>
+</ul>

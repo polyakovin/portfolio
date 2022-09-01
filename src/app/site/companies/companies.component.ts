@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonService } from '../../common.service';
-import companies from '../../../assets/data/companies.json';
+import companies from './companies';
 
 @Component({
   selector: 'app-companies',

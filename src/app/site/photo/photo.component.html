@@ -16,6 +16,6 @@
   </div>
   <div class="presentation">
     <h1>{{ title[common.lang] }}</h1>
-    <div [ngClass]="{ru: common.lang === 'ru'}" [innerHTML]="usp[common.lang]"></div>
+    <div [ngClass]="{ ru: common.lang === 'ru' }" [innerHTML]="usp[common.lang]"></div>
   </div>
 </div>

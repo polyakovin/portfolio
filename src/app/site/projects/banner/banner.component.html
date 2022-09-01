@@ -1,13 +1,20 @@
-<div class="projects-view"
+<div
+  class="projects-view"
   (window:resize)="onWindowResize($event)"
   [ngStyle]="{
     height: projectsViewHeight,
     transform: projectsViewScale
-  }">
+  }"
+>
   <div class="project">
-    <img [src]="'assets/images/projects/landings/' + common.projectsForBanner[currentProjectIndex].img"
-      [ngClass]="{scrolledDown: isScrolledDown}"
-      alt="banner">
+    <img
+      [src]="
+        'assets/images/projects/landings/' +
+        projectsService.projectsForBanner[currentProjectIndex].img
+      "
+      [ngClass]="{ scrolledDown: isScrolledDown }"
+      alt="banner"
+    />
   </div>
 
   <div class="imac"></div>

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { shuffle } from 'lodash';
 import { CommonService } from '../../common.service';
-import blogs from '../../../assets/data/blogs.json';
+import blogs from './blogs';
 
 @Component({
   selector: 'app-blogs',

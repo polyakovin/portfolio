@@ -19,11 +19,11 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { SiteComponent } from './site/site.component';
 import { SkillsComponent } from './site/skills/skills.component';
 import { HobbiesComponent } from './site/hobbies/hobbies.component';
-import { FooterComponent } from './site/footer/footer.component';
+import { ContactsComponent } from './site/contacts/contacts.component';
 import { PhotoComponent } from './site/photo/photo.component';
 import { FlagComponent } from './site/flag/flag.component';
 import { BannerComponent } from './site/projects/banner/banner.component';
-import { LettersComponent } from './site/projects/letters/letters.component';
+import { LettersComponent } from './site/letters/letters.component';
 import { MentoringComponent } from './site/mentoring/mentoring.component';
 import { CompaniesComponent } from './site/companies/companies.component';
 import { BlogsComponent } from './site/blogs/blogs.component';
@@ -34,6 +34,8 @@ import { ModalComponent } from './modal/modal.component';
 
 import { BlogComponent } from './blog/blog.component';
 import { ArticleComponent } from './blog/article/article.component';
+import { AppsComponent } from './site/apps/apps.component';
+import { ProjectsService } from './site/projects/projects.service';
 
 @NgModule({
   declarations: [
@@ -41,7 +43,7 @@ import { ArticleComponent } from './blog/article/article.component';
     SiteComponent,
     SkillsComponent,
     HobbiesComponent,
-    FooterComponent,
+    ContactsComponent,
     PhotoComponent,
     PortfolioComponent,
     FlagComponent,
@@ -55,6 +57,7 @@ import { ArticleComponent } from './blog/article/article.component';
     BlogComponent,
     ArticleComponent,
     MentionsComponent,
+    AppsComponent,
   ],
   imports: [
     BrowserModule,
@@ -63,7 +66,7 @@ import { ArticleComponent } from './blog/article/article.component';
     routing,
     FontAwesomeModule
   ],
-  providers: [ HttpService, CommonService ],
+  providers: [ HttpService, CommonService, ProjectsService, ],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }

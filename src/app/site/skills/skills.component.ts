@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { select, layout } from 'd3';
 import { CommonService } from '../../common.service';
-import skillsData from '../../../assets/data/skills.json';
+import skillsData from './skills';
 
 @Component({
   selector: 'app-skills',
@@ -155,7 +155,7 @@ export class SkillsComponent implements OnInit {
 
   appendIconsToNodes(node) {
     node.append('image')
-      .attr('xlink:href', d => 'assets/images/skills/' + d.name.toLowerCase().replace(/\s/g, '_') + '.png')
+      .attr('xlink:href', d => `assets/images/skills/${d.name.toLowerCase().replace(/\s/g, '_')}.${d.extension || 'svg'}`)
       .attr('x', d => -d.w / 2)
       .attr('y', d => -d.h / 2)
       .attr('width', d => d.w)

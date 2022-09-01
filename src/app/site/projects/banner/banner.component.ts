@@ -1,6 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
 import { CommonService } from '../../../common.service';
+import { ProjectsService } from '../projects.service';
 
 @Component({
   selector: 'app-banner',
@@ -20,6 +21,7 @@ export class BannerComponent implements OnInit {
 
   constructor(
     public common: CommonService,
+    public projectsService: ProjectsService,
     private router: Router
   ) {}
 
@@ -58,12 +60,12 @@ export class BannerComponent implements OnInit {
   }
 
   setNextProject() {
-    this.currentProjectIndex = this.currentProjectIndex < this.common.projectsForBanner.length - 1 ? this.currentProjectIndex + 1 : 0;
+    this.currentProjectIndex = this.currentProjectIndex < this.projectsService.projectsForBanner.length - 1 ? this.currentProjectIndex + 1 : 0;
     this.animateLanding();
   }
 
   setRandomProject() {
-    const newProjectIndex = Math.round(Math.random() * (this.common.projectsForBanner.length - 1));
+    const newProjectIndex = Math.round(Math.random() * (this.projectsService.projectsForBanner.length - 1));
     if (this.currentProjectIndex !== newProjectIndex) {
       this.currentProjectIndex = newProjectIndex;
       this.animateLanding();

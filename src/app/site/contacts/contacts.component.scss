@@ -1,0 +1,53 @@
+@import "./../../../styles/variables";
+
+
+footer {
+  background-color: $color-secondary;
+  padding: 30px 0 70px 0;
+  margin-top: 50px;
+  color: $color-bg;
+
+  h2 {
+    color: white;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    a {
+      color: darken(white, 10);
+
+      &:hover {
+        color: $color-link;
+      }
+    }
+
+    .contacts {
+      width: 70px;
+      margin-top: 10px;
+      display: inline-block;
+      text-align: center;
+
+      @media (max-width: 575px) {
+        font-size: 3rem;
+      }
+      @media (min-width: 576px) and (max-width: 767px) {
+        font-size: 3rem;
+      }
+      @media (min-width: 768px) and (max-width: 991px) {
+        font-size: 2.9rem;
+      }
+      @media (min-width: 992px) and (max-width: 1199px) {
+        font-size: 3.5rem;
+      }
+      @media (min-width: 1200px) {
+        font-size: 4rem;
+      }
+    }
+  }
+}

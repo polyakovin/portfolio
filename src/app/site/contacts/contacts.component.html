@@ -1,0 +1,12 @@
+<footer id="contacts">
+  <div class="container">
+    <a
+      *ngFor="let contact of contacts"
+      href="{{ contact.href }}"
+      class="contacts"
+      target="{{ contact.isSelf ? '_self' : '_blank' }}"
+    >
+      <fa-icon [icon]="['fas', contact.icon]"></fa-icon>
+    </a>
+  </div>
+</footer>

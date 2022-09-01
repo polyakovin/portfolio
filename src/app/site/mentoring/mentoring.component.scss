@@ -5,16 +5,21 @@ iframe {
 }
 
 .frames {
+  padding: 0 20px;
+  margin: auto;
+  max-width: 1300px;
   display: flex;
-  @media (max-width: 991px) {flex-direction: column;} // sm
+  justify-content: space-between;
+  align-items: center;
+  @media (max-width: 1198px) {flex-direction: column;} // sm
 
   .left {
     iframe {
-      @media (min-width: 992px) and (max-width: 1199px) {width: 650px;} // lg
-      @media (max-width: 991px) {
+      @media (max-width: 1199px) {
         width: 100vw;
         height: 400px;
       } // sm
+      @media (min-width: 992px) and (max-width: 1199px) {height: 650px;} // lg
       @media (max-width: 575px) {
         position: relative;
         left: -15px;
@@ -26,6 +31,5 @@ iframe {
 
   .right {
     width: 300px;
-    margin: auto;
   }
 }

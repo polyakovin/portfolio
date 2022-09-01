@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonService } from '../../common.service';
+import { ProjectsService } from './projects.service';
 
 @Component({
   selector: 'app-projects',
@@ -14,6 +15,7 @@ export class ProjectsComponent implements OnInit {
 
   constructor (
     public common: CommonService,
+    public projectsService: ProjectsService,
   ) {}
 
   ngOnInit() {}

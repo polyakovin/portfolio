@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import categories from '../../assets/data/articles.json';
+import categories from './articles';
 
 @Component({
   selector: 'app-blog',
