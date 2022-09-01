@@ -6,14 +6,24 @@
   <fa-icon class="close" [icon]="['fas', 'chevron-left']" (click)="backToSite()"></fa-icon>
 
   <div class="projects-grid">
-    <div #projectElement class="project" *ngFor="let project of common.projects" (click)="openModal(project)" data-toggle="modal" data-target="#projects-modal">
-      <img [src]="'assets/images/projects/landings/' + project.img" [alt]="project.name[common.lang]">
+    <div
+      #projectElement
+      class="project"
+      *ngFor="let project of projectsService.projects"
+      (click)="openModal(project)"
+      data-toggle="modal"
+      data-target="#projects-modal"
+    >
+      <img
+        [src]="'assets/images/projects/landings/' + project.img"
+        [alt]="project.name[common.lang]"
+      />
 
       <div class="description">
         <div class="bg"></div>
 
         <div class="title">
-          {{ project.name[common.lang] }}<br>
+          {{ project.name[common.lang] }}<br />
           <span class="year small">{{ project.year }}</span>
         </div>
       </div>
@@ -24,17 +34,21 @@
 <app-modal [isShown]="isModalShown" (modalClosed)="isModalShown = false">
   <div *ngIf="openedProject as project">
     <div class="modal-header">
-      <h3>{{ project.name[common.lang] }}<small>, {{ project.year }}</small></h3>
+      <h3>
+        {{ project.name[common.lang] }}<small>, {{ project.year }}</small>
+      </h3>
     </div>
 
     <div class="modal-body">
-      <img *ngIf="project.video === undefined"
+      <img
+        *ngIf="project.video === undefined"
         class="img-fluid"
         [src]="'assets/images/projects/main-features/' + project.img"
-        [alt]="project.name[common.lang]">
+        [alt]="project.name[common.lang]"
+      />
 
       <div *ngIf="project.video !== undefined" class="embed-responsive embed-responsive-16by9">
-        <embed class="embed-responsive-item" [src]="project.videoUrl">
+        <embed class="embed-responsive-item" [src]="project.videoUrl" />
       </div>
     </div>
 
@@ -54,7 +68,7 @@
 
       <div class="feedback" *ngIf="project.feedback">
         <h4>{{ feedbackTitle[common.lang] }}</h4>
-        <img [src]="'assets/images/projects/feedback/' + project.img" [alt]="project.img">
+        <img [src]="'assets/images/projects/feedback/' + project.img" [alt]="project.img" />
       </div>
     </div>
   </div>

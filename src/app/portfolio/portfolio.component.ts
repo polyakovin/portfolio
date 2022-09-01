@@ -1,7 +1,8 @@
-import { Component, OnInit, HostListener, ViewChild } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 import { Router } from '@angular/router';
 import { DomSanitizer } from '@angular/platform-browser';
 import { CommonService } from '../common.service';
+import { ProjectsService } from '../site/projects/projects.service';
 
 @Component({
   selector: 'app-portfolio',
@@ -22,6 +23,7 @@ export class PortfolioComponent implements OnInit {
 
   constructor(
     public common: CommonService,
+    public projectsService: ProjectsService,
     private router: Router,
     private sanitizer: DomSanitizer
   ) {}
