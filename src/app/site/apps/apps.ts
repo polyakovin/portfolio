@@ -16,7 +16,7 @@ export default [
   },
   {
     title: 'TTS Reader',
-    url: 'https://github.com/polyakovin/tts-reader',
+    url: 'https://polyakovin.github.io/tts-reader/',
     description: 'Читалка текстовых книг вслух',
   },
   {
@@ -31,12 +31,12 @@ export default [
   },
   {
     title: 'Режим дня',
-    url: 'https://github.com/polyakovin/franklinTable',
+    url: 'https://polyakovin.github.io/franklinTable/',
     description: 'Менеджер по отработке привычек',
   },
   {
     title: 'Генератор заявок',
-    url: 'https://github.com/polyakovin/bastionRequest',
+    url: 'https://polyakovin.github.io/bastionRequest/',
     description: 'Шаблон заявок на установку дверей',
   },
 ];

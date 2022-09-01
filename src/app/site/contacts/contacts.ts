@@ -1,6 +1,6 @@
 export default [
   {
-    href: 'mailto:igor_polyakov@phystech.edu',
+    href: 'mailto:web@polyakovin.ru',
     icon: 'envelope',
     isSelf: true,
   },
