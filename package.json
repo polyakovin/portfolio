@@ -34,7 +34,7 @@
     "rxjs": "^6.2.2",
     "rxjs-compat": "^6.2.2",
     "showdown": "^1.9.1",
-    "yarn": "^1.7.0",
+    "yarn": "^1.22.0",
     "zone.js": "^0.8.26"
   },
   "devDependencies": {
