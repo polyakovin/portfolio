@@ -2,10 +2,12 @@
 <ul>
   <li *ngFor="let app of apps">
     <a [href]="app.url" target="_blank" rel="noopener noreferrer">
-      <div class="icon"></div>
+      <div class="icon">
+        <img [src]="'../../../assets/images/apps/' + app.icon + '.svg'" [alt]="app.title" />
+      </div>
       <div>
         <strong>{{ app.title }}</strong>
-        {{ app.description }}
+        <span class="description">{{ app.description }}</span>
       </div>
     </a>
   </li>
