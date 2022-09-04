@@ -1,50 +1,98 @@
 export default [
   {
-    title: 'Попробуй всё',
+    title: {
+      ru: 'Попробуй всё',
+      en: 'Try Everything',
+    },
     url: 'https://polyakovin.github.io/want-smth-test/',
-    description: 'Сервис для подбора идеи провести время',
+    description: {
+      ru: 'Сервис для подбора идеи провести время',
+      en: 'Service for searching ideas to spend time',
+    },
     icon: 'try-everything',
   },
   {
-    title: 'Мой день',
+    title: {
+      ru: 'Мой день',
+      en: 'My Day',
+    },
     url: 'https://polyakovin.github.io/daily-organizer/',
-    description: 'Менеджер задач на текущий день',
+    description: {
+      ru: 'Менеджер задач на текущий день',
+      en: 'Task manager for the current day',
+    },
     icon: 'my-day',
   },
   {
-    title: 'Memit',
+    title: {
+      ru: 'Memit',
+      en: 'Memit',
+    },
     url: 'https://polyakovin.github.io/memit-prod/',
-    description: 'Менеджер повторяющихся задач',
+    description: {
+      ru: 'Менеджер повторяющихся задач',
+      en: 'Manager of recurring tasks',
+    },
     icon: 'memit',
   },
   {
-    title: 'TTS Reader',
+    title: {
+      ru: 'TTS Reader',
+      en: 'TTS Reader',
+    },
     url: 'https://polyakovin.github.io/tts-reader/',
-    description: 'Читалка текстовых книг вслух',
+    description: {
+      ru: 'Читалка текстовых книг вслух',
+      en: 'Text books aloud-reader',
+    },
     icon: 'tts-reader',
   },
   {
-    title: 'Тренажёр РЖЯ',
+    title: {
+      ru: 'Тренажёр РЖЯ',
+      en: 'Sign Language Trainer',
+    },
     url: 'https://polyakovin.github.io/learn-sign-lang/',
-    description: 'Как «Stamina», только учим жестовый язык',
+    description: {
+      ru: 'Как «Stamina», только учим жестовый язык',
+      en: '«Stamina» for sign language',
+    },
     icon: 'learn-sign-lang',
   },
   {
-    title: 'OnLearn',
+    title: {
+      ru: 'OnLearn',
+      en: 'OnLearn',
+    },
     url: 'https://polyakovin-on-learn.herokuapp.com/',
-    description: 'Сборник обучающих материалов',
+    description: {
+      ru: 'Сборник обучающих материалов',
+      en: 'Collection of training materials',
+    },
     icon: 'on-learn',
   },
   {
-    title: 'Режим дня',
+    title: {
+      ru: 'Распорядок дня',
+      en: 'Daily Routine',
+    },
     url: 'https://polyakovin.github.io/franklinTable/',
-    description: 'Менеджер по отработке привычек',
+    description: {
+      ru: 'Менеджер по отработке привычек',
+      en: 'Habit Development Manager',
+    },
     icon: 'franklin-table',
   },
   {
-    title: 'Генератор заявок',
+    title: {
+      ru: 'Генератор заявок',
+      en: 'Applications Generator',
+    },
     url: 'https://polyakovin.github.io/bastionRequest/',
-    description: 'Шаблон заявок на установку дверей',
+    description: {
+      ru: 'Шаблон заявок на установку дверей',
+      en: 'Template of applications for the doors installation',
+    },
     icon: 'bastion-application',
   },
 ];

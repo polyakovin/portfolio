@@ -7,19 +7,17 @@ import { CommonService } from '../../common.service';
   styleUrls: ['./flag.component.scss']
 })
 export class FlagComponent implements OnInit {
-
   constructor(
     public common: CommonService
   ) {}
 
-  ngOnInit() {
+  get otherLanguage() {
+    return this.common.lang === 'ru' ? 'en' : 'ru';
   }
 
+  ngOnInit() {}
+
   toggleLanguage() {
-    if (this.common.lang === 'ru') {
-      this.common.lang = 'en';
-    } else {
-      this.common.lang = 'ru';
-    }
+    this.common.lang = this.otherLanguage;
   }
 }
