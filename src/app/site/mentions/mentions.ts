@@ -45,6 +45,15 @@ export default [
     url: 'https://youtu.be/X2KIgRKZDa4',
   },
   {
+    date: '08.04.2022',
+    source: 'Битва за IT. IT FORUMS',
+    title: {
+      ru: 'Участие в HR & Team Lead конференции «Битва за IT»',
+      en: 'Participation in the "Battle for IT" HR & Team Lead conference',
+    },
+    url: 'https://it-forums.ru/bitva-za-it-april2022#!/tproduct/466531137-1648100198502',
+  },
+  {
     date: '31.03.2022',
     source: 'Росбанк',
     title: {
@@ -70,15 +79,6 @@ export default [
       en: 'Online school of JavaScript developers',
     },
     url: 'https://vk.com/fond_deystvuy?w=wall-134832137_1241',
-  },
-  {
-    date: '26.05.2021',
-    source: 'Media Guide',
-    title: {
-      ru: 'Росбанк открывает школу JavaScript-разработчиков для людей с инвалидностью',
-      en: 'Rosbank opens a JavaScript developer school for people with disabilities',
-    },
-    url: 'https://mediaguide.ru/?p=news&rubr=09&id=60ad1a4a',
   },
   {
     date: '25.05.2021',
