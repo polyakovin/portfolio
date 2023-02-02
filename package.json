@@ -43,7 +43,7 @@
     "@angular-eslint/eslint-plugin": "^14.0.3",
     "@angular-eslint/eslint-plugin-template": "^14.0.3",
     "@angular-eslint/template-parser": "^14.0.3",
-    "@angular/cli": "~7.2.4",
+    "@angular/cli": "~15.1.4",
     "@angular/compiler-cli": "^7.2.4",
     "@angular/language-service": "^7.2.4",
     "@types/jasmine": "~2.8.6",
