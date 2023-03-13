@@ -46,6 +46,10 @@
       transform: rotate(10deg);
     }
 
+    &:nth-child(5) {
+      transform: rotate(13deg);
+    }
+
     &:hover {
       filter: brightness(0.95);
     }
@@ -86,6 +90,10 @@
 
       &:nth-child(4) {
         transform: rotate(-3deg) scale(1.1) translate(-20px);
+      }
+
+      &:nth-child(5) {
+        transform: rotate(-5deg) scale(1.1) translate(-40px);
       }
     }
   }

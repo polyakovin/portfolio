@@ -4,7 +4,7 @@ export default [
       ru: 'Попробуй всё',
       en: 'Try Everything',
     },
-    url: 'https://polyakovin.github.io/want-smth-test/',
+    url: 'https://polyakovin.github.io/try-everything-prod/',
     description: {
       ru: 'Сервис для подбора идеи провести время',
       en: 'Service for searching ideas to spend time',
@@ -40,7 +40,7 @@ export default [
       ru: 'TTS Reader',
       en: 'TTS Reader',
     },
-    url: 'https://polyakovin.github.io/tts-reader/',
+    url: 'https://polyakovin.github.io/tts-reader-prod/',
     description: {
       ru: 'Читалка текстовых книг вслух',
       en: 'Text books aloud-reader',

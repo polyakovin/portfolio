@@ -33,7 +33,7 @@ export default [
       ru: 'Школа JavaScript-разработчиков для людей с инвалидностью',
       en: 'JavaScript Developer School for People with Disabilities',
     },
-    url: 'https://youtu.be/FCpBf7rYn90',
+    url: 'https://youtu.be/-ALit8iDaQQ',
   },
   {
     date: '19.04.2022',

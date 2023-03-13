@@ -12,6 +12,7 @@ export class LettersComponent implements OnInit {
     'smida',
     'emotionminer',
     'yandex',
+    'rosbank',
   ];
   activeLetter = -1;
 
