@@ -18,12 +18,28 @@ export class PhotoComponent implements OnInit {
   usp = {
     ru: `
       <p>
-        Здесь просто собрано то, чем я горжусь, и что люблю (в основном, изобретать велосипеды и повышать эффективность айтишников).
+        Это небольшой портал, на котором можно найти
+        <ul>
+          <li>мои <a href="https://humorous-myrtle-078.notion.site/b4761a0713ff40cc98f842fe502c8145?v=fff551ba13a64bd8803bca5a376eb090" target="_blank">публикации</a>,</li>
+          <li>проекты, над которыми я трудился,</li>
+          <li>и <a href="#contacts">контакты</a> для связи со мной.</li>
+        </ul>
+      </p>
+      <p>
+        А вот ещё и <a href="https://humorous-myrtle-078.notion.site/e62ff7b80e3d4fec85cde132852386ae?v=fc6a00ebe8fc4c318a4f94b1959fe03f" target="_blank">страничка с упоминаниями</a> обо мне,<br> моих коллегах и наших совместных проектах.
       </p>
     `,
     en: `
       <p>
-        It just contains what I'm proud of and what I love (basically, reinventing bicycles and improving the efficiency of IT specialists).
+        This is a small portal where you can find
+        <ul>
+          <li>my <a href="https://humorous-myrtle-078.notion.site/b4761a0713ff40cc98f842fe502c8145?v=fff551ba13a64bd8803bca5a376eb090" target="_blank">publications</a>,</li>
+          <li>the projects I worked on,</li>
+          <li>and <a href="#contacts">contacts</a> to reach me out.</li>
+        </ul>
+      </p>
+      <p>
+        And here is <a href="https://humorous-myrtle-078.notion.site/e62ff7b80e3d4fec85cde132852386ae ?v=fc6a00ebe8fc4c318a4f94b1959fe03f " target="_blank">a page with mentions</a> about me,<br> my colleagues and our joint projects.
       </p>
     `,
   };

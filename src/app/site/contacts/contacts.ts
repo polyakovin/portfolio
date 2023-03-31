@@ -9,23 +9,23 @@ export default [
     icon: 'telegram-plane',
   },
   {
-    href: 'https://vk.com/igor.polyakov',
-    icon: 'vk',
+    href: 'https://www.linkedin.com/in/polyakovin/',
+    icon: 'linkedin',
   },
   {
     href: 'https://github.com/polyakovin',
     icon: 'github',
   },
   {
-    href: 'https://codepen.io/polyakovin',
-    icon: 'codepen',
-  },
-  {
     href: 'https://www.youtube.com/channel/UC5SwgyeDZWtSDTX4iGozjmA/videos',
     icon: 'youtube',
   },
   {
-    href: 'https://instagram.com/polyakovin.haha',
+    href: 'https://instagram.com/polyakovin',
     icon: 'instagram',
+  },
+  {
+    href: 'https://vk.com/igor.polyakov',
+    icon: 'vk',
   },
 ];

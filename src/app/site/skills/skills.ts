@@ -11,6 +11,7 @@ export default [
   ],
 	[{name: 'Tools', extension: 'png', w: 48, h: 48},
     {name: 'VSCode', w: 32, h: 32},
+    {name: 'OpenAI', w: 32, h: 32},
     {name: 'Apple', w: 25, h: 30},
     {name: 'Telegram', w: 32, h: 32},
     [{name: 'Google Chrome', w: 32, h: 32},

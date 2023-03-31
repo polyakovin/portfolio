@@ -2,8 +2,8 @@
   width: 200px;
   height: 200px;
   position: absolute;
-  right: 30px;
-  bottom: -90px;
+  right: 40px;
+  top: 45px;
 
   @media (max-width: 991px) {
     position: relative;
@@ -60,16 +60,16 @@
       z-index: 11;
 
       @media (min-width: 1200px) {
-        transform: rotate(0) translate(-598px, 210px) scale(5.7);
+        transform: rotate(0) translate(-598px, 400px) scale(5.7);
       } // xl
       @media (min-width: 992px) and (max-width: 1199px) {
-        transform: rotate(0) translate(-481px, 120px) scale(4.8);
+        transform: rotate(0) translate(-481px, 300px) scale(4.8);
       } // lg
       @media (min-width: 768px) and (max-width: 991px) {
-        transform: rotate(0) translate(0px, -230px) scale(5.2);
+        transform: rotate(0) translate(0px, 0px) scale(5.2);
       } // md
       @media (max-width: 575px) {
-        transform: rotate(0) translate(0px, 150px) scale(2.5);
+        transform: rotate(0) translate(0px, 300px) scale(2.5);
       }
     }
   }
