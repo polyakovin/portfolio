@@ -39,7 +39,7 @@ export class PhotoComponent implements OnInit {
         </ul>
       </p>
       <p>
-        And here is <a href="https://humorous-myrtle-078.notion.site/e62ff7b80e3d4fec85cde132852386ae ?v=fc6a00ebe8fc4c318a4f94b1959fe03f " target="_blank">a page with mentions</a> about me,<br> my colleagues and our joint projects.
+        And here is <a href="https://humorous-myrtle-078.notion.site/e62ff7b80e3d4fec85cde132852386ae?v=fc6a00ebe8fc4c318a4f94b1959fe03f " target="_blank">a page with mentions</a> about me,<br> my colleagues and our joint projects.
       </p>
     `,
   };
