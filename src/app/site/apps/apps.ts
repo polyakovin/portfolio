@@ -1,15 +1,15 @@
 export default [
   {
     title: {
-      ru: 'Попробуй всё',
-      en: 'Try Everything',
+      ru: 'ActiviTip',
+      en: 'ActiviTip',
     },
-    url: 'https://polyakovin.github.io/try-everything-prod/',
+    url: 'https://polyakovin.github.io/activitip-prod/',
     description: {
       ru: 'Сервис для подбора идеи провести время',
       en: 'Service for searching ideas to spend time',
     },
-    icon: 'try-everything',
+    icon: 'activitip',
   },
   {
     title: {
