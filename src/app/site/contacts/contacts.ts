@@ -1,3 +1,4 @@
+// https://fontawesome.com/v5/search
 export default [
   {
     href: 'mailto:web@polyakovin.ru',
@@ -24,10 +25,10 @@ export default [
     href: 'https://instagram.com/polyakovin',
     icon: 'instagram',
   },
-  // {
-  //   href: 'https://www.tiktok.com/@polyakovin',
-  //   icon: 'tiktok',
-  // },
+  {
+    href: 'https://www.tiktok.com/@polyakovin',
+    icon: 'tiktok',
+  },
   {
     href: 'https://vk.com/igor.polyakov',
     icon: 'vk',
