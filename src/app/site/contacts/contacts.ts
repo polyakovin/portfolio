@@ -24,6 +24,10 @@ export default [
     href: 'https://instagram.com/polyakovin',
     icon: 'instagram',
   },
+  // {
+  //   href: 'https://www.tiktok.com/@polyakovin',
+  //   icon: 'tiktok',
+  // },
   {
     href: 'https://vk.com/igor.polyakov',
     icon: 'vk',
