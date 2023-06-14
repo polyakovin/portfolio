@@ -17,7 +17,7 @@ export default [
     icon: 'github',
   },
   {
-    href: 'https://www.youtube.com/channel/UC5SwgyeDZWtSDTX4iGozjmA/videos',
+    href: 'https://www.youtube.com/@polyakovin',
     icon: 'youtube',
   },
   {
