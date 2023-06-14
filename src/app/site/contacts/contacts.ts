@@ -30,7 +30,7 @@ export default [
     icon: 'tiktok',
   },
   {
-    href: 'https://vk.com/igor.polyakov',
+    href: 'https://vk.com/polyakovin',
     icon: 'vk',
   },
 ];
