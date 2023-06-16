@@ -49,11 +49,11 @@ export default [
   //   y: 150,
   // },
   {
-    title: 'The University Centre in Svalbard',
-    img: 'unis',
-    href: 'https://www.unis.no/',
-    x: 0,
-    y: 450,
+    title: 'NeuroData Lab',
+    img: 'ndl',
+    href: 'https://neurodatalab.com/',
+    x: 400,
+    y: 0,
   },
   {
     title: 'Moscow Institute of Physics and Technology',
@@ -63,11 +63,11 @@ export default [
     y: 300,
   },
   {
-    title: 'NeuroData Lab',
-    img: 'ndl',
-    href: 'https://neurodatalab.com/',
-    x: 400,
-    y: 0,
+    title: 'The University Centre in Svalbard',
+    img: 'unis',
+    href: 'https://www.unis.no/',
+    x: 0,
+    y: 450,
   },
   {
     title: 'S.P. Korolev RSC \'Energia\'',
