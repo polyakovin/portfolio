@@ -23,18 +23,18 @@ export default [
     },
     icon: 'my-day',
   },
-  {
-    title: {
-      ru: 'Memit',
-      en: 'Memit',
-    },
-    url: 'https://polyakovin.github.io/memit-prod/',
-    description: {
-      ru: 'Менеджер повторяющихся задач',
-      en: 'Manager of recurring tasks',
-    },
-    icon: 'memit',
-  },
+  // {
+  //   title: {
+  //     ru: 'Memit',
+  //     en: 'Memit',
+  //   },
+  //   url: 'https://polyakovin.github.io/memit-prod/',
+  //   description: {
+  //     ru: 'Менеджер повторяющихся задач',
+  //     en: 'Manager of recurring tasks',
+  //   },
+  //   icon: 'memit',
+  // },
   {
     title: {
       ru: 'TTS Reader',
@@ -59,18 +59,18 @@ export default [
     },
     icon: 'learn-sign-lang',
   },
-  {
-    title: {
-      ru: 'OnLearn',
-      en: 'OnLearn',
-    },
-    url: 'https://polyakovin-on-learn.herokuapp.com/',
-    description: {
-      ru: 'Сборник обучающих материалов',
-      en: 'Collection of training materials',
-    },
-    icon: 'on-learn',
-  },
+  // {
+  //   title: {
+  //     ru: 'OnLearn',
+  //     en: 'OnLearn',
+  //   },
+  //   url: 'https://polyakovin-on-learn.herokuapp.com/',
+  //   description: {
+  //     ru: 'Сборник обучающих материалов',
+  //     en: 'Collection of training materials',
+  //   },
+  //   icon: 'on-learn',
+  // },
   {
     title: {
       ru: 'Распорядок дня',
