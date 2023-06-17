@@ -8,13 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PhotoComponent implements OnInit {
   title = {
-    ru: 'Сайт Игоря Полякова',
-    en: 'Igor Polyakov\'s website',
+    ru: 'Игорь Поляков',
+    en: 'Igor Polyakov',
   };
+
+  subtitle = {
+    ru: 'Software Engineering Manager',
+    en: 'Software Engineering Manager',
+  };
+
   contacts = {
     ru: 'Контакты',
     en: 'Contacts',
   };
+
   usp = {
     ru: `
       <p>

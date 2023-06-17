@@ -5,31 +5,151 @@ iframe {
 }
 
 .frames {
-  padding: 0 20px;
-  margin: auto;
-  max-width: 1300px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  @media (max-width: 1198px) {flex-direction: column;} // sm
+  justify-content: flex-start;
+  @media (max-width: 992px) {flex-direction: column;} // sm
+
 
   .left {
     iframe {
-      @media (max-width: 1199px) {
-        width: 100vw;
-        height: 400px;
-      } // sm
-      @media (min-width: 992px) and (max-width: 1199px) {height: 650px;} // lg
-      @media (max-width: 575px) {
+      @media (max-width: 767px) {
         position: relative;
         left: -15px;
+        width: 100vw;
         height: 300px;
-        margin-bottom: 10px;
       } // xs
     }
   }
 
   .right {
-    width: 300px;
+    // width: 300px;
+
+    .feedback-bubble {
+      position: relative;
+
+      .bubble {
+        position: absolute;
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%;
+        text-align: center;
+        cursor: pointer;
+        transition: transform 1000ms;
+
+        &:hover {
+          transform: translateY(-7px);
+        }
+
+        &.b-daria {
+          background-image: url('../../../assets/images/students/daria.png');
+          top: 30px;
+          left: 30px;
+          width: 80px;
+          height: 80px;
+        }
+
+        &.b-andrew2 {
+          background-image: url('../../../assets/images/students/andrew2.png');
+          top: 87px;
+          left: 100px;
+          width: 80px;
+          height: 80px;
+        }
+
+        &.b-yurii {
+          background-image: url('../../../assets/images/students/yurii.png');
+          top: 120px;
+          left: -20px;
+          width: 110px;
+          height: 110px;
+        }
+
+        &.b-ekaterina {
+          background-image: url('../../../assets/images/students/ekaterina.png');
+          top: 195px;
+          left: 110px;
+          width: 100px;
+          height: 100px;
+        }
+
+        &.b-alexey {
+          background-image: url('../../../assets/images/students/alexey.png');
+          top: 250px;
+          left: 10px;
+          width: 85px;
+          height: 85px;
+        }
+
+        &.b-ivan {
+          background-image: url('../../../assets/images/students/ivan.png');
+          top: 25px;
+          left: 150px;
+          width: 60px;
+          height: 60px;
+        }
+
+        &.b-andrew1 {
+          background-image: url('../../../assets/images/students/andrew1.png');
+          top: 146px;
+          left: 210px;
+          width: 75px;
+          height: 75px;
+        }
+
+        &.b-instagram {
+          background-image: url('../../../assets/images/students/instagram.png');
+          top: 290px;
+          left: 210px;
+          width: 100px;
+          height: 100px;
+        }
+      }
+
+      @media (max-width: 992px) {
+        height: 200px;
+
+        .bubble {
+          &.b-daria {
+            top: 105px;
+            left: 40%;
+          }
+
+          &.b-andrew2 {
+            top: 137px;
+            left: 73%;
+          }
+
+          &.b-yurii {
+            top: -20px;
+            left: 80%;
+          }
+
+          &.b-ekaterina {
+            top: -20px;
+            left: 30%;
+          }
+
+          &.b-alexey {
+            top: 48px;
+            left: 60%;
+          }
+
+          &.b-ivan {
+            top: 25px;
+            left: 3%;
+          }
+
+          &.b-andrew1 {
+            top: -35px;
+            left: 52%;
+          }
+
+          &.b-instagram {
+            top: 126px;
+            left: 10%;
+          }
+        }
+      } // sm
+    }
   }
 }

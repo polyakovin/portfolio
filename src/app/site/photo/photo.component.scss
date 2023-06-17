@@ -63,7 +63,12 @@ $plaroid_p: $p * $basic_w + px;
 		h1 {
 			text-align: left;
 			margin-top: 0;
+      margin-bottom: 0;
 		}
+
+    .subtitle {
+      font-size: 1.3rem;
+    }
 
 		@media (max-width: 767px) {
       max-width: none;

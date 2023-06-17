@@ -13,30 +13,6 @@ export default [
   },
   {
     title: {
-      ru: 'Мой день',
-      en: 'My Day',
-    },
-    url: 'https://polyakovin.github.io/daily-organizer/',
-    description: {
-      ru: 'Менеджер задач на текущий день',
-      en: 'Task manager for the current day',
-    },
-    icon: 'my-day',
-  },
-  // {
-  //   title: {
-  //     ru: 'Memit',
-  //     en: 'Memit',
-  //   },
-  //   url: 'https://polyakovin.github.io/memit-prod/',
-  //   description: {
-  //     ru: 'Менеджер повторяющихся задач',
-  //     en: 'Manager of recurring tasks',
-  //   },
-  //   icon: 'memit',
-  // },
-  {
-    title: {
       ru: 'TTS Reader',
       en: 'TTS Reader',
     },
@@ -59,6 +35,30 @@ export default [
     },
     icon: 'learn-sign-lang',
   },
+  {
+    title: {
+      ru: 'Мой день',
+      en: 'My Day',
+    },
+    url: 'https://polyakovin.github.io/daily-organizer/',
+    description: {
+      ru: 'Менеджер задач на текущий день',
+      en: 'Task manager for the current day',
+    },
+    icon: 'my-day',
+  },
+  // {
+  //   title: {
+  //     ru: 'Memit',
+  //     en: 'Memit',
+  //   },
+  //   url: 'https://polyakovin.github.io/memit-prod/',
+  //   description: {
+  //     ru: 'Менеджер повторяющихся задач',
+  //     en: 'Manager of recurring tasks',
+  //   },
+  //   icon: 'memit',
+  // },
   // {
   //   title: {
   //     ru: 'OnLearn',

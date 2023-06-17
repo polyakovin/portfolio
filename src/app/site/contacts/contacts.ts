@@ -22,12 +22,12 @@ export default [
     icon: 'youtube',
   },
   {
-    href: 'https://instagram.com/polyakovin',
-    icon: 'instagram',
-  },
-  {
     href: 'https://www.tiktok.com/@polyakovin',
     icon: 'tiktok',
+  },
+  {
+    href: 'https://instagram.com/polyakovin',
+    icon: 'instagram',
   },
   {
     href: 'https://vk.com/polyakovin',
