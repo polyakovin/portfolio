@@ -88,7 +88,7 @@ export default [
       ru: 'Генератор заявок',
       en: 'Applications Generator',
     },
-    url: 'https://polyakovin.github.io/bastionRequest/',
+    url: 'https://polyakovin.github.io/bastion-application-prod/',
     description: {
       ru: 'Шаблон заявок на установку дверей',
       en: 'Template of applications for the doors installation',
