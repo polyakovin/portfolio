@@ -5,7 +5,7 @@
     "node": "14"
   },
   "scripts": {
-    "ng": "ng",
+    "ng": "nvm use 14 && ng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
