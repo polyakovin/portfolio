@@ -1,0 +1,598 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Материалы Игоря Полякова",
+  "home_page_url": "https://polyakovin.ru/",
+  "feed_url": "https://polyakovin.ru/feed.json",
+  "language": "ru",
+  "authors": [
+    {
+      "name": "Игорь Поляков",
+      "url": "https://polyakovin.ru/"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://polyakovin.ru/#/post/260718",
+      "url": "https://polyakovin.ru/#/post/260718",
+      "external_url": "https://polyakovin.github.io/daily-photos/",
+      "title": "Фото дня",
+      "content_text": "Веб-приложение с ежедневной фотоподборкой и открытым исходным кодом.",
+      "date_published": "2026-07-18T12:00:00Z",
+      "tags": [
+        "Софт"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/240408",
+      "url": "https://polyakovin.ru/#/post/240408",
+      "external_url": "https://polyakovin.itch.io/locksmith",
+      "title": "Locksmith",
+      "content_text": "Тактильная noir-игра для Playdate: взлом замков заводной ручкой, сюжетный режим и бесконечная экономика.",
+      "date_published": "2026-06-17T12:00:00Z",
+      "tags": [
+        "Гейм-дев",
+        "Софт"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/260127",
+      "url": "https://polyakovin.ru/#/post/260127",
+      "external_url": "https://polyakovin.github.io/gear-generator/",
+      "title": "Генератор шестерней",
+      "content_text": "Веб-приложение для построения геометрии шестерён и экспорта моделей в STL, SVG и DXF.",
+      "date_published": "2026-01-27T12:00:00Z",
+      "tags": [
+        "Софт"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/251208",
+      "url": "https://polyakovin.ru/#/post/251208",
+      "external_url": "https://t.me/letter_search_bot",
+      "title": "Игра «Найди на букву...»",
+      "content_text": "Telegram-игра на поиск слов по заданной букве, созданная с помощью AI.",
+      "date_published": "2025-12-08T12:00:00Z",
+      "tags": [
+        "Гейм-дев",
+        "Софт"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/251112",
+      "url": "https://polyakovin.ru/#/post/251112",
+      "external_url": "https://3d-print-pro.ru/",
+      "title": "3D Print Pro",
+      "content_text": "Сервис и тематическое сообщество о практической 3D-печати.",
+      "date_published": "2025-11-12T12:00:00Z",
+      "tags": [
+        "Софт"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/250930",
+      "url": "https://polyakovin.ru/#/post/250930",
+      "external_url": "https://habr.com/ru/articles/951908",
+      "title": "Паттерн «Душитель». Как развивать сложные системы, не ломая старое",
+      "content_text": "Статья о паттерне постепенной замены сложных систем новыми слоями без разрушения старого.",
+      "date_published": "2025-09-30T12:00:00Z",
+      "tags": [
+        "Статьи"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/250225",
+      "url": "https://polyakovin.ru/#/post/250225",
+      "external_url": "https://habr.com/ru/articles/888202",
+      "title": "Конспект по архитектуре ПО и System Design",
+      "content_text": "Статья и визуальный конспект по архитектуре ПО и System Design.",
+      "date_published": "2025-02-25T12:00:00Z",
+      "tags": []
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/250203",
+      "url": "https://polyakovin.ru/#/post/250203",
+      "external_url": "https://chromewebstore.google.com/detail/speech-to-text-converter/mhjpeloaogkjmpgcngiflachhggknlph",
+      "title": "Преобразователь речи в текст",
+      "content_text": "Chrome-расширение для голосового ввода с 4 000+ пользователей, которое развивается через аналитику, отзывы и продуктовые эксперименты.",
+      "date_published": "2025-02-03T12:00:00Z",
+      "tags": [
+        "Софт"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/240706",
+      "url": "https://polyakovin.ru/#/post/240706",
+      "external_url": "https://proitfest.ru/kak-eto-bylo/spikery-leto-2024",
+      "title": "Спикер ProIT Fest",
+      "content_text": "Выступление на летнем ProIT Fest 2024.",
+      "date_published": "2024-07-06T12:00:00Z",
+      "tags": [
+        "Упоминания"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/240613",
+      "url": "https://polyakovin.ru/#/post/240613",
+      "external_url": "https://tproger.ru/articles/professionalnye-soobshchestva-erid-ljn8jwaag",
+      "title": "Кому и зачем нужны профессиональные сообщества",
+      "content_text": "Статья о профессиональных сообществах Росбанка, их пользе и развитии.",
+      "date_published": "2024-06-13T12:00:00Z",
+      "tags": [
+        "Статьи",
+        "Менеджмент",
+        "Интервью",
+        "Упоминания"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/240322",
+      "url": "https://polyakovin.ru/#/post/240322",
+      "external_url": "https://youtu.be/3_wLnMtUAFA",
+      "title": "Frontend-митап Росбанка в Казани",
+      "content_text": "Запись казанского frontend-митапа с докладами экспертов Росбанка, VK Добра и Сбера.",
+      "date_published": "2024-03-22T12:00:00Z",
+      "tags": [
+        "Упоминания",
+        "Видео",
+        "Выступления",
+        "Менеджмент"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/240127",
+      "url": "https://polyakovin.ru/#/post/240127",
+      "external_url": "https://t.me/rosbank_onboarding_bot",
+      "title": "Онбординг-бот для Росбанка",
+      "content_text": "Telegram-бот, который помогает сотрудникам сориентироваться на новой работе в Росбанке.",
+      "date_published": "2024-01-27T12:00:00Z",
+      "tags": [
+        "Софт"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/230607",
+      "url": "https://polyakovin.ru/#/post/230607",
+      "external_url": "https://polyakovin.github.io/quartet-prod",
+      "title": "Пианино для удобной игры на ноуте",
+      "content_text": "Веб-пианино для игры с клавиатуры ноутбука.",
+      "date_published": "2023-06-07T12:00:00Z",
+      "tags": [
+        "Софт"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/230312",
+      "url": "https://polyakovin.ru/#/post/230312",
+      "external_url": "https://t.me/polyakovinews/44",
+      "title": "Памятка про управление рисками",
+      "content_text": "Краткая памятка об осознанном риске и управлении его последствиями.",
+      "date_published": "2023-03-12T12:00:00Z",
+      "tags": [
+        "Менеджмент",
+        "Статьи"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/230107",
+      "url": "https://polyakovin.ru/#/post/230107",
+      "external_url": "https://t.me/polyakovinews/38",
+      "title": "Пара мыслей про руководство из книги «Практическая конфликтология» Виктора Пономаренко",
+      "content_text": "Конспект обязанностей руководителя и принципов постановки задач по книге Виктора Пономаренко.",
+      "date_published": "2023-01-07T12:00:00Z",
+      "tags": [
+        "Менеджмент",
+        "Статьи"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/220712",
+      "url": "https://polyakovin.ru/#/post/220712",
+      "external_url": "https://polyakovin.github.io/memit-prod",
+      "title": "Веб-приложение для отработки привычек",
+      "content_text": "Трекер привычек с отдельными списками новых и замороженных дел.",
+      "date_published": "2022-07-12T12:00:00Z",
+      "tags": [
+        "Софт"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/220322",
+      "url": "https://polyakovin.ru/#/post/220322",
+      "external_url": "https://hints.so",
+      "title": "AI-ассистент, приложения, боты и расширения для проекта Hints",
+      "content_text": "AI-ассистент для управления рабочими данными и задачами через мессенджеры.",
+      "date_published": "2022-03-22T12:00:00Z",
+      "tags": [
+        "Упоминания",
+        "Софт"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/220221",
+      "url": "https://polyakovin.ru/#/post/220221",
+      "external_url": "https://polyakovin.github.io/daily-organizer",
+      "title": "Мой день",
+      "content_text": "Веб-приложение для планирования дня.",
+      "date_published": "2022-02-21T12:00:00Z",
+      "tags": [
+        "Софт"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/220108",
+      "url": "https://polyakovin.ru/#/post/220108",
+      "external_url": "https://budu.jobs/c/rosbank?tab=team",
+      "title": "Член команды Росбанка",
+      "content_text": "Профиль в разделе команды Росбанка на budu.jobs.",
+      "date_published": "2022-01-08T12:00:00Z",
+      "tags": [
+        "Упоминания"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/211126",
+      "url": "https://polyakovin.ru/#/post/211126",
+      "external_url": "https://vk.com/wall11722643_2093",
+      "title": "Организация внешней фронтенд-конференции в Росбанке",
+      "content_text": "Публикация об организации внешней фронтенд-конференции Росбанка.",
+      "date_published": "2021-11-26T12:00:00Z",
+      "tags": [
+        "Менеджмент"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/211114",
+      "url": "https://polyakovin.ru/#/post/211114",
+      "external_url": "https://polyakovin.github.io/learn-sign-lang",
+      "title": "Тренажёр русского жестового языка",
+      "content_text": "Веб-тренажёр для изучения русского жестового языка.",
+      "date_published": "2021-11-14T12:00:00Z",
+      "tags": [
+        "Софт"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/210525",
+      "url": "https://polyakovin.ru/#/post/210525",
+      "external_url": "https://youtu.be/-ALit8iDaQQ",
+      "title": "Школа JavaScript-разработчиков для людей с инвалидностью",
+      "content_text": "Образовательный проект Росбанка по подготовке JavaScript-разработчиков для людей с инвалидностью.",
+      "date_published": "2021-05-25T12:00:00Z",
+      "tags": [
+        "Видео",
+        "Статьи",
+        "Выступления",
+        "Менеджмент",
+        "Упоминания",
+        "Интервью"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/210520",
+      "url": "https://polyakovin.ru/#/post/210520",
+      "external_url": "https://polyakovin.github.io/rxjs-as-paradigm",
+      "title": "Доклад «Парадигмы программирования: от процедурного к реактивному на RxJS»",
+      "content_text": "Слайды доклада о переходе от процедурной парадигмы к реактивному программированию на RxJS.",
+      "date_published": "2021-05-20T12:00:00Z",
+      "tags": [
+        "Выступления"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/201208",
+      "url": "https://polyakovin.ru/#/post/201208",
+      "external_url": "https://polyakovin.github.io/activitip-prod",
+      "title": "ActiviTip",
+      "content_text": "Советчик занятий для выбора отдыха по контексту с публичным каталогом и отдельной админкой.",
+      "date_published": "2020-12-08T12:00:00Z",
+      "tags": [
+        "Софт"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/201022",
+      "url": "https://polyakovin.ru/#/post/201022",
+      "external_url": "https://telegra.ph/O-komyuniti-razrabotchikov-Banka---Intervyu-Igorya-Polyakova-06-28",
+      "title": "Основал несколько комьюнити разработчиков в Росбанке",
+      "content_text": "Практика запуска и развития инженерных сообществ внутри Росбанка.",
+      "date_published": "2020-10-22T12:00:00Z",
+      "tags": [
+        "Статьи",
+        "Упоминания",
+        "Менеджмент",
+        "Интервью"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/190220",
+      "url": "https://polyakovin.ru/#/post/190220",
+      "external_url": "https://vk.com/@igor.polyakov-uvazhaite-trud-uborschic",
+      "title": "Уважайте труд уборщиц!",
+      "content_text": "Заметка о порядке как основе эффективности.",
+      "date_published": "2019-02-20T12:00:00Z",
+      "tags": [
+        "Статьи"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/260817",
+      "url": "https://polyakovin.ru/#/post/260817",
+      "external_url": "https://t.me/polyakovinews",
+      "title": "Telegram-канал Игоря Полякова",
+      "content_text": "Основной Telegram-канал с авторскими заметками об IT, продуктах, разработке и управлении.",
+      "date_published": "2019-02-09T12:00:00Z",
+      "tags": [
+        "Статьи",
+        "Менеджмент"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/190112",
+      "url": "https://polyakovin.ru/#/post/190112",
+      "external_url": "https://vk.com/@igor.polyakov-chudo-vector",
+      "title": "Чудо-вектор",
+      "content_text": "Статья о возможностях векторной графики на примере YouTube-кнопки.",
+      "date_published": "2019-01-12T12:00:00Z",
+      "tags": [
+        "Статьи"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/180918",
+      "url": "https://polyakovin.ru/#/post/180918",
+      "external_url": "https://youdo.com/u5077011",
+      "title": "Отзывы на бирже фриланса YouDo",
+      "content_text": "Отзывы заказчиков профиля на бирже фриланса YouDo.",
+      "date_published": "2018-09-18T12:00:00Z",
+      "tags": [
+        "Упоминания"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/180913",
+      "url": "https://polyakovin.ru/#/post/180913",
+      "external_url": "https://vk.com/wall11722643_1896",
+      "title": "Hello TV. Приложение для медиа-школы",
+      "content_text": "Мобильное приложение для медиа-школы, выпущенное для iOS и Android.",
+      "date_published": "2018-09-13T12:00:00Z",
+      "tags": [
+        "Софт"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/180809",
+      "url": "https://polyakovin.ru/#/post/180809",
+      "external_url": "http://edlabs.ru",
+      "title": "Сайт компании «EdLabs»",
+      "content_text": "Сайт компании EdLabs и рекомендательное письмо по проекту.",
+      "date_published": "2018-08-09T12:00:00Z",
+      "tags": [
+        "Софт"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/180808",
+      "url": "https://polyakovin.ru/#/post/180808",
+      "external_url": "https://polyakovin.github.io/speedReading",
+      "title": "Тренажёр для скорочтения",
+      "content_text": "Веб-тренажёр с упражнениями для развития скорочтения.",
+      "date_published": "2018-08-08T12:00:00Z",
+      "tags": [
+        "Софт"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/180130",
+      "url": "https://polyakovin.ru/#/post/180130",
+      "external_url": "https://polyakovin.github.io/three/#/magnitude-computer",
+      "title": "Моделирование индикатрисы рассеяния освещённого 3D-объекта",
+      "content_text": "Веб-модель индикатрисы рассеяния освещённого 3D-объекта.",
+      "date_published": "2018-01-30T12:00:00Z",
+      "tags": [
+        "Наука",
+        "Упоминания",
+        "Софт"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/170701",
+      "url": "https://polyakovin.ru/#/post/170701",
+      "external_url": "https://polyakovin.github.io/bastion-application-prod",
+      "title": "Генератор заявок на установку стальных дверей",
+      "content_text": "Веб-форма для подготовки заявки на установку стальных дверей.",
+      "date_published": "2017-07-01T12:00:00Z",
+      "tags": [
+        "Софт"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/170220",
+      "url": "https://polyakovin.ru/#/post/170220",
+      "external_url": "https://vk.com/wall11722643_1754",
+      "title": "Emotion Miner",
+      "content_text": "Международная платформа для онлайн-разметки и анализа эмоций в видео с 60 000+ пользователей.",
+      "date_published": "2017-02-20T12:00:00Z",
+      "tags": [
+        "Софт",
+        "Менеджмент",
+        "Упоминания",
+        "Видео"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/170111",
+      "url": "https://polyakovin.ru/#/post/170111",
+      "external_url": "https://github.com/polyakovin/science/blob/master/Projects/Refraction/refraction.ipynb",
+      "title": "Моделирование рефракции солнечных лучей в атмосфере Земли",
+      "content_text": "Набор Jupyter-ноутбуков для моделирования рефракции солнечных лучей в атмосфере Земли.",
+      "date_published": "2017-01-11T12:00:00Z",
+      "tags": [
+        "Наука"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/161205",
+      "url": "https://polyakovin.ru/#/post/161205",
+      "external_url": "https://polyakovin.github.io/hyperspectrometer",
+      "title": "Симулятор работы гиперспектрометра",
+      "content_text": "Веб-симулятор гиперспектрометра, сведения о команде ЭЛФОКС и участии МФТИ в Space Tech Expo 2017.",
+      "date_published": "2016-12-05T12:00:00Z",
+      "tags": [
+        "Софт",
+        "Наука",
+        "Упоминания"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/161002",
+      "url": "https://polyakovin.ru/#/post/161002",
+      "external_url": "https://polyakovin.github.io/yourChoice2",
+      "title": "Обновлённый сайт компании «Ваш Выбор!»",
+      "content_text": "Обновлённый сайт компании по продаже металлических дверей «Ваш Выбор!».",
+      "date_published": "2016-10-02T12:00:00Z",
+      "tags": [
+        "Софт"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/160701",
+      "url": "https://polyakovin.ru/#/post/160701",
+      "external_url": "https://vk.com/ip.painter?w=wall-94792100_15",
+      "title": "Интерактивные уроки для детей (UCHi.RU)",
+      "content_text": "Интерактивные JavaScript-уроки для детей, включая демонстрацию drag-and-drop.",
+      "date_published": "2016-07-01T12:00:00Z",
+      "tags": [
+        "Софт"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/160613",
+      "url": "https://polyakovin.ru/#/post/160613",
+      "external_url": "https://vk.com/useoywo",
+      "title": "OYWO. Productivity App",
+      "content_text": "Приложение для личной продуктивности OYWO.",
+      "date_published": "2016-06-13T12:00:00Z",
+      "tags": [
+        "Софт",
+        "Менеджмент"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/160530",
+      "url": "https://polyakovin.ru/#/post/160530",
+      "external_url": "https://vk.com/ip.painter?w=wall-94792100_11",
+      "title": "Наведение остронаправленной антенны МКС на спутник-ретранслятор",
+      "content_text": "Код магистерской диссертации о наведении антенны МКС на спутник-ретранслятор.",
+      "date_published": "2016-05-30T12:00:00Z",
+      "tags": [
+        "Наука",
+        "Статьи",
+        "Видео",
+        "Софт"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/160201",
+      "url": "https://polyakovin.ru/#/post/160201",
+      "external_url": "https://youtube.com/playlist?list=PLL_1zCAOOe6ZJp7o-YBVcG5B2molEyQaA",
+      "title": "Отзывы учеников",
+      "content_text": "Подборка видеоотзывов учеников и отзывов с площадок для обучения и наставничества.",
+      "date_published": "2016-02-01T12:00:00Z",
+      "tags": [
+        "Видео",
+        "Статьи",
+        "Упоминания"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/151001",
+      "url": "https://polyakovin.ru/#/post/151001",
+      "external_url": "https://polyakovin.github.io/tfkp",
+      "title": "Веб-сайт экзамена по ТФКП в МФТИ",
+      "content_text": "Сайт конкурса за право попасть на досрочный экзамен по ТФКП в МФТИ.",
+      "date_published": "2015-10-01T12:00:00Z",
+      "tags": [
+        "Софт"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/150111",
+      "url": "https://polyakovin.ru/#/post/150111",
+      "external_url": "https://openedu.ru/course/mipt/TERMDY",
+      "title": "Вёрстка задач к открытому курсу «Термодинамика и молекулярная физика» от МФТИ на Coursera",
+      "content_text": "Вёрстка задач для открытого курса МФТИ по термодинамике и молекулярной физике.",
+      "date_published": "2015-01-11T12:00:00Z",
+      "tags": [
+        "Наука"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/140901",
+      "url": "https://polyakovin.ru/#/post/140901",
+      "external_url": "https://vk.com/photo-94792100_396339028",
+      "title": "Книга по физическим основам дистанционного зондирования Земли",
+      "content_text": "Фотографии и видео о книге по физическим основам дистанционного зондирования Земли.",
+      "date_published": "2014-09-01T12:00:00Z",
+      "tags": [
+        "Наука"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/140616",
+      "url": "https://polyakovin.ru/#/post/140616",
+      "external_url": "https://vk.com/ip.painter?w=wall-94792100_13",
+      "title": "Конспекты Лектория МФТИ",
+      "content_text": "Коллекция конспектов лекций Лектория МФТИ.",
+      "date_published": "2014-06-16T12:00:00Z",
+      "tags": [
+        "Менеджмент",
+        "Упоминания"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/140613",
+      "url": "https://polyakovin.ru/#/post/140613",
+      "external_url": "https://disk.yandex.ru/i/OzrBbLLLPf_VEg",
+      "title": "Конспект по курсу «Физические основы дистанционного зондирования Земли»",
+      "content_text": "PDF-конспект курса «Физические основы дистанционного зондирования Земли».",
+      "date_published": "2014-06-13T12:00:00Z",
+      "tags": [
+        "Наука"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/140507",
+      "url": "https://polyakovin.ru/#/post/140507",
+      "external_url": "https://disk.yandex.ru/i/9mZ4fQMCgyyIpA",
+      "title": "Разработка математической модели системы управления движением американского сегмента МКС",
+      "content_text": "Код бакалаврской работы по математической модели системы управления движением американского сегмента МКС.",
+      "date_published": "2014-05-07T12:00:00Z",
+      "tags": [
+        "Софт",
+        "Наука"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/131101",
+      "url": "https://polyakovin.ru/#/post/131101",
+      "external_url": "https://github.com/polyakovin/computational-mathematics",
+      "title": "Лабораторные работы по вычислительной математике",
+      "content_text": "Решения учебных задач с исходным кодом на GitHub.",
+      "date_published": "2013-11-01T12:00:00Z",
+      "tags": [
+        "Наука"
+      ]
+    },
+    {
+      "id": "https://polyakovin.ru/#/post/131001",
+      "url": "https://polyakovin.ru/#/post/131001",
+      "external_url": "https://disk.yandex.ru/d/ZSJfYMZJNzmNaw",
+      "title": "Электронная комната научного проекта «SMIDA»",
+      "content_text": "Презентация, письма поддержки и другие файлы закрытого веб-проекта «SMIDA».",
+      "date_published": "2013-10-01T12:00:00Z",
+      "tags": [
+        "Софт"
+      ]
+    }
+  ]
+}
