@@ -308,6 +308,18 @@
       ]
     },
     {
+      "id": "https://polyakovin.ru/#/post/200601",
+      "url": "https://polyakovin.ru/#/post/200601",
+      "external_url": "https://disk.yandex.ru/i/A1nVRFj3y_Or7w",
+      "title": "Кредитный конвейер для юридических лиц Росбанка",
+      "content_text": "Банковскую платформу развивала кросс-платформенная команда из 12 человек — кейс о продукте и командной координации одновременно.",
+      "date_published": "2020-06-01T12:00:00Z",
+      "tags": [
+        "Софт",
+        "Менеджмент"
+      ]
+    },
+    {
       "id": "https://polyakovin.ru/#/post/190220",
       "url": "https://polyakovin.ru/#/post/190220",
       "external_url": "https://vk.com/@igor.polyakov-uvazhaite-trud-uborschic",
@@ -333,7 +345,7 @@
     {
       "id": "https://polyakovin.ru/#/post/190201",
       "url": "https://polyakovin.ru/#/post/190201",
-      "external_url": "https://translate.yandex.ru/",
+      "external_url": "https://disk.yandex.ru/i/q8KNxfciRvcsTA",
       "title": "Яндекс.Переводчик в поиске, Музыке и супераппе",
       "content_text": "Единый переводческий опыт работает не только в отдельном сервисе, но и внутри SERP, Яндекс.Музыке и мобильном супераппе Яндекса.",
       "date_published": "2019-02-01T12:00:00Z",
@@ -583,18 +595,6 @@
       "content_text": "Курс собран в единый документ, который помогает быстро повторить физические основы наблюдения Земли.",
       "date_published": "2014-06-13T12:00:00Z",
       "tags": [
-        "Наука"
-      ]
-    },
-    {
-      "id": "https://polyakovin.ru/#/post/140507",
-      "url": "https://polyakovin.ru/#/post/140507",
-      "external_url": "https://disk.yandex.ru/i/9mZ4fQMCgyyIpA",
-      "title": "Модель управления движением американского сегмента МКС",
-      "content_text": "Бакалаврская работа сопровождается исходным кодом, поэтому инженерные расчёты можно изучить вместе с реализацией.",
-      "date_published": "2014-05-07T12:00:00Z",
-      "tags": [
-        "Софт",
         "Наука"
       ]
     }
