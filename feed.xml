@@ -7,190 +7,194 @@
     <language>ru</language>
     <atom:link href="https://polyakovin.ru/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Фото дня</title>
+      <title>«Фото дня» — ежедневная веб-галерея</title>
       <link>https://polyakovin.ru/#/post/260718</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/260718</guid>
       <pubDate>Sat, 18 Jul 2026 12:00:00 GMT</pubDate>
-      <description>Веб-приложение с ежедневной фотоподборкой и открытым исходным кодом.</description>
+      <description>Новая подборка открывается каждый день, а исходный код доступен для изучения и развития проекта.</description>
       <category>Софт</category>
     </item>
     <item>
-      <title>Locksmith</title>
+      <title>Locksmith — игра о взломе замков для Playdate</title>
       <link>https://polyakovin.ru/#/post/240408</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/240408</guid>
       <pubDate>Wed, 17 Jun 2026 12:00:00 GMT</pubDate>
-      <description>Тактильная noir-игра для Playdate: взлом замков заводной ручкой, сюжетный режим и бесконечная экономика.</description>
+      <description>Заводная ручка консоли превращается в отмычку, а сюжетный, бесконечный и speedrun-режимы задают разный темп игры.</description>
+      <category>AI</category>
       <category>Гейм-дев</category>
       <category>Софт</category>
     </item>
     <item>
-      <title>Генератор шестерней</title>
+      <title>Конструктор шестерён с экспортом моделей</title>
       <link>https://polyakovin.ru/#/post/260127</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/260127</guid>
       <pubDate>Tue, 27 Jan 2026 12:00:00 GMT</pubDate>
-      <description>Веб-приложение для построения геометрии шестерён и экспорта моделей в STL, SVG и DXF.</description>
+      <description>Параметрическая геометрия сразу выгружается в STL, SVG и DXF для печати или дальнейшего проектирования.</description>
       <category>Софт</category>
     </item>
     <item>
-      <title>Игра «Найди на букву...»</title>
+      <title>«Найди на букву» — Telegram-игра со словами</title>
       <link>https://polyakovin.ru/#/post/251208</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/251208</guid>
       <pubDate>Mon, 08 Dec 2025 12:00:00 GMT</pubDate>
-      <description>Telegram-игра на поиск слов по заданной букве, созданная с помощью AI.</description>
+      <description>Игровой поиск слов на заданную букву запускается прямо в мессенджере; продукт собран с помощью AI.</description>
+      <category>AI</category>
       <category>Гейм-дев</category>
       <category>Софт</category>
     </item>
     <item>
-      <title>3D Print Pro</title>
+      <title>3D Print Pro — сервис практической 3D-печати</title>
       <link>https://polyakovin.ru/#/post/251112</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/251112</guid>
       <pubDate>Wed, 12 Nov 2025 12:00:00 GMT</pubDate>
-      <description>Сервис и тематическое сообщество о практической 3D-печати.</description>
+      <description>В одном продукте соединены заказ печати и сообщество, где можно разбираться в технологии на реальных задачах.</description>
       <category>Софт</category>
     </item>
     <item>
-      <title>Паттерн «Душитель». Как развивать сложные системы, не ломая старое</title>
+      <title>Паттерн «Душитель» для безопасной замены legacy-систем</title>
       <link>https://polyakovin.ru/#/post/250930</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/250930</guid>
       <pubDate>Tue, 30 Sep 2025 12:00:00 GMT</pubDate>
-      <description>Статья о паттерне постепенной замены сложных систем новыми слоями без разрушения старого.</description>
+      <description>Разбор показывает, как вводить новую архитектуру слоями и сохранять старую систему рабочей на каждом этапе.</description>
       <category>Статьи</category>
     </item>
     <item>
-      <title>Конспект по архитектуре ПО и System Design</title>
+      <title>Карта архитектуры ПО и System Design</title>
       <link>https://polyakovin.ru/#/post/250225</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/250225</guid>
       <pubDate>Tue, 25 Feb 2025 12:00:00 GMT</pubDate>
-      <description>Статья и визуальный конспект по архитектуре ПО и System Design.</description>
+      <description>Визуальный конспект связывает ключевые архитектурные подходы в одну схему для повторения и навигации по теме.</description>
 
     </item>
     <item>
-      <title>Преобразователь речи в текст</title>
+      <title>Голосовой ввод для Chrome</title>
       <link>https://polyakovin.ru/#/post/250203</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/250203</guid>
       <pubDate>Mon, 03 Feb 2025 12:00:00 GMT</pubDate>
-      <description>Chrome-расширение для голосового ввода с 4 000+ пользователей, которое развивается через аналитику, отзывы и продуктовые эксперименты.</description>
+      <description>Расширением пользуются 4 000+ человек; roadmap опирается на аналитику, отзывы и продуктовые эксперименты.</description>
+      <category>AI</category>
       <category>Софт</category>
     </item>
     <item>
-      <title>Спикер ProIT Fest</title>
+      <title>Доклад на ProIT Fest 2024</title>
       <link>https://polyakovin.ru/#/post/240706</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/240706</guid>
       <pubDate>Sat, 06 Jul 2024 12:00:00 GMT</pubDate>
-      <description>Выступление на летнем ProIT Fest 2024.</description>
+      <description>Публичное выступление для аудитории летнего IT-фестиваля стало отдельным кейсом работы со сценой и профессиональным сообществом.</description>
       <category>Упоминания</category>
     </item>
     <item>
-      <title>Кому и зачем нужны профессиональные сообщества</title>
+      <title>Профессиональные сообщества Росбанка</title>
       <link>https://polyakovin.ru/#/post/240613</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/240613</guid>
       <pubDate>Thu, 13 Jun 2024 12:00:00 GMT</pubDate>
-      <description>Статья о профессиональных сообществах Росбанка, их пользе и развитии.</description>
+      <description>Практический разбор показывает, какую пользу внутренние комьюнити дают участникам и как их развивать внутри крупной компании.</description>
       <category>Статьи</category>
       <category>Менеджмент</category>
       <category>Интервью</category>
       <category>Упоминания</category>
     </item>
     <item>
-      <title>Frontend-митап Росбанка в Казани</title>
+      <title>Запись Frontend-митапа Росбанка в Казани</title>
       <link>https://polyakovin.ru/#/post/240322</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/240322</guid>
       <pubDate>Fri, 22 Mar 2024 12:00:00 GMT</pubDate>
-      <description>Запись казанского frontend-митапа с докладами экспертов Росбанка, VK Добра и Сбера.</description>
+      <description>В одной программе собраны выступления экспертов Росбанка, VK Добра и Сбера — срез практик трёх крупных команд.</description>
       <category>Упоминания</category>
       <category>Видео</category>
       <category>Выступления</category>
       <category>Менеджмент</category>
     </item>
     <item>
-      <title>Онбординг-бот для Росбанка</title>
+      <title>Telegram-гид по онбордингу в Росбанке</title>
       <link>https://polyakovin.ru/#/post/240127</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/240127</guid>
       <pubDate>Sat, 27 Jan 2024 12:00:00 GMT</pubDate>
-      <description>Telegram-бот, который помогает сотрудникам сориентироваться на новой работе в Росбанке.</description>
+      <description>Новый сотрудник получает подсказки о первых шагах прямо в мессенджере и быстрее ориентируется на новой работе.</description>
       <category>Софт</category>
     </item>
     <item>
-      <title>Пианино для удобной игры на ноуте</title>
+      <title>Клавиатурное пианино для ноутбука</title>
       <link>https://polyakovin.ru/#/post/230607</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/230607</guid>
       <pubDate>Wed, 07 Jun 2023 12:00:00 GMT</pubDate>
-      <description>Веб-пианино для игры с клавиатуры ноутбука.</description>
+      <description>Раскладка клавиш позволяет играть мелодии без MIDI-контроллера; работу приложения показывает демо с The Entertainer.</description>
       <category>Софт</category>
     </item>
     <item>
-      <title>Памятка про управление рисками</title>
+      <title>Памятка по осознанному риску</title>
       <link>https://polyakovin.ru/#/post/230312</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/230312</guid>
       <pubDate>Sun, 12 Mar 2023 12:00:00 GMT</pubDate>
-      <description>Краткая памятка об осознанном риске и управлении его последствиями.</description>
+      <description>Короткая модель помогает заранее оценить последствия решения и подготовить способы управления ими.</description>
       <category>Менеджмент</category>
       <category>Статьи</category>
     </item>
     <item>
-      <title>Пара мыслей про руководство из книги «Практическая конфликтология» Виктора Пономаренко</title>
+      <title>Чек-лист руководителя по «Практической конфликтологии»</title>
       <link>https://polyakovin.ru/#/post/230107</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/230107</guid>
       <pubDate>Sat, 07 Jan 2023 12:00:00 GMT</pubDate>
-      <description>Конспект обязанностей руководителя и принципов постановки задач по книге Виктора Пономаренко.</description>
+      <description>Конспект переводит идеи Виктора Пономаренко в прикладные обязанности руководителя и правила постановки задач.</description>
       <category>Менеджмент</category>
       <category>Статьи</category>
     </item>
     <item>
-      <title>Веб-приложение для отработки привычек</title>
+      <title>Трекер новых и замороженных привычек</title>
       <link>https://polyakovin.ru/#/post/220712</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/220712</guid>
       <pubDate>Tue, 12 Jul 2022 12:00:00 GMT</pubDate>
-      <description>Трекер привычек с отдельными списками новых и замороженных дел.</description>
+      <description>Разделение активных и отложенных дел помогает не перегружать текущий план и осознанно возвращаться к паузам.</description>
       <category>Софт</category>
     </item>
     <item>
-      <title>AI-ассистент, приложения, боты и расширения для проекта Hints</title>
+      <title>Hints — AI-ассистент для рабочих данных</title>
       <link>https://polyakovin.ru/#/post/220322</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/220322</guid>
       <pubDate>Tue, 22 Mar 2022 12:00:00 GMT</pubDate>
-      <description>AI-ассистент для управления рабочими данными и задачами через мессенджеры.</description>
+      <description>Приложения, боты и расширения дают управлять задачами через мессенджеры; продукт выходил на Product Hunt.</description>
+      <category>AI</category>
       <category>Упоминания</category>
       <category>Софт</category>
     </item>
     <item>
-      <title>Мой день</title>
+      <title>«Мой день» — веб-планировщик</title>
       <link>https://polyakovin.ru/#/post/220221</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/220221</guid>
       <pubDate>Mon, 21 Feb 2022 12:00:00 GMT</pubDate>
-      <description>Веб-приложение для планирования дня.</description>
+      <description>Браузерный формат позволяет составить план дня без установки отдельного приложения.</description>
       <category>Софт</category>
     </item>
     <item>
-      <title>Член команды Росбанка</title>
+      <title>Профиль команды разработки Росбанка</title>
       <link>https://polyakovin.ru/#/post/220108</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/220108</guid>
       <pubDate>Sat, 08 Jan 2022 12:00:00 GMT</pubDate>
-      <description>Профиль в разделе команды Росбанка на budu.jobs.</description>
+      <description>Публичная карточка на budu.jobs показывает людей за банковскими продуктами и представляет меня в составе команды.</description>
       <category>Упоминания</category>
     </item>
     <item>
-      <title>Организация внешней фронтенд-конференции в Росбанке</title>
+      <title>Frontend-конференция Росбанка для внешней аудитории</title>
       <link>https://polyakovin.ru/#/post/211126</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/211126</guid>
       <pubDate>Fri, 26 Nov 2021 12:00:00 GMT</pubDate>
-      <description>Публикация об организации внешней фронтенд-конференции Росбанка.</description>
+      <description>Кейс показывает, как внутренняя инженерная экспертиза банка была собрана в публичное отраслевое событие.</description>
       <category>Менеджмент</category>
     </item>
     <item>
-      <title>Тренажёр русского жестового языка</title>
+      <title>Веб-тренажёр русского жестового языка</title>
       <link>https://polyakovin.ru/#/post/211114</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/211114</guid>
       <pubDate>Sun, 14 Nov 2021 12:00:00 GMT</pubDate>
-      <description>Веб-тренажёр для изучения русского жестового языка.</description>
+      <description>Интерактивная практика помогает запоминать жесты в браузере и делает знакомство с языком доступнее.</description>
       <category>Софт</category>
     </item>
     <item>
-      <title>Школа JavaScript-разработчиков для людей с инвалидностью</title>
+      <title>Школа JavaScript для людей с инвалидностью</title>
       <link>https://polyakovin.ru/#/post/210525</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/210525</guid>
       <pubDate>Tue, 25 May 2021 12:00:00 GMT</pubDate>
-      <description>Образовательный проект Росбанка по подготовке JavaScript-разработчиков для людей с инвалидностью.</description>
+      <description>Программа готовила начинающих разработчиков и дошла до финала премии HR Brand 2021; сохранились отзывы участников и выступления о проекте.</description>
       <category>Видео</category>
       <category>Статьи</category>
       <category>Выступления</category>
@@ -199,204 +203,220 @@
       <category>Интервью</category>
     </item>
     <item>
-      <title>Доклад «Парадигмы программирования: от процедурного к реактивному на RxJS»</title>
+      <title>Слайды о парадигмах программирования и RxJS</title>
       <link>https://polyakovin.ru/#/post/210520</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/210520</guid>
       <pubDate>Thu, 20 May 2021 12:00:00 GMT</pubDate>
-      <description>Слайды доклада о переходе от процедурной парадигмы к реактивному программированию на RxJS.</description>
+      <description>Материал показывает путь от процедурного подхода к реактивному и помогает сравнить модели мышления в коде.</description>
       <category>Выступления</category>
     </item>
     <item>
-      <title>ActiviTip</title>
+      <title>ActiviTip — советчик для выбора отдыха</title>
       <link>https://polyakovin.ru/#/post/201208</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/201208</guid>
       <pubDate>Tue, 08 Dec 2020 12:00:00 GMT</pubDate>
-      <description>Советчик занятий для выбора отдыха по контексту с публичным каталогом и отдельной админкой.</description>
+      <description>Сервис предлагает занятия с учётом ситуации и разделяет публичный каталог с отдельной админкой.</description>
       <category>Софт</category>
     </item>
     <item>
-      <title>Основал несколько комьюнити разработчиков в Росбанке</title>
+      <title>Инженерные сообщества Росбанка</title>
       <link>https://polyakovin.ru/#/post/201022</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/201022</guid>
       <pubDate>Thu, 22 Oct 2020 12:00:00 GMT</pubDate>
-      <description>Практика запуска и развития инженерных сообществ внутри Росбанка.</description>
+      <description>Кейс объединяет опыт запуска и роста нескольких внутренних комьюнити и показывает их роль в обмене практиками между разработчиками.</description>
       <category>Статьи</category>
       <category>Упоминания</category>
       <category>Менеджмент</category>
       <category>Интервью</category>
     </item>
     <item>
-      <title>Уважайте труд уборщиц!</title>
+      <title>Порядок как инструмент эффективности</title>
       <link>https://polyakovin.ru/#/post/190220</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/190220</guid>
       <pubDate>Wed, 20 Feb 2019 12:00:00 GMT</pubDate>
-      <description>Заметка о порядке как основе эффективности.</description>
+      <description>Короткая заметка связывает уважение к труду уборщиц с привычкой поддерживать среду, в которой легче работать.</description>
       <category>Статьи</category>
     </item>
     <item>
-      <title>Telegram-канал Игоря Полякова</title>
+      <title>Канал об IT-продуктах и управлении</title>
       <link>https://polyakovin.ru/#/post/260817</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/260817</guid>
       <pubDate>Sat, 09 Feb 2019 12:00:00 GMT</pubDate>
-      <description>Основной Telegram-канал с авторскими заметками об IT, продуктах, разработке и управлении.</description>
+      <description>Авторские заметки соединяют практику разработки, продуктовые решения и опыт руководителя в одном канале.</description>
       <category>Статьи</category>
       <category>Менеджмент</category>
     </item>
     <item>
-      <title>Чудо-вектор</title>
+      <title>Яндекс.Переводчик в поиске, Музыке и супераппе</title>
+      <link>https://polyakovin.ru/#/post/190201</link>
+      <guid isPermaLink="true">https://polyakovin.ru/#/post/190201</guid>
+      <pubDate>Fri, 01 Feb 2019 12:00:00 GMT</pubDate>
+      <description>Единый переводческий опыт работает не только в отдельном сервисе, но и внутри SERP, Яндекс.Музыке и мобильном супераппе Яндекса.</description>
+      <category>Софт</category>
+    </item>
+    <item>
+      <title>Про векторные иллюстрации</title>
       <link>https://polyakovin.ru/#/post/190112</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/190112</guid>
       <pubDate>Sat, 12 Jan 2019 12:00:00 GMT</pubDate>
-      <description>Статья о возможностях векторной графики на примере YouTube-кнопки.</description>
+      <description>На одном компактном примере статья показывает, как масштабируемая графика создаёт выразительный интерфейс без растровых ресурсов.</description>
       <category>Статьи</category>
     </item>
     <item>
-      <title>Отзывы на бирже фриланса YouDo</title>
+      <title>Доверие заказчиков на YouDo</title>
       <link>https://polyakovin.ru/#/post/180918</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/180918</guid>
       <pubDate>Tue, 18 Sep 2018 12:00:00 GMT</pubDate>
-      <description>Отзывы заказчиков профиля на бирже фриланса YouDo.</description>
+      <description>Собранная в профиле обратная связь даёт внешнее подтверждение качества и надёжности выполненных фриланс-проектов.</description>
       <category>Упоминания</category>
     </item>
     <item>
-      <title>Hello TV. Приложение для медиа-школы</title>
+      <title>Hello TV — мобильное приложение медиа-школы</title>
       <link>https://polyakovin.ru/#/post/180913</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/180913</guid>
       <pubDate>Thu, 13 Sep 2018 12:00:00 GMT</pubDate>
-      <description>Мобильное приложение для медиа-школы, выпущенное для iOS и Android.</description>
+      <description>Один продукт был выпущен сразу для iOS и Android и дополнял учебную среду школы мобильным форматом.</description>
       <category>Софт</category>
     </item>
     <item>
-      <title>Сайт компании «EdLabs»</title>
+      <title>EdLabs — корпоративный сайт</title>
       <link>https://polyakovin.ru/#/post/180809</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/180809</guid>
       <pubDate>Thu, 09 Aug 2018 12:00:00 GMT</pubDate>
-      <description>Сайт компании EdLabs и рекомендательное письмо по проекту.</description>
+      <description>Опубликованный результат дополнен рекомендательным письмом заказчика — редким внешним свидетельством качества ранней коммерческой работы.</description>
       <category>Софт</category>
     </item>
     <item>
-      <title>Тренажёр для скорочтения</title>
+      <title>Тренажёр скорости чтения</title>
       <link>https://polyakovin.ru/#/post/180808</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/180808</guid>
       <pubDate>Wed, 08 Aug 2018 12:00:00 GMT</pubDate>
-      <description>Веб-тренажёр с упражнениями для развития скорочтения.</description>
+      <description>Набор браузерных упражнений позволяет практиковать технику без установки программы и держит фокус на регулярной тренировке.</description>
       <category>Софт</category>
     </item>
     <item>
-      <title>Моделирование индикатрисы рассеяния освещённого 3D-объекта</title>
+      <title>Интерактивная модель рассеяния света на 3D-объекте</title>
       <link>https://polyakovin.ru/#/post/180130</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/180130</guid>
       <pubDate>Tue, 30 Jan 2018 12:00:00 GMT</pubDate>
-      <description>Веб-модель индикатрисы рассеяния освещённого 3D-объекта.</description>
+      <description>Веб-визуализация превращает сложную физическую зависимость в эксперимент, который можно исследовать прямо в браузере.</description>
       <category>Наука</category>
       <category>Упоминания</category>
       <category>Софт</category>
     </item>
     <item>
-      <title>Генератор заявок на установку стальных дверей</title>
+      <title>Конструктор заявки на установку стальных дверей</title>
       <link>https://polyakovin.ru/#/post/170701</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/170701</guid>
       <pubDate>Sat, 01 Jul 2017 12:00:00 GMT</pubDate>
-      <description>Веб-форма для подготовки заявки на установку стальных дверей.</description>
+      <description>Веб-форма переводит параметры заказа в готовый документ и упрощает передачу требований монтажникам.</description>
       <category>Софт</category>
     </item>
     <item>
-      <title>Emotion Miner</title>
+      <title>Emotion Miner — платформа анализа эмоций в видео</title>
       <link>https://polyakovin.ru/#/post/170220</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/170220</guid>
       <pubDate>Mon, 20 Feb 2017 12:00:00 GMT</pubDate>
-      <description>Международная платформа для онлайн-разметки и анализа эмоций в видео с 60 000+ пользователей.</description>
+      <description>Онлайн-разметкой пользовались 60 000+ человек по всему миру, поэтому кейс соединяет исследовательскую задачу и реальный масштаб.</description>
       <category>Софт</category>
       <category>Менеджмент</category>
       <category>Упоминания</category>
       <category>Видео</category>
     </item>
     <item>
-      <title>Моделирование рефракции солнечных лучей в атмосфере Земли</title>
+      <title>Jupyter-модель рефракции солнечных лучей</title>
       <link>https://polyakovin.ru/#/post/170111</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/170111</guid>
       <pubDate>Wed, 11 Jan 2017 12:00:00 GMT</pubDate>
-      <description>Набор Jupyter-ноутбуков для моделирования рефракции солнечных лучей в атмосфере Земли.</description>
+      <description>Серия ноутбуков разбирает атмосферу, углы наблюдения и положение МКС как части одного вычислительного эксперимента.</description>
       <category>Наука</category>
     </item>
     <item>
-      <title>Симулятор работы гиперспектрометра</title>
+      <title>Веб-симулятор гиперспектрометра</title>
       <link>https://polyakovin.ru/#/post/161205</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/161205</guid>
       <pubDate>Mon, 05 Dec 2016 12:00:00 GMT</pubDate>
-      <description>Веб-симулятор гиперспектрометра, сведения о команде ЭЛФОКС и участии МФТИ в Space Tech Expo 2017.</description>
+      <description>Интерактивная модель связывает работу прибора с исследованиями команды ЭЛФОКС и участием МФТИ в Space Tech Expo 2017.</description>
       <category>Софт</category>
       <category>Наука</category>
       <category>Упоминания</category>
     </item>
     <item>
-      <title>Обновлённый сайт компании «Ваш Выбор!»</title>
+      <title>«Ваш Выбор!» — сайт каталога металлических дверей</title>
       <link>https://polyakovin.ru/#/post/161002</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/161002</guid>
       <pubDate>Sun, 02 Oct 2016 12:00:00 GMT</pubDate>
-      <description>Обновлённый сайт компании по продаже металлических дверей «Ваш Выбор!».</description>
+      <description>Вторая версия обновила цифровую витрину компании и сохранилась как доступный архив ранней клиентской разработки.</description>
       <category>Софт</category>
     </item>
     <item>
-      <title>Интерактивные уроки для детей (UCHi.RU)</title>
+      <title>Автодокументация по функционалу из кодовой базы</title>
+      <link>https://polyakovin.ru/#/post/160901</link>
+      <guid isPermaLink="true">https://polyakovin.ru/#/post/160901</guid>
+      <pubDate>Thu, 01 Sep 2016 12:00:00 GMT</pubDate>
+      <description>Сборщик извлекает факты о реализованных возможностях и автоматически превращает их в готовый документ.</description>
+      <category>Софт</category>
+    </item>
+    <item>
+      <title>Интерактивные уроки UCHi.RU</title>
       <link>https://polyakovin.ru/#/post/160701</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/160701</guid>
       <pubDate>Fri, 01 Jul 2016 12:00:00 GMT</pubDate>
-      <description>Интерактивные JavaScript-уроки для детей, включая демонстрацию drag-and-drop.</description>
+      <description>Универсальный drag-and-drop-механизм делает задания управляемыми прямо на экране и переиспользуется в разных упражнениях.</description>
       <category>Софт</category>
     </item>
     <item>
-      <title>OYWO. Productivity App</title>
+      <title>OYWO — приложение личной продуктивности</title>
       <link>https://polyakovin.ru/#/post/160613</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/160613</guid>
       <pubDate>Mon, 13 Jun 2016 12:00:00 GMT</pubDate>
-      <description>Приложение для личной продуктивности OYWO.</description>
+      <description>Сервис собирал повседневные задачи в отдельный инструмент для личной организации; сохранился публичный архив проекта.</description>
       <category>Софт</category>
       <category>Менеджмент</category>
     </item>
     <item>
-      <title>Наведение остронаправленной антенны МКС на спутник-ретранслятор</title>
+      <title>Система наведения антенны МКС на спутник-ретранслятор</title>
       <link>https://polyakovin.ru/#/post/160530</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/160530</guid>
       <pubDate>Mon, 30 May 2016 12:00:00 GMT</pubDate>
-      <description>Код магистерской диссертации о наведении антенны МКС на спутник-ретранслятор.</description>
+      <description>Магистерская работа объединяет математическую постановку, программную реализацию и демонстрацию решения космической инженерной задачи.</description>
       <category>Наука</category>
       <category>Статьи</category>
       <category>Видео</category>
       <category>Софт</category>
     </item>
     <item>
-      <title>Отзывы учеников</title>
+      <title>Результаты учеников и наставничества</title>
       <link>https://polyakovin.ru/#/post/160201</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/160201</guid>
       <pubDate>Mon, 01 Feb 2016 12:00:00 GMT</pubDate>
-      <description>Подборка видеоотзывов учеников и отзывов с площадок для обучения и наставничества.</description>
+      <description>Видео и оценки с нескольких площадок дают независимый взгляд на обучение, поддержку и практический эффект занятий.</description>
       <category>Видео</category>
       <category>Статьи</category>
       <category>Упоминания</category>
     </item>
     <item>
-      <title>Веб-сайт экзамена по ТФКП в МФТИ</title>
+      <title>Сайт конкурса на досрочный экзамен по ТФКП</title>
       <link>https://polyakovin.ru/#/post/151001</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/151001</guid>
       <pubDate>Thu, 01 Oct 2015 12:00:00 GMT</pubDate>
-      <description>Сайт конкурса за право попасть на досрочный экзамен по ТФКП в МФТИ.</description>
+      <description>Победители соревнования среди студентов преподавателя получали право сдать ТФКП раньше основного потока.</description>
       <category>Софт</category>
     </item>
     <item>
-      <title>Вёрстка задач к открытому курсу «Термодинамика и молекулярная физика» от МФТИ на Coursera</title>
+      <title>Задачи курса МФТИ по термодинамике</title>
       <link>https://polyakovin.ru/#/post/150111</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/150111</guid>
       <pubDate>Sun, 11 Jan 2015 12:00:00 GMT</pubDate>
-      <description>Вёрстка задач для открытого курса МФТИ по термодинамике и молекулярной физике.</description>
+      <description>Свёрстанные упражнения стали частью открытого онлайн-курса и сделали академический материал доступным широкой аудитории.</description>
       <category>Наука</category>
     </item>
     <item>
-      <title>Книга по физическим основам дистанционного зондирования Земли</title>
+      <title>Книга «Физические основы дистанционного зондирования Земли»</title>
       <link>https://polyakovin.ru/#/post/140901</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/140901</guid>
       <pubDate>Mon, 01 Sep 2014 12:00:00 GMT</pubDate>
-      <description>Фотографии и видео о книге по физическим основам дистанционного зондирования Земли.</description>
+      <description>Печатное издание фиксирует научную работу в завершённой форме; в материале сохранена фотография готового экземпляра.</description>
       <category>Наука</category>
     </item>
     <item>
@@ -404,42 +424,26 @@
       <link>https://polyakovin.ru/#/post/140616</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/140616</guid>
       <pubDate>Mon, 16 Jun 2014 12:00:00 GMT</pubDate>
-      <description>Коллекция конспектов лекций Лектория МФТИ.</description>
+      <description>TikZ-иллюстрации и записи превращают публичные лекции в компактные материалы, к которым удобно возвращаться.</description>
       <category>Менеджмент</category>
       <category>Упоминания</category>
     </item>
     <item>
-      <title>Конспект по курсу «Физические основы дистанционного зондирования Земли»</title>
+      <title>PDF-конспект по дистанционному зондированию Земли</title>
       <link>https://polyakovin.ru/#/post/140613</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/140613</guid>
       <pubDate>Fri, 13 Jun 2014 12:00:00 GMT</pubDate>
-      <description>PDF-конспект курса «Физические основы дистанционного зондирования Земли».</description>
+      <description>Курс собран в единый документ, который помогает быстро повторить физические основы наблюдения Земли.</description>
       <category>Наука</category>
     </item>
     <item>
-      <title>Разработка математической модели системы управления движением американского сегмента МКС</title>
+      <title>Модель управления движением американского сегмента МКС</title>
       <link>https://polyakovin.ru/#/post/140507</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/140507</guid>
       <pubDate>Wed, 07 May 2014 12:00:00 GMT</pubDate>
-      <description>Код бакалаврской работы по математической модели системы управления движением американского сегмента МКС.</description>
+      <description>Бакалаврская работа сопровождается исходным кодом, поэтому инженерные расчёты можно изучить вместе с реализацией.</description>
       <category>Софт</category>
       <category>Наука</category>
-    </item>
-    <item>
-      <title>Лабораторные работы по вычислительной математике</title>
-      <link>https://polyakovin.ru/#/post/131101</link>
-      <guid isPermaLink="true">https://polyakovin.ru/#/post/131101</guid>
-      <pubDate>Fri, 01 Nov 2013 12:00:00 GMT</pubDate>
-      <description>Решения учебных задач с исходным кодом на GitHub.</description>
-      <category>Наука</category>
-    </item>
-    <item>
-      <title>Электронная комната научного проекта «SMIDA»</title>
-      <link>https://polyakovin.ru/#/post/131001</link>
-      <guid isPermaLink="true">https://polyakovin.ru/#/post/131001</guid>
-      <pubDate>Tue, 01 Oct 2013 12:00:00 GMT</pubDate>
-      <description>Презентация, письма поддержки и другие файлы закрытого веб-проекта «SMIDA».</description>
-      <category>Софт</category>
     </item>
   </channel>
 </rss>
