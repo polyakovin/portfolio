@@ -7,6 +7,16 @@
     <language>ru</language>
     <atom:link href="https://polyakovin.ru/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Pipty Pish — рыбалка с управлением движением для Playdate</title>
+      <link>https://polyakovin.ru/#/post/260821</link>
+      <guid isPermaLink="true">https://polyakovin.ru/#/post/260821</guid>
+      <pubDate>Fri, 21 Aug 2026 12:00:00 GMT</pubDate>
+      <description>Движение консоли задаёт заброс и подсечку, а заводная ручка Playdate превращает вываживание каждой рыбы в тактильную борьбу.</description>
+      <category>AI</category>
+      <category>Гейм-дев</category>
+      <category>Софт</category>
+    </item>
+    <item>
       <title>«Фото дня» — ежедневная веб-галерея</title>
       <link>https://polyakovin.ru/#/post/260718</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/260718</guid>
@@ -436,14 +446,6 @@
       <description>TikZ-иллюстрации и записи превращают публичные лекции в компактные материалы, к которым удобно возвращаться.</description>
       <category>Менеджмент</category>
       <category>Упоминания</category>
-    </item>
-    <item>
-      <title>PDF-конспект по дистанционному зондированию Земли</title>
-      <link>https://polyakovin.ru/#/post/140613</link>
-      <guid isPermaLink="true">https://polyakovin.ru/#/post/140613</guid>
-      <pubDate>Fri, 13 Jun 2014 12:00:00 GMT</pubDate>
-      <description>Курс собран в единый документ, который помогает быстро повторить физические основы наблюдения Земли.</description>
-      <category>Наука</category>
     </item>
   </channel>
 </rss>

@@ -12,6 +12,19 @@
   ],
   "items": [
     {
+      "id": "https://polyakovin.ru/#/post/260821",
+      "url": "https://polyakovin.ru/#/post/260821",
+      "external_url": "https://polyakovin.itch.io/pipty-pish",
+      "title": "Pipty Pish — рыбалка с управлением движением для Playdate",
+      "content_text": "Движение консоли задаёт заброс и подсечку, а заводная ручка Playdate превращает вываживание каждой рыбы в тактильную борьбу.",
+      "date_published": "2026-08-21T12:00:00Z",
+      "tags": [
+        "AI",
+        "Гейм-дев",
+        "Софт"
+      ]
+    },
+    {
       "id": "https://polyakovin.ru/#/post/260718",
       "url": "https://polyakovin.ru/#/post/260718",
       "external_url": "https://polyakovin.github.io/daily-photos/",
@@ -585,17 +598,6 @@
       "tags": [
         "Менеджмент",
         "Упоминания"
-      ]
-    },
-    {
-      "id": "https://polyakovin.ru/#/post/140613",
-      "url": "https://polyakovin.ru/#/post/140613",
-      "external_url": "https://disk.yandex.ru/i/OzrBbLLLPf_VEg",
-      "title": "PDF-конспект по дистанционному зондированию Земли",
-      "content_text": "Курс собран в единый документ, который помогает быстро повторить физические основы наблюдения Земли.",
-      "date_published": "2014-06-13T12:00:00Z",
-      "tags": [
-        "Наука"
       ]
     }
   ]
