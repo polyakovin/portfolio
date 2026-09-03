@@ -7,6 +7,16 @@
     <language>ru</language>
     <atom:link href="https://polyakovin.ru/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ugark Vibes</title>
+      <link>https://polyakovin.ru/#/post/260902</link>
+      <guid isPermaLink="true">https://polyakovin.ru/#/post/260902</guid>
+      <pubDate>Wed, 02 Sep 2026 12:00:00 GMT</pubDate>
+      <description>Нарративное приключение превращает заводную ручку Playdate в стартер, колодец, кухонные инструменты и строительный кран для восстановления семейного дома.</description>
+      <category>AI</category>
+      <category>Гейм-дев</category>
+      <category>Софт</category>
+    </item>
+    <item>
       <title>Pipty Pish — игра про рыбалку для Playdate</title>
       <link>https://polyakovin.ru/#/post/260821</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/260821</guid>
@@ -438,15 +448,6 @@
       <pubDate>Mon, 01 Sep 2014 12:00:00 GMT</pubDate>
       <description>Печатное издание фиксирует научную работу в завершённой форме; в материале сохранена фотография готового экземпляра.</description>
       <category>Наука</category>
-    </item>
-    <item>
-      <title>Конспекты Лектория МФТИ</title>
-      <link>https://polyakovin.ru/#/post/140616</link>
-      <guid isPermaLink="true">https://polyakovin.ru/#/post/140616</guid>
-      <pubDate>Mon, 16 Jun 2014 12:00:00 GMT</pubDate>
-      <description>TikZ-иллюстрации и записи превращают публичные лекции в компактные материалы, к которым удобно возвращаться.</description>
-      <category>Менеджмент</category>
-      <category>Упоминания</category>
     </item>
   </channel>
 </rss>
