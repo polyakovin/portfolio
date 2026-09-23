@@ -12,6 +12,18 @@
   ],
   "items": [
     {
+      "id": "https://polyakovin.ru/#/post/260921",
+      "url": "https://polyakovin.ru/#/post/260921",
+      "external_url": "https://polyakovin.github.io/gamedev-boss-fights/",
+      "title": "Boss Fight Atlas",
+      "content_text": "Интерактивный атлас каталогизирует 124 механики босс-файтов; пять разобраны в полных уроках с анимациями и источниками, а конструктор собирает из них эскиз босса.",
+      "date_published": "2026-09-21T12:00:00Z",
+      "tags": [
+        "Гейм-дев",
+        "Софт"
+      ]
+    },
+    {
       "id": "https://polyakovin.ru/#/post/260902",
       "url": "https://polyakovin.ru/#/post/260902",
       "external_url": "https://polyakovin.itch.io/ugark-vibes",
@@ -587,17 +599,6 @@
       "title": "Задачи курса МФТИ по термодинамике",
       "content_text": "Свёрстанные упражнения стали частью открытого онлайн-курса и сделали академический материал доступным широкой аудитории.",
       "date_published": "2015-01-11T12:00:00Z",
-      "tags": [
-        "Наука"
-      ]
-    },
-    {
-      "id": "https://polyakovin.ru/#/post/140901",
-      "url": "https://polyakovin.ru/#/post/140901",
-      "external_url": "https://vk.com/photo-94792100_396339028",
-      "title": "Книга «Физические основы дистанционного зондирования Земли»",
-      "content_text": "Печатное издание фиксирует научную работу в завершённой форме; в материале сохранена фотография готового экземпляра.",
-      "date_published": "2014-09-01T12:00:00Z",
       "tags": [
         "Наука"
       ]

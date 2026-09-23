@@ -7,6 +7,15 @@
     <language>ru</language>
     <atom:link href="https://polyakovin.ru/feed.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Boss Fight Atlas</title>
+      <link>https://polyakovin.ru/#/post/260921</link>
+      <guid isPermaLink="true">https://polyakovin.ru/#/post/260921</guid>
+      <pubDate>Mon, 21 Sep 2026 12:00:00 GMT</pubDate>
+      <description>Интерактивный атлас каталогизирует 124 механики босс-файтов; пять разобраны в полных уроках с анимациями и источниками, а конструктор собирает из них эскиз босса.</description>
+      <category>Гейм-дев</category>
+      <category>Софт</category>
+    </item>
+    <item>
       <title>Ugark Vibes</title>
       <link>https://polyakovin.ru/#/post/260902</link>
       <guid isPermaLink="true">https://polyakovin.ru/#/post/260902</guid>
@@ -439,14 +448,6 @@
       <guid isPermaLink="true">https://polyakovin.ru/#/post/150111</guid>
       <pubDate>Sun, 11 Jan 2015 12:00:00 GMT</pubDate>
       <description>Свёрстанные упражнения стали частью открытого онлайн-курса и сделали академический материал доступным широкой аудитории.</description>
-      <category>Наука</category>
-    </item>
-    <item>
-      <title>Книга «Физические основы дистанционного зондирования Земли»</title>
-      <link>https://polyakovin.ru/#/post/140901</link>
-      <guid isPermaLink="true">https://polyakovin.ru/#/post/140901</guid>
-      <pubDate>Mon, 01 Sep 2014 12:00:00 GMT</pubDate>
-      <description>Печатное издание фиксирует научную работу в завершённой форме; в материале сохранена фотография готового экземпляра.</description>
       <category>Наука</category>
     </item>
   </channel>
