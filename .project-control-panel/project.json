@@ -1,0 +1,36 @@
+{
+  "dashboard": {
+    "description": "Репозиторий статической публикации сайта polyakovin.ru.",
+    "goal": "Доставлять публичное портфолио из исходного репозитория personal-brand.",
+    "platform": "Статический веб; GitHub Pages и домен polyakovin.ru",
+    "updated_at": "2026-10-04",
+    "stage": "Опубликованная сборка сайта.",
+    "highlights": [
+      "Готовые страницы, assets и feeds портфолио.",
+      "Исходный контент и редакционный процесс принадлежат personal-brand."
+    ],
+    "constraints": [
+      "Продуктовый контент редактируется в personal-brand; сборка не является источником исходного текста."
+    ],
+    "links": [
+      {
+        "label": "Портфолио",
+        "url": "https://polyakovin.ru"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Документ проекта",
+        "path": "CNAME"
+      },
+      {
+        "label": "Документ проекта",
+        "path": "index.html"
+      },
+      {
+        "label": "Документ проекта",
+        "path": "../personal-brand/README.md"
+      }
+    ]
+  }
+}
